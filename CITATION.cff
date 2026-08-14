@@ -1,0 +1,35 @@
+# Métadonnées de citation lisibles par les humains, les moteurs et les assistants IA.
+# Format Citation File Format 1.2.0 — https://citation-file-format.github.io
+cff-version: 1.2.0
+message: "Si vous utilisez ce travail, merci de le citer comme ci-dessous."
+type: software
+title: "GPC-ONR — Grille de priorisation collective pour le numérique responsable"
+abstract: "Outil d'évaluation et de priorisation participative pour accompagner les organisations dans leur démarche de numérique responsable / Participatory self-assessment tool"
+authors:
+  - name: "Institut du Numérique Responsable"
+    alias: "INR"
+    website: "https://institutnr.org"
+  - given-names: "Guillaume"
+    family-names: "Gallon"
+    alias: "gridboy"
+    affiliation: "Institut du Numérique Responsable"
+repository-code: "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR"
+url: "https://institutnr.org"
+license: MIT
+date-released: 2026-02-19
+keywords:
+  - "assessment-tool"
+  - "digital-sustainability"
+  - "ecoconception"
+  - "governance"
+  - "gr491"
+  - "green-it"
+  - "inr"
+  - "maturity-model"
+  - "numerique-responsable"
+  - "open-source"
+  - "priorisation"
+  - "responsible-tech"
+  - "self-assessment"
+  - "sobriete-numerique"
+  - "sustainable-it"

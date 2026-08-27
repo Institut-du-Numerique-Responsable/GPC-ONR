@@ -19,7 +19,7 @@ body:
     id: cible
     attributes:
       label: Cible concernée
-      description: Code de la cible, si applicable. Exemple : 1.2
+      description: "Code de la cible, si applicable. Exemple : 1.2"
       placeholder: "1.2"
   - type: textarea
     id: actuel

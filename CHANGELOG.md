@@ -14,6 +14,9 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 - **Validation automatique des données** (`scripts/validate_data.py`) : 28 cibles réparties 7/4/7/4/6, cohérence JSON et CSV, 16 combinaisons de la matrice, alignement des libellés avec le classeur, non-régression des fautes corrigées. Exécutée à chaque push et pull request.
 - **Modèles d'issues** (correction de contenu, méthode, retour d'usage), modèle de pull request, `CODE_OF_CONDUCT.md` et `SECURITY.md`.
 - `CHANGELOG.md`.
+- **Cadre de contribution** : `CODEOWNERS` (relecture obligatoire du référentiel, des classeurs et des données), `dependabot.yml` (mise à jour mensuelle des actions et des dépendances du site), vérification mensuelle des liens de la documentation.
+- `.gitattributes`, `.gitignore` et `.editorconfig`.
+- Protection de la branche `main` : pull request avec relecture approuvée, validation des données au vert, accord d'un relecteur du référentiel, résolution des commentaires, ni force push ni suppression.
 
 ### Modifié
 

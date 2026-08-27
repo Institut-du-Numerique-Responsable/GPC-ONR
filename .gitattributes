@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.xlsx  binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+
+# Ne pas compter la documentation dans les statistiques de langage du dépôt.
+docs/**     linguist-documentation
+*.md        linguist-documentation

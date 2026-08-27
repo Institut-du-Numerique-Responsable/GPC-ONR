@@ -1,13 +1,13 @@
 # Contributeurs
 
-La GPC-ONR est publiée par l'**Institut du Numérique Responsable (INR)**. Elle est le fruit d'un travail collectif.
+L'**Institut du Numérique Responsable (INR)** publie la GPC-ONR, issue d'un travail collectif.
 
 ## Conception et méthode
 
-- **Vincent Courboulay** — Institut du Numérique Responsable
-- **Benjamin Duthil** — Institut du Numérique Responsable
-- **Nathalie Sauzeau** — Institut du Numérique Responsable
-- **Guillaume Gallon** — Institut du Numérique Responsable
+- **Vincent Courboulay**, Institut du Numérique Responsable
+- **Benjamin Duthil**, Institut du Numérique Responsable
+- **Nathalie Sauzeau**, Institut du Numérique Responsable
+- **Guillaume Gallon**, Institut du Numérique Responsable
 
 ## Référentiel source
 

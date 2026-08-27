@@ -9,7 +9,7 @@ La GPC-ONR ne mesure pas une conformité. Elle croise deux jugements portés col
 1. **l'importance** de la cible pour l'organisation ;
 2. **la performance actuelle** de l'organisation sur cette cible.
 
-Le croisement des deux produit automatiquement un **niveau de priorité d'intervention**. L'outil sert donc autant à structurer la discussion entre parties prenantes qu'à produire un plan d'action.
+Le classeur croise les deux notes et en déduit un **niveau de priorité d'intervention**. Vous vous en servez autant pour structurer la discussion que pour bâtir le plan d'action.
 
 ## Déroulé en 5 étapes
 
@@ -28,7 +28,7 @@ Onglet `Contexte`. Champs à documenter avant toute évaluation :
 | Responsable | Personne responsable de l'analyse et du suivi |
 | Date | Date de l'analyse |
 
-Ce cadrage détermine la légitimité des scores : sans référence documentaire, l'évaluation reste déclarative.
+Ce cadrage porte la légitimité des scores : sans référence documentaire, vous produisez une déclaration, pas une évaluation.
 
 ### 2. Évaluer chaque cible
 
@@ -45,11 +45,11 @@ Onglets `ONR 1` à `ONR 5`, une ligne par cible. Colonnes à remplir :
 | Niveau de priorité | Résultat | *Calculé* |
 | Stratégies d'action | Pistes concrètes pour atteindre la cible | Texte |
 
-Les colonnes texte (enjeux, forces/faiblesses) constituent le volet SWOT : les enjeux couvrent l'externe (opportunités, menaces), les forces et faiblesses couvrent l'interne.
+Les colonnes texte forment le volet SWOT : les enjeux couvrent l'externe (opportunités, menaces), les forces et faiblesses l'interne.
 
 ### 3. Échelles de notation
 
-**Importance de la cible** — à quel point la cible compte pour l'organisation :
+**Importance de la cible** : à quel point la cible compte pour l'organisation :
 
 | Note | Signification |
 |---|---|
@@ -58,7 +58,7 @@ Les colonnes texte (enjeux, forces/faiblesses) constituent le volet SWOT : les e
 | 1 | Peu importante |
 | 0 | Non pertinente pour l'organisation |
 
-**Performance actuelle** — où en est l'organisation sur cette cible :
+**Performance actuelle** : où en est l'organisation sur cette cible :
 
 | Note | Signification |
 |---|---|
@@ -67,18 +67,18 @@ Les colonnes texte (enjeux, forces/faiblesses) constituent le volet SWOT : les e
 | 2 | Progrès limités |
 | 1 | Aucun progrès |
 
-Une cible non évaluée (importance ou performance manquante) reste sans priorité : elle apparaît en « non complétée » dans la synthèse, et non en priorité basse. La distinction est importante : ne pas savoir n'est pas la même chose que ne pas avoir besoin d'agir.
+Une cible non évaluée (importance ou performance manquante) reste sans priorité : la synthèse la compte en « non complétée », jamais en priorité basse. Vous distinguez ainsi ce que vous n'avez pas encore documenté de ce qui ne demande aucune action.
 
 ### 4. Lire la matrice de priorisation
 
 Le classeur calcule une clé `importance × 10 + performance`, puis affecte un niveau d'intervention :
 
-| Importance \ Performance | 1 — aucun progrès | 2 — progrès limités | 3 — progrès notables | 4 — cible atteinte |
+| Importance \ Performance | 1 : aucun progrès | 2 : progrès limités | 3 : progrès notables | 4 : cible atteinte |
 |---|---|---|---|---|
-| **3 — très importante** | Intervention urgente | Intervention prioritaire | Intervention à moyen terme | Intervention de consolidation |
-| **2 — importante** | Intervention prioritaire | Intervention à moyen terme | Intervention de consolidation | Intervention non prioritaire |
-| **1 — peu importante** | Intervention à long terme | Intervention à long terme | Intervention non prioritaire | Intervention non prioritaire |
-| **0 — non pertinente** | Intervention non pertinente | Intervention non pertinente | Intervention non pertinente | Intervention non pertinente |
+| **3 : très importante** | Intervention urgente | Intervention prioritaire | Intervention à moyen terme | Intervention de consolidation |
+| **2 : importante** | Intervention prioritaire | Intervention à moyen terme | Intervention de consolidation | Intervention non prioritaire |
+| **1 : peu importante** | Intervention à long terme | Intervention à long terme | Intervention non prioritaire | Intervention non prioritaire |
+| **0 : non pertinente** | Intervention non pertinente | Intervention non pertinente | Intervention non pertinente | Intervention non pertinente |
 
 Les sept niveaux, du plus au moins pressant :
 
@@ -96,18 +96,18 @@ Version machine de cette matrice : [`data/matrice-priorisation.json`](../data/ma
 
 ### 5. Exploiter les résultats
 
-- **`Résultats détaillés`** — répartition des cibles par niveau d'intervention, axe par axe.
-- **`Résultats synthèse`** — vue consolidée des 28 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme.
+- **`Résultats détaillés`**, répartition des cibles par niveau d'intervention, axe par axe.
+- **`Résultats synthèse`**, vue consolidée des 28 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme.
 
-Les cibles classées « urgente » et « prioritaire » constituent le plan d'action de premier rang ; leurs colonnes « Stratégies d'action » en fournissent le contenu.
+Les cibles classées « urgente » et « prioritaire » forment votre plan d'action de premier rang, et leurs colonnes « Stratégies d'action » en donnent le contenu.
 
 ## Conditions de validité
 
-L'outil produit un classement, pas une vérité. Trois conditions rendent le résultat exploitable :
+Le résultat reste un classement. Trois conditions le rendent exploitable :
 
-- **La collégialité.** Un score posé par une seule personne reflète un point de vue de service. La grille est conçue pour être remplie en atelier, avec les métiers, l'IT, les achats et la direction.
-- **La traçabilité.** La colonne « Documentation de la performance » n'est pas facultative : elle est ce qui distingue une évaluation d'une impression.
-- **La répétition.** Une grille remplie une fois donne un état des lieux. Deux grilles à un an d'intervalle donnent une trajectoire.
+- **La collégialité.** Un score posé par une seule personne reflète un point de vue de service. Réunissez les métiers, l'IT, les achats et la direction autour de la grille.
+- **La traçabilité.** Remplissez la colonne « Documentation de la performance » : sans preuve écrite, vous notez une impression.
+- **La répétition.** Refaites l'exercice chaque année, puis comparez les deux grilles pour lire votre trajectoire.
 
 ## Voir aussi
 

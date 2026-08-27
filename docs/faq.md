@@ -14,11 +14,11 @@ Aux organisations de toute taille engagées ou candidates à une démarche de nu
 
 ## Combien de temps faut-il pour remplir la grille ?
 
-Compter une demi-journée à une journée d'atelier pour un premier passage sur les 28 cibles, selon le nombre de participants et le niveau de documentation disponible en amont. Il est possible de traiter les axes séparément en plusieurs séances.
+Compter une demi-journée à une journée d'atelier pour un premier passage sur les 28 cibles, selon le nombre de participants et le niveau de documentation disponible en amont. Vous pouvez traiter les axes séparément, en plusieurs séances.
 
 ## Faut-il remplir les 28 cibles ?
 
-Non. Une cible non évaluée est comptabilisée comme « non complétée » et n'est pas classée. Une cible hors du périmètre de l'organisation se note avec une importance de 0, ce qui la classe en « intervention non pertinente ». Les deux cas sont distincts et se lisent différemment dans la synthèse.
+Non. Le classeur compte une cible non évaluée en « non complétée » et ne la classe pas. Une cible hors du périmètre de l'organisation se note avec une importance de 0, ce qui la classe en « intervention non pertinente ». Les deux cas sont distincts et se lisent différemment dans la synthèse.
 
 ## Comment le niveau de priorité est-il calculé ?
 
@@ -34,7 +34,7 @@ Non. Le classeur s'ouvre avec LibreOffice Calc, Excel, ou tout tableur compatibl
 
 ## L'outil est-il un audit ou une certification ?
 
-Ni l'un ni l'autre. C'est un instrument d'auto-évaluation et de dialogue. Il ne délivre aucun score de conformité ni label, et ne se substitue pas à une évaluation par un tiers.
+Ni l'un ni l'autre. C'est un instrument d'auto-évaluation et de dialogue interne. Il ne délivre aucun score de conformité ni label, et ne se substitue pas à une évaluation par un tiers.
 
 ## Comment citer la GPC-ONR ?
 

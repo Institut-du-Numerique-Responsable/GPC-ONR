@@ -24,7 +24,12 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 
 ### Reformulé (décision INR)
 
+- **Cible 1.3** : « En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD » devient « En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD) ». La formulation initiale ne désignait aucune action concrète.
 - **Cible 1.2** : « En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes » devient « En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable ». La formulation initiale était grammaticalement incorrecte (« permettre la durée de vie ») et la mention des parties prenantes a été jugée superflue.
+
+### Rédaction
+
+- Documentation relue pour supprimer les tournures artificielles : tirets cadratins, oppositions binaires, formules à effet, voix passive. Les échelles et les titres utilisent désormais le deux-points.
 
 ### Non modifié
 

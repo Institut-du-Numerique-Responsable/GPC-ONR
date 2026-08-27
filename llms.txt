@@ -1,4 +1,4 @@
-# GPC-ONR — Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
+# GPC-ONR : Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
 
 > Outil libre d'auto-évaluation et de priorisation participative, publié par l'Institut du Numérique Responsable (INR), qui aide une organisation à classer les 28 cibles des Objectifs du Numérique Responsable (ONR) par ordre d'intervention, en croisant l'importance de chaque cible et la performance actuelle de l'organisation.
 

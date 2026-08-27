@@ -16,8 +16,18 @@ C'est un support de décision collective. Aucun score de conformité, aucun labe
 
 **Documentation en ligne : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>**
 
+## Télécharger le classeur
+
+> **[⬇ Télécharger la grille vierge (Excel)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx)**
+>
+> **[⬇ Télécharger l'exemple rempli (Excel)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Exemple.xlsx)**
+
+Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numbers ou Google Sheets, et ne contient aucune macro. Si vous ne venez que pour la grille, vous pouvez vous arrêter ici : la suite de cette page s'adresse à celles et ceux qui veulent réutiliser les données ou contribuer.
+
+
 ## Sommaire
 
+- [Télécharger le classeur](#télécharger-le-classeur)
 - [Ce que fait l'outil](#ce-que-fait-loutil)
 - [Démarrage rapide](#démarrage-rapide)
 - [Les 5 axes et 28 cibles](#les-5-axes-et-28-cibles)
@@ -42,12 +52,7 @@ C'est un support de décision collective. Aucun score de conformité, aucun labe
 
 ## Démarrage rapide
 
-```bash
-git clone https://github.com/Institut-du-Numerique-Responsable/GPC-ONR.git
-cd GPC-ONR
-```
-
-1. Ouvrez **`INR_GPC_ONR Template.xlsx`** avec LibreOffice Calc, Excel ou tout tableur compatible `.xlsx`. Aucune macro n'est utilisée : rien à activer.
+1. Ouvrez le classeur téléchargé ci-dessus avec Excel, LibreOffice Calc ou tout tableur compatible `.xlsx`. Aucune macro n'est utilisée : rien à activer.
 2. Renseignez l'onglet **`Contexte`** : organisation, participants, date. C'est ce qui rendra vos passages successifs comparables.
 3. Parcourez les onglets **`ONR 1`** à **`ONR 5`**. Pour chaque cible, notez l'**importance** (0–3) et la **performance actuelle** (1–4), puis documentez enjeux, forces/faiblesses et stratégies d'action.
 4. Lisez les onglets **`Résultats détaillés`** et **`Résultats synthèse`** : les cibles urgentes et prioritaires forment votre plan de premier rang.

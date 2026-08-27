@@ -7,9 +7,14 @@ La GPC-ONR répond à une question simple et rarement traitée de front : parmi 
 !!! info "Ce que l'outil ne fait pas"
     Il ne délivre aucun score de conformité et aucun label. Il classe les cibles en sept niveaux d'intervention, pour servir de support à une décision collective.
 
+[⬇ Télécharger la grille vierge](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx){ .md-button .md-button--primary }
+[⬇ Télécharger l'exemple rempli](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Exemple.xlsx){ .md-button }
+
+Un fichier Excel, rien à installer. Il s'ouvre avec Excel, LibreOffice Calc, Numbers ou Google Sheets, et ne contient aucune macro.
+
 ## Démarrer
 
-1. Téléchargez le **[classeur vierge](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/raw/main/INR_GPC_ONR%20Template.xlsx)** et ouvrez-le avec LibreOffice Calc, Excel ou tout tableur compatible `.xlsx`. Aucune macro : rien à activer.
+1. Ouvrez le classeur téléchargé ci-dessus. Aucune macro : rien à activer.
 2. Renseignez l'onglet **Contexte** : organisation, participants, date. C'est ce qui rendra vos passages successifs comparables.
 3. Parcourez les onglets **ONR 1** à **ONR 5**. Pour chaque cible, notez l'**importance** (0 à 3) et la **performance actuelle** (1 à 4), puis documentez enjeux, forces, faiblesses et stratégies d'action.
 4. Lisez les onglets de résultats : les cibles urgentes et prioritaires forment votre plan de premier rang. Rejouez la grille plus tard pour mesurer la progression.

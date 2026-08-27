@@ -1,6 +1,6 @@
 # Contributeurs
 
-La GPC-ONR est un travail collectif de l'[Institut du Numérique Responsable](https://institutnr.org). Elle prolonge les Objectifs du Numérique Responsable, eux-mêmes issus des travaux de la communauté INR.
+La GPC-ONR prolonge les Objectifs du Numérique Responsable, que la communauté de l'[Institut du Numérique Responsable](https://institutnr.org) a élaborés.
 
 ## Conception et méthode
 
@@ -13,11 +13,11 @@ La GPC-ONR est un travail collectif de l'[Institut du Numérique Responsable](ht
 
 ## Organisation éditrice
 
-**Institut du Numérique Responsable (INR)** — association qui fédère organisations publiques et privées autour de la réduction des impacts environnementaux, sociaux et économiques du numérique. <https://institutnr.org>
+**Institut du Numérique Responsable (INR)** : association qui fédère organisations publiques et privées autour de la réduction des impacts environnementaux, sociaux et économiques du numérique. <https://institutnr.org>
 
 ## Vous ajouter à cette liste
 
-Toute contribution acceptée donne droit à une ligne dans cette page et dans [`CITATION.cff`](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/blob/main/CITATION.cff), qui sert de source aux outils de citation (GitHub, Zenodo, gestionnaires de références).
+Chaque contribution acceptée vous vaut une ligne dans cette page et dans [`CITATION.cff`](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/blob/main/CITATION.cff), qui sert de source aux outils de citation (GitHub, Zenodo, gestionnaires de références).
 
 Le processus est décrit dans le [guide de contribution](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/blob/main/CONTRIBUTING.md). Les commits doivent être signés (`git commit -s`), conformément au Certificat d'Origine du Développeur.
 

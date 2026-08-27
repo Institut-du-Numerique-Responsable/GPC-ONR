@@ -19,7 +19,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ---
 
-## ONR 1 — Sobriété
+## ONR 1 : Sobriété
 
 > S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation
 
@@ -29,7 +29,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 |---|---|---|
 | `1.1` | En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique | Savoir d'où vient notre matériel, combien de temps il sert, et où il finit. |
 | `1.2` | En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable | Garder le matériel plus longtemps, même une fois qu'il est payé. |
-| `1.3` | En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD. | Faire des sites et des applications qui consomment peu et servent vraiment. |
+| `1.3` | En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD) | Faire des sites et des applications qui consomment peu et servent vraiment. |
 | `1.4` | En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables | Prendre des habitudes qui économisent le matériel, l'énergie et les fournitures. |
 | `1.5` | En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire. | Ne plus jeter : réparer, réemployer, recycler. |
 | `1.6` | En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables. | Faire tourner le numérique avec de l'électricité renouvelable. |
@@ -37,7 +37,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ---
 
-## ONR 2 — Inclusion
+## ONR 2 : Inclusion
 
 > S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables
 
@@ -52,7 +52,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ---
 
-## ONR 3 — RSE
+## ONR 3 : RSE
 
 > S'engager pour des pratiques numériques éthiques et responsables
 
@@ -70,7 +70,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ---
 
-## ONR 4 — Résilience et stratégie
+## ONR 4 : Résilience et stratégie
 
 > S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations
 
@@ -85,7 +85,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ---
 
-## ONR 5 — Management
+## ONR 5 : Management
 
 > S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent
 
@@ -104,4 +104,4 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 ## Citation
 
-Institut du Numérique Responsable, *GPC-ONR — Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
+Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>

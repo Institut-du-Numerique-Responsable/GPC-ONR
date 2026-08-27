@@ -1,4 +1,4 @@
-# GPC-ONR — Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
+# GPC-ONR : Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
 
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
 [![Format](https://img.shields.io/badge/Format-XLSX%20%7C%20JSON%20%7C%20CSV-green.svg)](data/)
@@ -11,7 +11,7 @@
 
 La GPC-ONR aide une organisation à répondre à une question simple et rarement traitée de front : parmi les 28 cibles des Objectifs du Numérique Responsable, **par lesquelles commencer ?** Elle croise, cible par cible, l'importance de l'enjeu pour l'organisation et sa performance actuelle, et en déduit un ordre d'intervention.
 
-Ce n'est ni un audit, ni une certification, ni un score de conformité. C'est un support de décision collective.
+C'est un support de décision collective. Aucun score de conformité, aucun label.
 
 **Documentation en ligne : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>**
 
@@ -52,34 +52,34 @@ cd GPC-ONR
 4. Lisez les onglets **`Résultats détaillés`** et **`Résultats synthèse`** : les cibles urgentes et prioritaires forment votre plan de premier rang.
 
 > [!TIP]
-> Remplissez la grille en atelier, pas en solo. Un score posé par un seul service reflète le point de vue de ce service. Consultez **`INR_GPC_ONR Exemple.xlsx`** pour voir le niveau de détail attendu.
+> Remplissez la grille en atelier. Un score posé par un seul service reflète le point de vue de ce service. Consultez **`INR_GPC_ONR Exemple.xlsx`** pour voir le niveau de détail attendu.
 
 ## Les 5 axes et 28 cibles
 
 | Axe | Engagement | Thème | Cibles |
 |---|---|---|---|
-| **ONR 1 — Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 7 |
-| **ONR 2 — Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 4 |
-| **ONR 3 — RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 7 |
-| **ONR 4 — Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
-| **ONR 5 — Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 6 |
+| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 7 |
+| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 4 |
+| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 7 |
+| **ONR 4 : Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
+| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 6 |
 
 Le détail des 28 cibles est disponible en texte intégral : **[docs/referentiel-onr.md](docs/referentiel-onr.md)**. Chaque cible y est accompagnée d'une reformulation **En clair**, en langage courant, pour être comprise sans connaissance préalable du sujet.
 
-Ces objectifs sont issus de la charte de l'[Institut du Numérique Responsable](https://institutnr.org/), qui formalise les engagements pris par une organisation — entreprise, association, TPE/PME, acteur public — sur les impacts environnementaux, sociaux et éthiques du numérique.
+Ces objectifs sont issus de la charte de l'[Institut du Numérique Responsable](https://institutnr.org/), qui formalise les engagements pris par une organisation (entreprise, association, TPE/PME, acteur public) sur les impacts environnementaux, sociaux et éthiques du numérique.
 
 ## Comment la priorité est calculée
 
 Deux notes suffisent. L'**importance de la cible** pour l'organisation (0 à 3) et sa **performance actuelle** (1 à 4). Leur croisement donne le niveau d'intervention :
 
-| Importance \ Performance | 1 — aucun progrès | 2 — progrès limités | 3 — progrès notables | 4 — cible atteinte |
+| Importance \ Performance | 1 : aucun progrès | 2 : progrès limités | 3 : progrès notables | 4 : cible atteinte |
 |---|---|---|---|---|
-| **3 — très importante** | 🔴 Urgente | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation |
-| **2 — importante** | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation | ⚪ Non prioritaire |
-| **1 — peu importante** | 🔵 Long terme | 🔵 Long terme | ⚪ Non prioritaire | ⚪ Non prioritaire |
-| **0 — non pertinente** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
+| **3 : très importante** | 🔴 Urgente | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation |
+| **2 : importante** | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation | ⚪ Non prioritaire |
+| **1 : peu importante** | 🔵 Long terme | 🔵 Long terme | ⚪ Non prioritaire | ⚪ Non prioritaire |
+| **0 : non pertinente** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
 
-Une cible laissée vide n'est pas classée : elle est comptée comme **non complétée**, pas comme non prioritaire. Ne pas savoir n'est pas la même chose que ne pas avoir besoin d'agir.
+Une cible laissée vide compte comme **non complétée**, jamais comme non prioritaire. Vous saurez ainsi ce qu'il reste à documenter.
 
 Méthode complète, échelles détaillées et conditions de validité : **[docs/methodologie.md](docs/methodologie.md)**.
 
@@ -121,7 +121,7 @@ GPC-ONR/
 
 ## Données ouvertes
 
-Le contenu des classeurs est aussi publié en formats ouverts et interrogeables, pour être réutilisé sans passer par un tableur — intégration dans un autre outil, croisement avec un référentiel tiers, ou consultation par un assistant IA.
+Le contenu des classeurs est aussi publié en formats ouverts et interrogeables, pour être réutilisé sans tableur : intégration dans un autre outil, croisement avec un référentiel tiers, consultation par un assistant IA.
 
 ```bash
 # Lister les cibles de l'axe Sobriété, en langage clair
@@ -159,9 +159,9 @@ git commit -s -m "Description de ma contribution"
 
 ## Citer ce travail
 
-Les métadonnées sont dans [`CITATION.cff`](CITATION.cff), au format Citation File Format 1.2.0 — lisible par GitHub, Zenodo et les gestionnaires de références.
+Les métadonnées sont dans [`CITATION.cff`](CITATION.cff), au format Citation File Format 1.2.0, lisible par GitHub, Zenodo et les gestionnaires de références.
 
-> Institut du Numérique Responsable, *GPC-ONR — Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
+> Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
 
 ## Licence et crédits
 

@@ -1,12 +1,12 @@
 # Exemple commenté
 
-Extrait du classeur `INR_GPC_ONR Exemple.xlsx` : une organisation fictive ayant renseigné une partie des 28 cibles. Il montre le niveau de détail attendu dans les colonnes texte, celles qui font la valeur de l'exercice.
+Extrait du classeur `INR_GPC_ONR Exemple.xlsx` : une organisation fictive ayant renseigné une partie des 28 cibles. Il montre le niveau de détail attendu dans les colonnes texte, qui portent l'essentiel de la valeur de l'exercice.
 
 Données complètes de cet exemple : [`data/gpc-onr-exemple.json`](../data/gpc-onr-exemple.json).
 
-## ONR 1 — Sobriété
+## ONR 1 : Sobriété
 
-### Cible 1.1 — En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique
+### Cible 1.1 : En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique
 
 | | |
 |---|---|
@@ -15,7 +15,7 @@ Données complètes de cet exemple : [`data/gpc-onr-exemple.json`](../data/gpc-o
 | **Compétences** | 3 |
 | **Priorité calculée** | **Intervention urgente** |
 
-**Enjeux — opportunités et menaces**
+**Enjeux : opportunités et menaces**
 
 Enjeux (opportunités et menaces) : Opportunité de réduire l'empreinte carbone globale de l'organisation et d'anticiper les futures réglementations environnementales. La menace est le coût initial potentiellement plus élevé d'équipements éco-conçus.
 
@@ -31,7 +31,7 @@ Faiblesse : manque de connaissances de l'équipe Achats sur les labels environne
 
 Former l'équipe Achats aux critères du Numérique Responsable (labels TCO, EPEAT). Intégrer une pondération environnementale de 15% dans les prochains appels d'offres de renouvellement de serveurs
 
-### Cible 1.2 — En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable
+### Cible 1.2 : En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable
 
 | | |
 |---|---|
@@ -40,7 +40,7 @@ Former l'équipe Achats aux critères du Numérique Responsable (labels TCO, EPE
 | **Compétences** | 2 |
 | **Priorité calculée** | **Intervention à moyen terme** |
 
-**Enjeux — opportunités et menaces**
+**Enjeux : opportunités et menaces**
 
 Enjeux (opportunités et menaces) : Opportunité de faire des économies budgétaires significatives (CAPEX) et de réduire drastiquement la production de déchets électroniques (DEEE).
 
@@ -56,7 +56,7 @@ Force : capacité technique à réparer en interne. Faiblesse : pression psychol
 
 Allonger la politique d'amortissement à 5 ans minimum. Créer un stock de pièces détachées pour faciliter les réparations rapides. Lancer une campagne de communication interne pour valoriser l'impact carbone évité en gardant son ordinateur plus longtemps
 
-### Cible 1.3 — En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD.
+### Cible 1.3 : En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD)
 
 | | |
 |---|---|
@@ -65,7 +65,7 @@ Allonger la politique d'amortissement à 5 ans minimum. Créer un stock de pièc
 | **Compétences** | 2 |
 | **Priorité calculée** | **Intervention prioritaire** |
 
-**Enjeux — opportunités et menaces**
+**Enjeux : opportunités et menaces**
 
 Enjeux (opportunités et menaces) : L'opportunité est de réduire drastiquement l'empreinte environnementale des services dès leur création (démarche d'éco-conception) tout en améliorant l'expérience utilisateur (des sites plus légers chargent plus vite). Aligner les projets sur les ODD de l'ONU renforce également l'impact positif de l'organisation. La menace est la "dette technique" et la création d'"obésiciels" (logiciels inutilement lourds) qui forceront les utilisateurs à renouveler leur matériel plus vite.
 
@@ -85,7 +85,7 @@ Force : Une équipe de développeurs et de chefs de produit très motivée par l
 
 3. Créer une grille d'impact : pour chaque nouveau projet numérique, évaluer formellement à quel(s) Objectif(s) de Développement Durable (ODD) il contribue
 
-### Cible 1.7 — En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales
+### Cible 1.7 : En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales
 
 | | |
 |---|---|
@@ -94,7 +94,7 @@ Force : Une équipe de développeurs et de chefs de produit très motivée par l
 | **Compétences** | 2 |
 | **Priorité calculée** | **Intervention urgente** |
 
-**Enjeux — opportunités et menaces**
+**Enjeux : opportunités et menaces**
 
 Enjeux (opportunités et menaces) : L'opportunité est de maîtriser les coûts (d'infrastructure ou d'API) et de réduire l'empreinte carbone (très élevée) liée à l'entraînement et à l'utilisation quotidienne de l'IA. La menace principale est l'"effet de mode" : vouloir intégrer de l'IA partout, même quand un algorithme classique ou une simple automatisation suffirait, ce qui ferait exploser la consommation de ressources
 
@@ -118,7 +118,7 @@ Force : Une équipe Data/IT curieuse et compétente techniquement. Faiblesse : M
 
 Les cibles évaluées ci-dessus partagent un même schéma : une importance élevée (3) confrontée à une performance faible (1 ou 2), ce qui les fait remonter en intervention urgente ou prioritaire. Les cibles laissées vides ne sont pas classées : elles apparaissent en « non complétées » dans l'onglet de synthèse.
 
-La colonne « Stratégies d'action » est la sortie utile de l'exercice — elle transforme un diagnostic en plan de travail daté et attribuable.
+La colonne « Stratégies d'action » est la sortie utile de l'exercice : elle transforme un diagnostic en plan de travail daté et attribuable.
 
 ## Voir aussi
 

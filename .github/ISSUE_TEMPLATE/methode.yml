@@ -1,0 +1,23 @@
+name: Méthode et priorisation
+description: Proposer une évolution des échelles, de la matrice de priorisation ou du déroulé d'atelier.
+labels: ["méthode"]
+body:
+  - type: textarea
+    id: constat
+    attributes:
+      label: Constat
+      description: Ce qui pose problème dans la méthode actuelle, si possible à partir d'un usage réel.
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Proposition
+      description: Évolution proposée et effet attendu sur les résultats de la grille.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact sur les grilles déjà remplies
+      description: La proposition change-t-elle le classement de grilles existantes ? Si oui, comment gérer la comparaison dans le temps ?

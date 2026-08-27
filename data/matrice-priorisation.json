@@ -1,0 +1,159 @@
+{
+  "formule_cle": "cle = importance * 10 + performance",
+  "echelle_importance": {
+    "3": "Très importante",
+    "2": "Importante",
+    "1": "Peu importante",
+    "0": "Non pertinente"
+  },
+  "echelle_performance": {
+    "4": "Cible atteinte ou quasi atteinte",
+    "3": "Progrès notables",
+    "2": "Progrès limités",
+    "1": "Aucun progrès"
+  },
+  "niveaux": [
+    {
+      "valeur": 6,
+      "libelle": "Intervention urgente"
+    },
+    {
+      "valeur": 5,
+      "libelle": "Intervention prioritaire"
+    },
+    {
+      "valeur": 4,
+      "libelle": "Intervention à moyen terme"
+    },
+    {
+      "valeur": 3,
+      "libelle": "Intervention à long terme"
+    },
+    {
+      "valeur": 2,
+      "libelle": "Intervention de consolidation"
+    },
+    {
+      "valeur": 1,
+      "libelle": "Intervention non prioritaire"
+    },
+    {
+      "valeur": 0,
+      "libelle": "Intervention non pertinente"
+    }
+  ],
+  "combinaisons": [
+    {
+      "importance": 0,
+      "performance": 1,
+      "cle": 1,
+      "niveau": "Intervention non pertinente",
+      "valeur": 0
+    },
+    {
+      "importance": 0,
+      "performance": 2,
+      "cle": 2,
+      "niveau": "Intervention non pertinente",
+      "valeur": 0
+    },
+    {
+      "importance": 0,
+      "performance": 3,
+      "cle": 3,
+      "niveau": "Intervention non pertinente",
+      "valeur": 0
+    },
+    {
+      "importance": 0,
+      "performance": 4,
+      "cle": 4,
+      "niveau": "Intervention non pertinente",
+      "valeur": 0
+    },
+    {
+      "importance": 1,
+      "performance": 1,
+      "cle": 11,
+      "niveau": "Intervention à long terme",
+      "valeur": 3
+    },
+    {
+      "importance": 1,
+      "performance": 2,
+      "cle": 12,
+      "niveau": "Intervention à long terme",
+      "valeur": 3
+    },
+    {
+      "importance": 1,
+      "performance": 3,
+      "cle": 13,
+      "niveau": "Intervention non prioritaire",
+      "valeur": 1
+    },
+    {
+      "importance": 1,
+      "performance": 4,
+      "cle": 14,
+      "niveau": "Intervention non prioritaire",
+      "valeur": 1
+    },
+    {
+      "importance": 2,
+      "performance": 1,
+      "cle": 21,
+      "niveau": "Intervention prioritaire",
+      "valeur": 5
+    },
+    {
+      "importance": 2,
+      "performance": 2,
+      "cle": 22,
+      "niveau": "Intervention à moyen terme",
+      "valeur": 4
+    },
+    {
+      "importance": 2,
+      "performance": 3,
+      "cle": 23,
+      "niveau": "Intervention de consolidation",
+      "valeur": 2
+    },
+    {
+      "importance": 2,
+      "performance": 4,
+      "cle": 24,
+      "niveau": "Intervention non prioritaire",
+      "valeur": 1
+    },
+    {
+      "importance": 3,
+      "performance": 1,
+      "cle": 31,
+      "niveau": "Intervention urgente",
+      "valeur": 6
+    },
+    {
+      "importance": 3,
+      "performance": 2,
+      "cle": 32,
+      "niveau": "Intervention prioritaire",
+      "valeur": 5
+    },
+    {
+      "importance": 3,
+      "performance": 3,
+      "cle": 33,
+      "niveau": "Intervention à moyen terme",
+      "valeur": 4
+    },
+    {
+      "importance": 3,
+      "performance": 4,
+      "cle": 34,
+      "niveau": "Intervention de consolidation",
+      "valeur": 2
+    }
+  ]
+}

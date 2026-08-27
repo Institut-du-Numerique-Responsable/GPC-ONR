@@ -1,0 +1,404 @@
+{
+  "source": "INR_GPC_ONR Exemple.xlsx",
+  "axes": [
+    {
+      "numero": 1,
+      "nom": "SOBRIÉTÉ",
+      "engagement": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
+      "cibles": [
+        {
+          "code": "1.1",
+          "cible": "En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique",
+          "enjeux": "Enjeux (opportunités et menaces) : Opportunité de réduire l'empreinte carbone globale de l'organisation et d'anticiper les futures réglementations environnementales. La menace est le coût initial potentiellement plus élevé d'équipements éco-conçus.",
+          "importance": 3,
+          "performance": 1,
+          "documentation": "Actuellement, le seul critère pris en compte lors des achats est le prix direct. Aucune analyse du cycle de vie (ACV) n'est demandée aux fournisseurs lors des appels d'offres",
+          "competences": "3",
+          "forces_faiblesses": "Faiblesse : manque de connaissances de l'équipe Achats sur les labels environnementaux informatiques. Force : volonté forte de la direction des achats d'évoluer vers des pratiques durables",
+          "priorite": "Intervention urgente",
+          "priorite_valeur": 6,
+          "strategies": "Former l'équipe Achats aux critères du Numérique Responsable (labels TCO, EPEAT). Intégrer une pondération environnementale de 15% dans les prochains appels d'offres de renouvellement de serveurs"
+        },
+        {
+          "code": "1.2",
+          "cible": "En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes",
+          "enjeux": "Enjeux (opportunités et menaces) : Opportunité de faire des économies budgétaires significatives (CAPEX) et de réduire drastiquement la production de déchets électroniques (DEEE).",
+          "importance": 3,
+          "performance": 3,
+          "documentation": "La durée de renouvellement standard des ordinateurs portables est passée de 3 ans à 4 ans l'année dernière. Un contrat de maintenance est en place.",
+          "competences": "2",
+          "forces_faiblesses": "Force : capacité technique à réparer en interne. Faiblesse : pression psychologique de certains utilisateurs exigeant du matériel neuf et esthétique.",
+          "priorite": "Intervention à moyen terme",
+          "priorite_valeur": 4,
+          "strategies": "Allonger la politique d'amortissement à 5 ans minimum. Créer un stock de pièces détachées pour faciliter les réparations rapides. Lancer une campagne de communication interne pour valoriser l'impact carbone évité en gardant son ordinateur plus longtemps"
+        },
+        {
+          "code": "1.3",
+          "cible": "En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD.",
+          "enjeux": "Enjeux (opportunités et menaces) : L'opportunité est de réduire drastiquement l'empreinte environnementale des services dès leur création (démarche d'éco-conception) tout en améliorant l'expérience utilisateur (des sites plus légers chargent plus vite). Aligner les projets sur les ODD de l'ONU renforce également l'impact positif de l'organisation. La menace est la \"dette technique\" et la création d'\"obésiciels\" (logiciels inutilement lourds) qui forceront les utilisateurs à renouveler leur matériel plus vite.",
+          "importance": 3,
+          "performance": 2,
+          "documentation": "Documentation et mesures en place : Actuellement, les nouveaux services numériques ou sites web sont validés uniquement sur des critères fonctionnels, graphiques et financiers. Le \"poids\" informatique des pages et l'impact environnemental du code ne sont pas mesurés.",
+          "competences": "2",
+          "forces_faiblesses": "Force : Une équipe de développeurs et de chefs de produit très motivée par les enjeux RSE. Faiblesse : Manque de formation sur les référentiels d'éco-conception (comme le RGESN en France) et méconnaissance de la méthode pour lier concrètement un projet numérique aux ODD de l'ONU.",
+          "priorite": "Intervention prioritaire",
+          "priorite_valeur": 5,
+          "strategies": "1. Former les équipes (Designers, Développeurs, Chefs de projet) aux bonnes pratiques de l'éco-conception numérique.\n2. Modifier les cahiers des charges (appels d'offres) : imposer des critères de performance environnementale aux prestataires qui créent les futurs sites ou applications de l'organisation (ex: limite de poids des images, optimisation des requêtes serveurs).\n3. Créer une grille d'impact : pour chaque nouveau projet numérique, évaluer formellement à quel(s) Objectif(s) de Développement Durable (ODD) il contribue"
+        },
+        {
+          "code": "1.4",
+          "cible": "En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "1.5",
+          "cible": "En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "1.6",
+          "cible": "En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "1.7",
+          "cible": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
+          "enjeux": "Enjeux (opportunités et menaces) : L'opportunité est de maîtriser les coûts (d'infrastructure ou d'API) et de réduire l'empreinte carbone (très élevée) liée à l'entraînement et à l'utilisation quotidienne de l'IA. La menace principale est l'\"effet de mode\" : vouloir intégrer de l'IA partout, même quand un algorithme classique ou une simple automatisation suffirait, ce qui ferait exploser la consommation de ressources",
+          "importance": 3,
+          "performance": 1,
+          "documentation": "Actuellement, plusieurs projets d'IA générative (type ChatGPT) sont testés par les métiers, mais aucune mesure de leur impact énergétique n'est réalisée et aucune charte d'utilisation n'encadre le besoin réel",
+          "competences": "2",
+          "forces_faiblesses": "Force : Une équipe Data/IT curieuse et compétente techniquement. Faiblesse : Manque total de connaissances sur les concepts de \"Green AI\" (comment mesurer la consommation d'un modèle, comment l'optimiser) et manque de recul critique sur l'utilité réelle de l'IA pour certains cas d'usage",
+          "priorite": "Intervention urgente",
+          "priorite_valeur": 6,
+          "strategies": "1. Créer une grille d'évaluation préalable (Go/No-Go) pour chaque nouveau projet : l'IA est-elle indispensable ou une méthode informatique classique suffit-elle ?\n2. Privilégier des modèles plus petits et spécialisés (Small Language Models) plutôt que de faire appel à des modèles massifs et très énergivores pour des tâches simples.\n3. Sensibiliser les développeurs et les data scientists aux techniques d'éco-conception logicielle appliquées à l'IA (optimisation du code, limitation des calculs redondants)"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "nom": "INCLUSION",
+      "engagement": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
+      "cibles": [
+        {
+          "code": "2.1",
+          "cible": "En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "2.2",
+          "cible": "En permettant des applications accessibles à tous - en mesurant le niveau de conformité RGAA et en accompagnant les entreprises du territoire à se conformer à la règlementation",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "2.3",
+          "cible": "En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "2.4",
+          "cible": "En associant l’utilisateur à la conception pour éviter des outils surdimensionnés et améliorer progressivement le niveau de conformité des services en ligne.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "nom": "RSE",
+      "engagement": "S'engager pour des pratiques numériques éthiques et responsables",
+      "cibles": [
+        {
+          "code": "3.1",
+          "cible": "En développant des usages raisonnés des données et services dans une démarche éthique vis-à-vis des impacts sur l’environnement et les populations.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.2",
+          "cible": "En luttant contre les pratiques trompeuses et présence de dark pattern dans les sites internet et en permettant de se conformer à la réglementation",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.3",
+          "cible": "En ne collectant que les données utiles et nécessaires au service des utilisateurs, afin de limiter les risques en matière de vie privée et impacts environnementaux en conformité avec le Règlement Général sur la Protection des Données (RGPD).",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.4",
+          "cible": "En favorisant la diversité des recrutements des métiers du numérique",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.5",
+          "cible": "En améliorant les conditions des travailleurs du numérique",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.6",
+          "cible": "En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.7",
+          "cible": "En déployant et valorisant la démarche RSE",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "nom": "RESILIENCE ET STRATEGIE",
+      "engagement": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
+      "cibles": [
+        {
+          "code": "4.1",
+          "cible": "En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC).",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "4.2",
+          "cible": "En participant à une démarche collaborative de conception et d’évaluation des services numériques en adéquation avec les réels besoins.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "4.3",
+          "cible": "En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "4.4",
+          "cible": "En permettant et en garantissant plus de souveraineté numérique",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "nom": "MANAGEMENT",
+      "engagement": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
+      "cibles": [
+        {
+          "code": "5.1",
+          "cible": "En incluant l’innovation sociale dans la définition de nouveaux systèmes et services numériques.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.2",
+          "cible": "En valorisant les initiatives internes qui mobilisent l’organisation, favorisent les collaborations transversales et le bien-être au travail.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.3",
+          "cible": "En sollicitant l’engagement et l’expertise des parties prenantes (sur les sujets environnementaux, sociaux et sociétaux)",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.4",
+          "cible": "En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble.",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.5",
+          "cible": "En suivant les indicateurs de performances et de conformité",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.6",
+          "cible": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        }
+      ]
+    }
+  ]
+}

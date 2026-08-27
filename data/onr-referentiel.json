@@ -1,0 +1,184 @@
+{
+  "axes": [
+    {
+      "numero": 1,
+      "nom": "Sobriété",
+      "engagement": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
+      "cibles": [
+        {
+          "code": "1.1",
+          "libelle": "En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique",
+          "explication": "Savoir d'où vient notre matériel, combien de temps il sert, et où il finit."
+        },
+        {
+          "code": "1.2",
+          "libelle": "En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes",
+          "explication": "Garder le matériel plus longtemps, même une fois qu'il est payé, et montrer ce que chacun y gagne."
+        },
+        {
+          "code": "1.3",
+          "libelle": "En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD.",
+          "explication": "Faire des sites et des applications qui consomment peu et servent vraiment."
+        },
+        {
+          "code": "1.4",
+          "libelle": "En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables",
+          "explication": "Prendre des habitudes qui économisent le matériel, l'énergie et les fournitures."
+        },
+        {
+          "code": "1.5",
+          "libelle": "En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire.",
+          "explication": "Ne plus jeter : réparer, réemployer, recycler."
+        },
+        {
+          "code": "1.6",
+          "libelle": "En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables.",
+          "explication": "Faire tourner le numérique avec de l'électricité renouvelable."
+        },
+        {
+          "code": "1.7",
+          "libelle": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
+          "explication": "N'utiliser l'IA que si elle sert vraiment, et choisir la moins gourmande."
+        }
+      ],
+      "theme": "Environnement"
+    },
+    {
+      "numero": 2,
+      "nom": "Inclusion",
+      "engagement": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
+      "cibles": [
+        {
+          "code": "2.1",
+          "libelle": "En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales.",
+          "explication": "Acheter en regardant l'impact social et écologique, pas seulement le prix."
+        },
+        {
+          "code": "2.2",
+          "libelle": "En permettant des applications accessibles à tous - en mesurant le niveau de conformité RGAA et en accompagnant les entreprises du territoire à se conformer à la règlementation",
+          "explication": "Faire des sites utilisables par les personnes handicapées, et le vérifier."
+        },
+        {
+          "code": "2.3",
+          "libelle": "En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous",
+          "explication": "Faire des outils simples, faciles à utiliser, et vraiment utilisés."
+        },
+        {
+          "code": "2.4",
+          "libelle": "En associant l’utilisateur à la conception pour éviter des outils surdimensionnés et améliorer progressivement le niveau de conformité des services en ligne.",
+          "explication": "Demander leur avis aux utilisateurs avant de construire."
+        }
+      ],
+      "theme": "Accessibilité"
+    },
+    {
+      "numero": 3,
+      "nom": "RSE",
+      "engagement": "S'engager pour des pratiques numériques éthiques et responsables",
+      "cibles": [
+        {
+          "code": "3.1",
+          "libelle": "En développant des usages raisonnés des données et services dans une démarche éthique vis-à-vis des impacts sur l’environnement et les populations.",
+          "explication": "Utiliser les données avec bon sens, en pensant aux gens et à la planète."
+        },
+        {
+          "code": "3.2",
+          "libelle": "En luttant contre les pratiques trompeuses et présence de dark pattern dans les sites internet et en permettant de se conformer à la réglementation",
+          "explication": "Ne pas piéger l'utilisateur avec des écrans qui l'induisent en erreur."
+        },
+        {
+          "code": "3.3",
+          "libelle": "En ne collectant que les données utiles et nécessaires au service des utilisateurs, afin de limiter les risques en matière de vie privée et impacts environnementaux en conformité avec le Règlement Général sur la Protection des Données (RGPD).",
+          "explication": "Ne demander que les données vraiment nécessaires."
+        },
+        {
+          "code": "3.4",
+          "libelle": "En favorisant la diversité des recrutements des métiers du numérique",
+          "explication": "Recruter des profils variés dans les métiers du numérique."
+        },
+        {
+          "code": "3.5",
+          "libelle": "En améliorant les conditions des travailleurs du numérique",
+          "explication": "Se soucier de celles et ceux qui fabriquent et font tourner le numérique."
+        },
+        {
+          "code": "3.6",
+          "libelle": "En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle",
+          "explication": "Se fixer des règles claires sur les données et l'IA, et les respecter."
+        },
+        {
+          "code": "3.7",
+          "libelle": "En déployant et valorisant la démarche RSE",
+          "explication": "Mener une démarche responsable, et la faire connaître."
+        }
+      ],
+      "theme": "Éthique"
+    },
+    {
+      "numero": 4,
+      "nom": "Résilience et stratégie",
+      "engagement": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
+      "cibles": [
+        {
+          "code": "4.1",
+          "libelle": "En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC).",
+          "explication": "Mesurer nos impacts avec les mêmes méthodes que les autres, pour pouvoir se comparer."
+        },
+        {
+          "code": "4.2",
+          "libelle": "En participant à une démarche collaborative de conception et d’évaluation des services numériques en adéquation avec les réels besoins.",
+          "explication": "Construire les outils avec celles et ceux qui s'en servent, à partir de vrais besoins."
+        },
+        {
+          "code": "4.3",
+          "libelle": "En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs",
+          "explication": "Continuer d'innover, en mesurant l'impact et en le disant clairement."
+        },
+        {
+          "code": "4.4",
+          "libelle": "En permettant et en garantissant plus de souveraineté numérique",
+          "explication": "Garder la maîtrise de nos données, de nos outils et de nos fournisseurs."
+        }
+      ],
+      "theme": "Résilience"
+    },
+    {
+      "numero": 5,
+      "nom": "Management",
+      "engagement": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
+      "cibles": [
+        {
+          "code": "5.1",
+          "libelle": "En incluant l’innovation sociale dans la définition de nouveaux systèmes et services numériques.",
+          "explication": "Se demander à quoi sert vraiment un nouveau service, et pour qui."
+        },
+        {
+          "code": "5.2",
+          "libelle": "En valorisant les initiatives internes qui mobilisent l’organisation, favorisent les collaborations transversales et le bien-être au travail.",
+          "explication": "Reconnaître les initiatives internes qui améliorent le travail de tous."
+        },
+        {
+          "code": "5.3",
+          "libelle": "En sollicitant l’engagement et l’expertise des parties prenantes (sur les sujets environnementaux, sociaux et sociétaux)",
+          "explication": "Demander leur avis aux personnes concernées avant de décider."
+        },
+        {
+          "code": "5.4",
+          "libelle": "En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble.",
+          "explication": "Laisser une organisation où celles et ceux qui suivront pourront encore agir."
+        },
+        {
+          "code": "5.5",
+          "libelle": "En suivant les indicateurs de performances et de conformité",
+          "explication": "Suivre quelques indicateurs simples pour voir si on progresse."
+        },
+        {
+          "code": "5.6",
+          "libelle": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
+          "explication": "Proposer des améliorations, même quand elles ne sont pas numériques."
+        }
+      ],
+      "theme": "Valeurs"
+    }
+  ]
+}

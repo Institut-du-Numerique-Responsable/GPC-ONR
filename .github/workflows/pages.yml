@@ -44,7 +44,7 @@ jobs:
           cp *.xlsx site/
           cp CITATION.cff CONTRIBUTING.md CONTRIBUTORS.md llms.txt site/
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 

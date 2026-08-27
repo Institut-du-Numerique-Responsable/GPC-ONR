@@ -35,7 +35,7 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 
 ### Corrigé
 
-- **Nombre de cibles par ONR** : dans l'onglet `Résultats détaillés`, les cellules « Nombre de cibles » des ONR 1, 4 et 5 étaient saisies en dur avec 6, 3 et 7 au lieu de 7, 4 et 6. Le total affichait 27 cibles au lieu de 28, et la colonne « cibles analysées » tombait à -1 pour les ONR 1 et 4. Les classeurs sont désormais marqués pour recalcul complet à l'ouverture.
+- **Nombre de cibles par ONR** : dans l'onglet `Résultats détaillés`, les cellules « Nombre de cibles » des ONR 1, 4 et 5 étaient saisies en dur avec 6, 3 et 7 au lieu de 7, 4 et 6. Elles comptent désormais les lignes de cibles de leur axe (`SUMPRODUCT`), ce qui garde le classeur juste si une cible est ajoutée ou retirée. Le total affichait 27 cibles au lieu de 28, et la colonne « cibles analysées » tombait à -1 pour les ONR 1 et 4. Les classeurs sont désormais marqués pour recalcul complet à l'ouverture.
 
 - **Conditions de validité** : la documentation précisait à tort qu'une évaluation sans preuve écrite restait déclarative. L'atelier ne demande aucune preuve documentaire : il se joue seul puis s'itère, ou se joue en intelligence collective, et la maturité se lit dans la progression entre deux passages avec le même groupe.
 

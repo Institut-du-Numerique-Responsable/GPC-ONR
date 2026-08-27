@@ -27,8 +27,13 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 
 ### Reformulé (décision INR)
 
+- **Cible 2.2** : « En permettant des applications accessibles à tous - en mesurant le niveau de conformité RGAA et en accompagnant les entreprises du territoire à se conformer à la règlementation » devient « En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA ». L'accompagnement des acteurs du territoire relevait de la mission d'une collectivité, pas de toutes les organisations : il rejoint les stratégies d'action.
 - **Cible 1.3** : « En permettant de concevoir de manière responsable les services numériques et en intégrant des technologies ou des dispositifs proactifs vis-à-vis des ODD » devient « En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD) ». La formulation initiale ne désignait aucune action concrète.
 - **Cible 1.2** : « En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes » devient « En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable ». La formulation initiale était grammaticalement incorrecte (« permettre la durée de vie ») et la mention des parties prenantes a été jugée superflue.
+
+### Corrigé
+
+- **Conditions de validité** : la documentation précisait à tort qu'une évaluation sans preuve écrite restait déclarative. L'atelier ne demande aucune preuve documentaire : il se joue seul puis s'itère, ou se joue en intelligence collective, et la maturité se lit dans la progression entre deux passages avec le même groupe.
 
 ### Rédaction
 

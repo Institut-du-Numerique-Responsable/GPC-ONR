@@ -46,7 +46,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | Code | Cible | En clair |
 |---|---|---|
 | `2.1` | En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales. | Acheter en regardant l'impact social et écologique, pas seulement le prix. |
-| `2.2` | En permettant des applications accessibles à tous - en mesurant le niveau de conformité RGAA et en accompagnant les entreprises du territoire à se conformer à la règlementation | Faire des sites utilisables par les personnes handicapées, et le vérifier. |
+| `2.2` | En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA | Faire des sites et des applications utilisables par les personnes handicapées, et mesurer où on en est. |
 | `2.3` | En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous | Faire des outils simples, faciles à utiliser, et vraiment utilisés. |
 | `2.4` | En associant l’utilisateur à la conception pour éviter des outils surdimensionnés et améliorer progressivement le niveau de conformité des services en ligne. | Demander leur avis aux utilisateurs avant de construire. |
 

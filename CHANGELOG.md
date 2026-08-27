@@ -9,7 +9,7 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 ### Ajouté
 
 - **Reformulation « En clair »** des 28 cibles ONR, en langage courant, pour rendre la grille utilisable sans connaissance préalable du numérique responsable. Publiée en parallèle des libellés officiels, dans `data/onr-referentiel.json` (champ `explication`), `data/onr-referentiel.csv` (colonne `cible_explication`) et `docs/referentiel-onr.md` (colonne **En clair**).
-- **Graphiques par ONR** dans l'onglet `Résultats synthèse` : au graphique d'ensemble s'ajoutent cinq graphiques, un par axe, qui montrent la répartition des cibles de l'axe entre les sept niveaux d'intervention.
+- **Graphiques par ONR** dans l'onglet `Résultats synthèse` : au diagramme en barres d'ensemble s'ajoutent cinq camemberts, un par axe, qui montrent la répartition des cibles de l'axe entre les sept niveaux d'intervention, avec les couleurs de la matrice de priorisation.
 - **Site public** construit avec MkDocs Material et publié sur GitHub Pages : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>
 - **Page contributeurs** (`CONTRIBUTORS.md` et page publique), avec Vincent Courboulay, Benjamin Duthil, Nathalie Sauzeau et Guillaume Gallon, également déclarés dans `CITATION.cff`.
 - **Validation automatique des données** (`scripts/validate_data.py`) : 28 cibles réparties 7/4/7/4/6, cohérence JSON et CSV, 16 combinaisons de la matrice, alignement des libellés avec le classeur, non-régression des fautes corrigées. Exécutée à chaque push et pull request.
@@ -34,6 +34,8 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 - **Cible 1.2** : « En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes » devient « En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable ». La formulation initiale était grammaticalement incorrecte (« permettre la durée de vie ») et la mention des parties prenantes a été jugée superflue.
 
 ### Corrigé
+
+- **Nombre de cibles par ONR** : dans l'onglet `Résultats détaillés`, les cellules « Nombre de cibles » des ONR 1, 4 et 5 étaient saisies en dur avec 6, 3 et 7 au lieu de 7, 4 et 6. Le total affichait 27 cibles au lieu de 28, et la colonne « cibles analysées » tombait à -1 pour les ONR 1 et 4. Les classeurs sont désormais marqués pour recalcul complet à l'ouverture.
 
 - **Conditions de validité** : la documentation précisait à tort qu'une évaluation sans preuve écrite restait déclarative. L'atelier ne demande aucune preuve documentaire : il se joue seul puis s'itère, ou se joue en intelligence collective, et la maturité se lit dans la progression entre deux passages avec le même groupe.
 

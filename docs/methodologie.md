@@ -28,7 +28,7 @@ Onglet `Contexte`. Champs à documenter avant toute évaluation :
 | Responsable | Personne responsable de l'analyse et du suivi |
 | Date | Date de l'analyse |
 
-Ce cadrage porte la légitimité des scores : sans référence documentaire, vous produisez une déclaration, pas une évaluation.
+Notez surtout qui répond et à quelle date : c'est ce qui rend deux passages comparables.
 
 ### 2. Évaluer chaque cible
 
@@ -39,7 +39,7 @@ Onglets `ONR 1` à `ONR 5`, une ligne par cible. Colonnes à remplir :
 | Enjeux | Opportunités et menaces liées à la cible | Texte |
 | Importance de la cible | Note de 0 à 3 | **Saisie** |
 | Performance actuelle | Note de 1 à 4 | **Saisie** |
-| Documentation de la performance | Mesures déjà en place, preuves | Texte |
+| Documentation de la performance | Ce qui est déjà en place, tel que les participants le connaissent | Texte |
 | Compétences | Disponibilité des compétences internes ou externes | Note |
 | Forces et faiblesses | Analyse interne | Texte |
 | Niveau de priorité | Résultat | *Calculé* |
@@ -103,11 +103,13 @@ Les cibles classées « urgente » et « prioritaire » forment votre plan d'act
 
 ## Conditions de validité
 
-Le résultat reste un classement. Trois conditions le rendent exploitable :
+L'atelier ne demande aucune preuve documentaire. Les notes reposent sur ce que savent les personnes interrogées, et la maturité se lit dans la progression entre deux passages.
 
-- **La collégialité.** Un score posé par une seule personne reflète un point de vue de service. Réunissez les métiers, l'IT, les achats et la direction autour de la grille.
-- **La traçabilité.** Remplissez la colonne « Documentation de la performance » : sans preuve écrite, vous notez une impression.
-- **La répétition.** Refaites l'exercice chaque année, puis comparez les deux grilles pour lire votre trajectoire.
+- **Deux façons de jouer.** Seul, pour un premier repérage rapide, ou en intelligence collective avec les métiers, l'IT, les achats et la direction. Les deux se complètent : le passage solo prépare la séance de groupe.
+- **L'itération.** Une grille remplie une fois donne une photo. Rejouez l'exercice à intervalle régulier avec le même groupe : c'est l'écart entre deux éditions qui mesure la maturité, pas la valeur absolue d'une note.
+- **Le groupe interrogé.** Renseignez dans l'onglet `Contexte` qui a répondu. Un score donné par l'IT seule et un score donné par un panel transverse ne se lisent pas de la même manière.
+
+La colonne « Documentation de la performance » sert à écrire ce que les participants savent des mesures déjà en place. Elle explique la note aux personnes qui reliront la grille plus tard, y compris à vous-même au passage suivant.
 
 ## Voir aussi
 

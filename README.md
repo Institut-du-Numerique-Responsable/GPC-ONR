@@ -34,7 +34,7 @@ C'est un support de décision collective. Aucun score de conformité, aucun labe
 
 | Usage | Description |
 |---|---|
-| **État des lieux** | Recenser ce qui est déjà fait, avec les preuves documentaires à l'appui |
+| **État des lieux** | Recenser ce qui est déjà en place, tel que le connaissent les personnes interrogées |
 | **Support de discussion** | Faire dialoguer métiers, IT, achats et direction sur une base commune |
 | **Priorisation** | Classer les cibles en 7 niveaux d'intervention, de l'urgent au non pertinent |
 | **Analyse SWOT** | Documenter enjeux externes (opportunités, menaces) et internes (forces, faiblesses) |
@@ -48,12 +48,12 @@ cd GPC-ONR
 ```
 
 1. Ouvrez **`INR_GPC_ONR Template.xlsx`** avec LibreOffice Calc, Excel ou tout tableur compatible `.xlsx`. Aucune macro n'est utilisée : rien à activer.
-2. Renseignez l'onglet **`Contexte`** (organisation, sources, analystes, date). Ce cadrage conditionne la valeur du reste.
+2. Renseignez l'onglet **`Contexte`** : organisation, participants, date. C'est ce qui rendra vos passages successifs comparables.
 3. Parcourez les onglets **`ONR 1`** à **`ONR 5`**. Pour chaque cible, notez l'**importance** (0–3) et la **performance actuelle** (1–4), puis documentez enjeux, forces/faiblesses et stratégies d'action.
 4. Lisez les onglets **`Résultats détaillés`** et **`Résultats synthèse`** : les cibles urgentes et prioritaires forment votre plan de premier rang.
 
 > [!TIP]
-> Remplissez la grille en atelier. Un score posé par un seul service reflète le point de vue de ce service. Consultez **`INR_GPC_ONR Exemple.xlsx`** pour voir le niveau de détail attendu.
+> Jouez la grille seul pour un premier repérage, puis en groupe. La maturité se lit dans l'écart entre deux passages, pas dans la valeur absolue d'une note. Consultez **`INR_GPC_ONR Exemple.xlsx`** pour voir le niveau de détail attendu.
 
 ## Les 5 axes et 28 cibles
 

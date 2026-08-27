@@ -10,11 +10,11 @@ Les ONR sont les engagements de la charte de l'Institut du Numérique Responsabl
 
 ## À qui s'adresse l'outil ?
 
-Aux organisations de toute taille engagées ou candidates à une démarche de numérique responsable : entreprises, TPE/PME, associations, collectivités et acteurs publics. Il n'exige pas de compétence technique particulière, mais suppose de réunir plusieurs services autour de la table.
+Aux organisations de toute taille engagées ou candidates à une démarche de numérique responsable : entreprises, TPE/PME, associations, collectivités et acteurs publics. Il n'exige ni compétence technique particulière, ni travail documentaire préalable.
 
 ## Combien de temps faut-il pour remplir la grille ?
 
-Compter une demi-journée à une journée d'atelier pour un premier passage sur les 28 cibles, selon le nombre de participants et le niveau de documentation disponible en amont. Vous pouvez traiter les axes séparément, en plusieurs séances.
+Compter deux à trois heures seul pour un premier passage sur les 28 cibles, une demi-journée à une journée en groupe selon le nombre de participants. Vous pouvez traiter les axes séparément, en plusieurs séances.
 
 ## Faut-il remplir les 28 cibles ?
 

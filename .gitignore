@@ -1,0 +1,13 @@
+# Site généré par MkDocs
+site/
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers temporaires de tableur et de système
+~$*.xlsx
+.~lock.*#
+.DS_Store

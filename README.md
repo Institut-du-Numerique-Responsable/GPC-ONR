@@ -5,7 +5,8 @@
 [![Institut du Numérique Responsable](https://img.shields.io/badge/Éditeur-INR-orange.svg)](https://institutnr.org/)
 [![Cibles](https://img.shields.io/badge/Cibles%20ONR-28-lightgrey.svg)](docs/referentiel-onr.md)
 [![Documentation](https://img.shields.io/badge/Documentation-en%20ligne-blue.svg)](https://institut-du-numerique-responsable.github.io/GPC-ONR/)
-[![Version](https://img.shields.io/badge/Version-1.0.0-informational.svg)](CHANGELOG.md)
+[![Dernière version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/GPC-ONR?label=Version)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest)
+[![Validation des données](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/actions/workflows/validate.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/actions/workflows/validate.yml)
 
 **Un outil libre d'auto-évaluation et de priorisation participative pour les organisations engagées dans une démarche de numérique responsable.**
 
@@ -108,6 +109,8 @@ GPC-ONR/
 │   ├── workflows/validate.yml           Validation des données à chaque PR
 │   ├── ISSUE_TEMPLATE/                  Correction, méthode, retour d'usage
 │   └── PULL_REQUEST_TEMPLATE.md         Vérifications attendues
+├── .github/dependabot.yml               Mise à jour mensuelle des actions et dépendances
+├── .github/CODEOWNERS                   Relecteurs obligatoires du référentiel
 ├── mkdocs.yml                           Configuration du site
 ├── llms.txt                             Point d'entrée pour les assistants IA
 ├── CITATION.cff                         Métadonnées de citation (CFF 1.2.0)
@@ -156,6 +159,8 @@ python scripts/validate_data.py
 ```bash
 git commit -s -m "Description de ma contribution"
 ```
+
+Les modifications de `main` passent par une pull request : une relecture approuvée, la validation des données au vert, et l'accord d'un relecteur du référentiel pour les fichiers de `data/`, les classeurs et `docs/referentiel-onr.md`.
 
 ## Citer ce travail
 

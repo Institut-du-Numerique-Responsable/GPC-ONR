@@ -1,0 +1,35 @@
+name: Vérifier les liens
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vérifier les liens de la documentation
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --exclude-path site
+            './**/*.md' llms.txt
+          fail: false
+
+      - name: Ouvrir une issue en cas de lien mort
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Liens morts détectés dans la documentation
+          content-filepath: ./lychee/out.md
+          labels: documentation

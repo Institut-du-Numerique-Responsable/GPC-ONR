@@ -1,0 +1,8 @@
+# Relecteurs par défaut de l'ensemble du dépôt.
+*                        @gridboy @vincentcourboulay
+
+# Le référentiel des ONR engage la charte de l'INR : toute modification des
+# libellés officiels ou des classeurs passe par ces relecteurs.
+/data/                   @gridboy @vincentcourboulay
+/*.xlsx                  @gridboy @vincentcourboulay
+/docs/referentiel-onr.md @gridboy @vincentcourboulay

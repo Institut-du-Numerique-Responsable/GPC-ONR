@@ -31,7 +31,7 @@ Faiblesse : manque de connaissances de l'équipe Achats sur les labels environne
 
 Former l'équipe Achats aux critères du Numérique Responsable (labels TCO, EPEAT). Intégrer une pondération environnementale de 15% dans les prochains appels d'offres de renouvellement de serveurs
 
-### Cible 1.2 — En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes
+### Cible 1.2 — En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable
 
 | | |
 |---|---|

@@ -22,6 +22,10 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 - `README.md` restructuré : liens vers le site public, section contributeurs, exemples de données ouvertes mis à jour.
 - `llms.txt` mis à jour pour refléter les nouveaux fichiers et le site public.
 
+### Reformulé (décision INR)
+
+- **Cible 1.2** : « En permettant la durée de vie des équipements, même au-delà de leur amortissement comptable et en valorisant les gains et le ROI pour chacune des parties prenantes » devient « En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable ». La formulation initiale était grammaticalement incorrecte (« permettre la durée de vie ») et la mention des parties prenantes a été jugée superflue.
+
 ### Non modifié
 
 Les libellés officiels des 28 cibles issus de la charte des Objectifs du Numérique Responsable restent inchangés sur le fond. Seules les fautes d'orthographe et de grammaire ont été corrigées. Toute reformulation de fond relève d'une décision de l'INR.

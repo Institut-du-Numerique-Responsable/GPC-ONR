@@ -48,7 +48,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | `2.1` | En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales. | Acheter en regardant l'impact social et écologique, pas seulement le prix. |
 | `2.2` | En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA | Faire des sites et des applications utilisables par les personnes handicapées, et mesurer où on en est. |
 | `2.3` | En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous | Faire des outils simples, faciles à utiliser, et vraiment utilisés. |
-| `2.4` | En associant l’utilisateur à la conception pour éviter des outils surdimensionnés et améliorer progressivement le niveau de conformité des services en ligne. | Demander leur avis aux utilisateurs avant de construire. |
+| `2.4` | En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus | Demander leur avis aux futurs utilisateurs, et ne livrer que ce dont ils ont besoin. |
 
 ---
 

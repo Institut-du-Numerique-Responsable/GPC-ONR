@@ -65,8 +65,8 @@
         },
         {
           "code": "2.4",
-          "libelle": "En associant l’utilisateur à la conception pour éviter des outils surdimensionnés et améliorer progressivement le niveau de conformité des services en ligne.",
-          "explication": "Demander leur avis aux utilisateurs avant de construire."
+          "libelle": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
+          "explication": "Demander leur avis aux futurs utilisateurs, et ne livrer que ce dont ils ont besoin."
         }
       ],
       "theme": "Accessibilité"

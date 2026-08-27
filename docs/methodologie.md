@@ -97,7 +97,7 @@ Version machine de cette matrice : [`data/matrice-priorisation.json`](../data/ma
 ### 5. Exploiter les résultats
 
 - **`Résultats détaillés`**, répartition des cibles par niveau d'intervention, axe par axe.
-- **`Résultats synthèse`**, vue consolidée des 28 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme.
+- **`Résultats synthèse`**, vue consolidée des 28 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme. Six graphiques accompagnent le tableau : un pour l'ensemble des 28 cibles, puis un par ONR, à droite des données.
 
 Les cibles classées « urgente » et « prioritaire » forment votre plan d'action de premier rang, et leurs colonnes « Stratégies d'action » en donnent le contenu.
 

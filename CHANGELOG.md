@@ -9,6 +9,7 @@ Première version publiée du dépôt : classeurs, données ouvertes, documentat
 ### Ajouté
 
 - **Reformulation « En clair »** des 28 cibles ONR, en langage courant, pour rendre la grille utilisable sans connaissance préalable du numérique responsable. Publiée en parallèle des libellés officiels, dans `data/onr-referentiel.json` (champ `explication`), `data/onr-referentiel.csv` (colonne `cible_explication`) et `docs/referentiel-onr.md` (colonne **En clair**).
+- **Graphiques par ONR** dans l'onglet `Résultats synthèse` : au graphique d'ensemble s'ajoutent cinq graphiques, un par axe, qui montrent la répartition des cibles de l'axe entre les sept niveaux d'intervention.
 - **Site public** construit avec MkDocs Material et publié sur GitHub Pages : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>
 - **Page contributeurs** (`CONTRIBUTORS.md` et page publique), avec Vincent Courboulay, Benjamin Duthil, Nathalie Sauzeau et Guillaume Gallon, également déclarés dans `CITATION.cff`.
 - **Validation automatique des données** (`scripts/validate_data.py`) : 28 cibles réparties 7/4/7/4/6, cohérence JSON et CSV, 16 combinaisons de la matrice, alignement des libellés avec le classeur, non-régression des fautes corrigées. Exécutée à chaque push et pull request.

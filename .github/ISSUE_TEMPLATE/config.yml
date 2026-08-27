@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Institut du Numérique Responsable
+    url: https://institutnr.org
+    about: Questions générales sur l'INR, l'adhésion ou les Objectifs du Numérique Responsable.
+  - name: Documentation de la GPC-ONR
+    url: https://institut-du-numerique-responsable.github.io/GPC-ONR/
+    about: Méthode, échelles de notation, exemple commenté et questions fréquentes.

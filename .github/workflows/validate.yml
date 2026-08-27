@@ -1,0 +1,25 @@
+name: Valider les données
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Vérifier la cohérence référentiel / matrice / classeurs
+        run: python scripts/validate_data.py
+
+      - name: Vérifier CITATION.cff
+        run: |
+          pip install cffconvert
+          cffconvert --validate

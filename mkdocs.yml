@@ -1,0 +1,88 @@
+site_name: GPC-ONR
+site_description: >-
+  Grille de Priorisation des Cibles des Objectifs du Numérique Responsable.
+  Outil libre d'auto-évaluation et de priorisation participative publié par
+  l'Institut du Numérique Responsable.
+site_url: https://institut-du-numerique-responsable.github.io/GPC-ONR/
+site_author: Institut du Numérique Responsable
+copyright: >-
+  Publié sous licence MIT par l'Institut du Numérique Responsable
+repo_url: https://github.com/Institut-du-Numerique-Responsable/GPC-ONR
+repo_name: INR/GPC-ONR
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer en thème sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en thème clair
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+    - search.suggest
+
+nav:
+  - Accueil: index.md
+  - Les 28 cibles: referentiel-onr.md
+  - Méthodologie: methodologie.md
+  - Exemple commenté: exemple-commente.md
+  - FAQ: faq.md
+  - Contributeurs: contributeurs.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: fr
+
+# Les liens vers data/, CITATION.cff et les classeurs pointent vers des fichiers
+# copiés à la racine du site par le workflow de publication : MkDocs ne les voit
+# pas au moment du build, d'où les exceptions ci-dessous.
+validation:
+  nav:
+    omitted_files: info
+  links:
+    absolute_links: ignore
+    unrecognized_links: ignore
+    not_found: ignore
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Institut-du-Numerique-Responsable
+      name: INR sur GitHub
+    - icon: fontawesome/solid/globe
+      link: https://institutnr.org
+      name: institutnr.org

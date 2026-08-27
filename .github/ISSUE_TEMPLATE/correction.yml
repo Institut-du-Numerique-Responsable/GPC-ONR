@@ -1,0 +1,37 @@
+name: Correction de contenu
+description: Signaler une faute, un libellé incompréhensible ou une incohérence entre le classeur et les données.
+labels: ["correction"]
+body:
+  - type: dropdown
+    id: emplacement
+    attributes:
+      label: Où se trouve le problème ?
+      options:
+        - Classeur Template.xlsx
+        - Classeur Exemple.xlsx
+        - Données JSON ou CSV
+        - Documentation (docs/)
+        - Page publique
+        - README
+    validations:
+      required: true
+  - type: input
+    id: cible
+    attributes:
+      label: Cible concernée
+      description: Code de la cible, si applicable. Exemple : 1.2
+      placeholder: "1.2"
+  - type: textarea
+    id: actuel
+    attributes:
+      label: Texte actuel
+      description: Copiez le texte tel qu'il apparaît aujourd'hui.
+    validations:
+      required: true
+  - type: textarea
+    id: propose
+    attributes:
+      label: Correction proposée
+      description: Texte de remplacement souhaité, et en quoi il est plus juste ou plus clair.
+    validations:
+      required: true

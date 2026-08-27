@@ -1,0 +1,28 @@
+name: Retour d'usage
+description: Partager l'expérience d'une organisation ayant rempli la grille.
+labels: ["retour d'usage"]
+body:
+  - type: input
+    id: contexte
+    attributes:
+      label: Type d'organisation
+      placeholder: "Collectivité, PME, association, ETI, établissement d'enseignement..."
+    validations:
+      required: true
+  - type: input
+    id: duree
+    attributes:
+      label: Temps passé et nombre de participants
+      placeholder: "Une demi-journée, 6 personnes (IT, achats, RH, direction)"
+  - type: textarea
+    id: obstacles
+    attributes:
+      label: Ce qui a bloqué
+      description: Cibles mal comprises, notes difficiles à trancher, colonnes laissées vides.
+    validations:
+      required: true
+  - type: textarea
+    id: utile
+    attributes:
+      label: Ce qui a été utile
+      description: Ce que la grille a permis de décider ou de débloquer.

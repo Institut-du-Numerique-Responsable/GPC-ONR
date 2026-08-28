@@ -96,6 +96,19 @@
           "priorite": "Intervention urgente",
           "priorite_valeur": 6,
           "strategies": "1. Créer une grille d'évaluation préalable (Go/No-Go) pour chaque nouveau projet : l'IA est-elle indispensable ou une méthode informatique classique suffit-elle ?\n2. Privilégier des modèles plus petits et spécialisés (Small Language Models) plutôt que de faire appel à des modèles massifs et très énergivores pour des tâches simples.\n3. Sensibiliser les développeurs et les data scientists aux techniques d'éco-conception logicielle appliquées à l'IA (optimisation du code, limitation des calculs redondants)"
+        },
+        {
+          "code": "1.8",
+          "cible": "En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
         }
       ]
     },
@@ -146,6 +159,19 @@
         {
           "code": "2.4",
           "cible": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "2.5",
+          "cible": "En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -244,6 +270,19 @@
         {
           "code": "3.7",
           "cible": "En déployant et valorisant la démarche RSE",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "3.8",
+          "cible": "En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -388,6 +427,19 @@
         {
           "code": "5.6",
           "cible": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
+          "enjeux": "",
+          "importance": null,
+          "performance": null,
+          "documentation": "",
+          "competences": "",
+          "forces_faiblesses": "",
+          "priorite": "",
+          "priorite_valeur": null,
+          "strategies": ""
+        },
+        {
+          "code": "5.7",
+          "cible": "En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail",
           "enjeux": "",
           "importance": null,
           "performance": null,

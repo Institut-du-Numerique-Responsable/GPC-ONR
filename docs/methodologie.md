@@ -4,7 +4,7 @@ Comment remplir la Grille de Priorisation des Cibles des Objectifs du Numérique
 
 ## Principe
 
-La GPC-ONR ne mesure pas une conformité. Elle croise deux jugements portés collectivement sur chacune des 28 cibles des ONR :
+La GPC-ONR ne mesure pas une conformité. Elle croise deux jugements portés collectivement sur chacune des 32 cibles des ONR :
 
 1. **l'importance** de la cible pour l'organisation ;
 2. **la performance actuelle** de l'organisation sur cette cible.
@@ -97,7 +97,7 @@ Version machine de cette matrice : [`data/matrice-priorisation.json`](../data/ma
 ### 5. Exploiter les résultats
 
 - **`Résultats détaillés`**, répartition des cibles par niveau d'intervention, axe par axe.
-- **`Résultats synthèse`**, vue consolidée des 28 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme. Six graphiques accompagnent le tableau, à droite des données : un diagramme en barres pour l'ensemble des 28 cibles, puis un camembert par ONR, qui montre comment les cibles de l'axe se répartissent entre les sept niveaux d'intervention.
+- **`Résultats synthèse`**, vue consolidée des 32 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme. Six graphiques accompagnent le tableau, à droite des données : un diagramme en barres pour l'ensemble des 32 cibles, puis un camembert par ONR, qui montre comment les cibles de l'axe se répartissent entre les sept niveaux d'intervention.
 
 Les cibles classées « urgente » et « prioritaire » forment votre plan d'action de premier rang, et leurs colonnes « Stratégies d'action » en donnent le contenu.
 
@@ -113,6 +113,6 @@ La colonne « Documentation de la performance » sert à écrire ce que les part
 
 ## Voir aussi
 
-- [Référentiel des 28 cibles ONR](referentiel-onr.md)
+- [Référentiel des 32 cibles ONR](referentiel-onr.md)
 - [Exemple commenté](exemple-commente.md)
 - [Questions fréquentes](faq.md)

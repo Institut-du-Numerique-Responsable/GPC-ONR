@@ -1,6 +1,6 @@
 # GPC-ONR : Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
 
-> Outil libre d'auto-évaluation et de priorisation participative, publié par l'Institut du Numérique Responsable (INR), qui aide une organisation à classer les 28 cibles des Objectifs du Numérique Responsable (ONR) par ordre d'intervention, en croisant l'importance de chaque cible et la performance actuelle de l'organisation.
+> Outil libre d'auto-évaluation et de priorisation participative, publié par l'Institut du Numérique Responsable (INR), qui aide une organisation à classer les 32 cibles des Objectifs du Numérique Responsable (ONR) par ordre d'intervention, en croisant l'importance de chaque cible et la performance actuelle de l'organisation.
 
 Site public : https://institut-du-numerique-responsable.github.io/GPC-ONR/ · Éditeur : Institut du Numérique Responsable (https://institutnr.org) · Licence : MIT · Langue : français · Format : classeur `.xlsx` + données ouvertes JSON/CSV.
 
@@ -8,14 +8,14 @@ La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classem
 
 ## Documentation
 
-- [Référentiel des 28 cibles ONR](docs/referentiel-onr.md) : chaque cible avec son libellé officiel et une reformulation « En clair » en langage courant ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
+- [Référentiel des 32 cibles ONR](docs/referentiel-onr.md) : chaque cible avec son libellé officiel et une reformulation « En clair » en langage courant ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
 - [Méthodologie](docs/methodologie.md) : déroulé en 5 étapes, échelles de notation, matrice de priorisation, conditions de validité.
 - [Exemple commenté](docs/exemple-commente.md) : cibles renseignées par une organisation fictive, avec enjeux, forces/faiblesses et stratégies d'action.
 - [Questions fréquentes](docs/faq.md) : périmètre, durée, public visé, différence template/exemple, citation.
 
 ## Données structurées
 
-- [data/onr-referentiel.json](data/onr-referentiel.json) : les 5 axes et 28 cibles, structurés, avec le champ `explication` (reformulation en langage courant).
+- [data/onr-referentiel.json](data/onr-referentiel.json) : les 5 axes et 32 cibles, structurés, avec le champ `explication` (reformulation en langage courant).
 - [data/onr-referentiel.csv](data/onr-referentiel.csv) : même contenu, tabulaire.
 - [data/matrice-priorisation.json](data/matrice-priorisation.json) : les 16 combinaisons importance × performance et le niveau d'intervention correspondant.
 - [data/gpc-onr-exemple.json](data/gpc-onr-exemple.json) : contenu textuel complet du classeur d'exemple.

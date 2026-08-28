@@ -3,14 +3,14 @@
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
 [![Format](https://img.shields.io/badge/Format-XLSX%20%7C%20JSON%20%7C%20CSV-green.svg)](data/)
 [![Institut du Numérique Responsable](https://img.shields.io/badge/Éditeur-INR-orange.svg)](https://institutnr.org/)
-[![Cibles](https://img.shields.io/badge/Cibles%20ONR-28-lightgrey.svg)](docs/referentiel-onr.md)
+[![Cibles](https://img.shields.io/badge/Cibles%20ONR-32-lightgrey.svg)](docs/referentiel-onr.md)
 [![Documentation](https://img.shields.io/badge/Documentation-en%20ligne-blue.svg)](https://institut-du-numerique-responsable.github.io/GPC-ONR/)
 [![Dernière version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/GPC-ONR?label=Version)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest)
 [![Validation des données](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/actions/workflows/validate.yml/badge.svg)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/actions/workflows/validate.yml)
 
 **Un outil libre d'auto-évaluation et de priorisation participative pour les organisations engagées dans une démarche de numérique responsable.**
 
-La GPC-ONR aide une organisation à répondre à une question simple et rarement traitée de front : parmi les 28 cibles des Objectifs du Numérique Responsable, **par lesquelles commencer ?** Elle croise, cible par cible, l'importance de l'enjeu pour l'organisation et sa performance actuelle, et en déduit un ordre d'intervention.
+La GPC-ONR aide une organisation à répondre à une question simple et rarement traitée de front : parmi les 32 cibles des Objectifs du Numérique Responsable, **par lesquelles commencer ?** Elle croise, cible par cible, l'importance de l'enjeu pour l'organisation et sa performance actuelle, et en déduit un ordre d'intervention.
 
 C'est un support de décision collective. Aucun score de conformité, aucun label.
 
@@ -30,7 +30,7 @@ Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numb
 - [Télécharger le classeur](#télécharger-le-classeur)
 - [Ce que fait l'outil](#ce-que-fait-loutil)
 - [Démarrage rapide](#démarrage-rapide)
-- [Les 5 axes et 28 cibles](#les-5-axes-et-28-cibles)
+- [Les 5 axes et 32 cibles](#les-5-axes-et-32-cibles)
 - [Comment la priorité est calculée](#comment-la-priorité-est-calculée)
 - [Contenu du dépôt](#contenu-du-dépôt)
 - [Données ouvertes](#données-ouvertes)
@@ -60,17 +60,17 @@ Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numb
 > [!TIP]
 > Jouez la grille seul pour un premier repérage, puis en groupe. La maturité se lit dans l'écart entre deux passages, pas dans la valeur absolue d'une note. Consultez **`INR_GPC_ONR Exemple.xlsx`** pour voir le niveau de détail attendu.
 
-## Les 5 axes et 28 cibles
+## Les 5 axes et 32 cibles
 
 | Axe | Engagement | Thème | Cibles |
 |---|---|---|---|
-| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 7 |
-| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 4 |
-| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 7 |
+| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 8 |
+| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 5 |
+| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 8 |
 | **ONR 4 : Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
-| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 6 |
+| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 7 |
 
-Le détail des 28 cibles est disponible en texte intégral : **[docs/referentiel-onr.md](docs/referentiel-onr.md)**. Chaque cible y est accompagnée d'une reformulation **En clair**, en langage courant, pour être comprise sans connaissance préalable du sujet.
+Le détail des 32 cibles est disponible en texte intégral : **[docs/referentiel-onr.md](docs/referentiel-onr.md)**. Chaque cible y est accompagnée d'une reformulation **En clair**, en langage courant, pour être comprise sans connaissance préalable du sujet.
 
 Ces objectifs sont issus de la charte de l'[Institut du Numérique Responsable](https://institutnr.org/), qui formalise les engagements pris par une organisation (entreprise, association, TPE/PME, acteur public) sur les impacts environnementaux, sociaux et éthiques du numérique.
 
@@ -97,7 +97,7 @@ GPC-ONR/
 ├── INR_GPC_ONR Exemple.xlsx             Classeur pré-rempli, illustratif
 ├── docs/                                Source du site public
 │   ├── index.md                         Accueil
-│   ├── referentiel-onr.md               Les 28 cibles, avec reformulation « En clair »
+│   ├── referentiel-onr.md               Les 32 cibles, avec reformulation « En clair »
 │   ├── methodologie.md                  Déroulé, échelles, matrice de priorisation
 │   ├── exemple-commente.md              Lecture commentée du classeur d'exemple
 │   ├── faq.md                           Questions fréquentes
@@ -145,7 +145,7 @@ Ces fichiers sont dérivés des classeurs `.xlsx`, qui restent la source de réf
 
 | Document | Contenu |
 |---|---|
-| [Référentiel ONR](docs/referentiel-onr.md) | Les 5 axes et l'intégralité des 28 cibles |
+| [Référentiel ONR](docs/referentiel-onr.md) | Les 5 axes et l'intégralité des 32 cibles |
 | [Méthodologie](docs/methodologie.md) | Comment remplir la grille et lire les résultats |
 | [Exemple commenté](docs/exemple-commente.md) | Cas fictif détaillé, cible par cible |
 | [FAQ](docs/faq.md) | Périmètre, durée, public, différence template/exemple |

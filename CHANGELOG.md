@@ -2,7 +2,7 @@
 
 Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce projet suit le [versionnement sémantique](https://semver.org/lang/fr/).
 
-## [Non publié]
+## [1.2.0] - 2026-08-28
 
 ### Reformulé (décision INR)
 

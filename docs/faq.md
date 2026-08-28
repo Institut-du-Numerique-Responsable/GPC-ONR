@@ -6,7 +6,7 @@ La GPC-ONR est une grille de priorisation des cibles des Objectifs du Numérique
 
 ## Que sont les Objectifs du Numérique Responsable (ONR) ?
 
-Les ONR sont les engagements de la charte de l'Institut du Numérique Responsable, structurés en 5 axes et 28 cibles : Sobriété, Inclusion, RSE, Résilience et stratégie, Management. La liste complète figure dans le [référentiel](referentiel-onr.md).
+Les ONR sont les engagements de la charte de l'Institut du Numérique Responsable, structurés en 5 axes et 32 cibles : Sobriété, Inclusion, RSE, Résilience et stratégie, Management. La liste complète figure dans le [référentiel](referentiel-onr.md).
 
 ## À qui s'adresse l'outil ?
 
@@ -14,9 +14,9 @@ Aux organisations de toute taille engagées ou candidates à une démarche de nu
 
 ## Combien de temps faut-il pour remplir la grille ?
 
-Compter deux à trois heures seul pour un premier passage sur les 28 cibles, une demi-journée à une journée en groupe selon le nombre de participants. Vous pouvez traiter les axes séparément, en plusieurs séances.
+Compter deux à trois heures seul pour un premier passage sur les 32 cibles, une demi-journée à une journée en groupe selon le nombre de participants. Vous pouvez traiter les axes séparément, en plusieurs séances.
 
-## Faut-il remplir les 28 cibles ?
+## Faut-il remplir les 32 cibles ?
 
 Non. Le classeur compte une cible non évaluée en « non complétée » et ne la classe pas. Une cible hors du périmètre de l'organisation se note avec une importance de 0, ce qui la classe en « intervention non pertinente ». Les deux cas sont distincts et se lisent différemment dans la synthèse.
 

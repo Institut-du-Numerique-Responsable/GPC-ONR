@@ -1,6 +1,6 @@
 # Référentiel des Objectifs du Numérique Responsable (ONR)
 
-Les 5 axes et 28 cibles de la charte des Objectifs du Numérique Responsable de l'[Institut du Numérique Responsable](https://institutnr.org), tels qu'utilisés par la grille GPC-ONR.
+Les 5 axes et 32 cibles de la charte des Objectifs du Numérique Responsable de l'[Institut du Numérique Responsable](https://institutnr.org), tels qu'utilisés par la grille GPC-ONR.
 
 La colonne **En clair** est une reformulation en langage courant, ajoutée par ce dépôt pour rendre chaque cible compréhensible sans connaissance préalable du numérique responsable. Elle n'a pas valeur de référence : le libellé officiel de la charte reste celui de la colonne **Cible**.
 
@@ -10,12 +10,12 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 | Axe | Nom | Thème de synthèse | Nombre de cibles |
 |---|---|---|---|
-| ONR 1 | Sobriété | Environnement | 7 |
-| ONR 2 | Inclusion | Accessibilité | 4 |
-| ONR 3 | RSE | Éthique | 7 |
+| ONR 1 | Sobriété | Environnement | 8 |
+| ONR 2 | Inclusion | Accessibilité | 5 |
+| ONR 3 | RSE | Éthique | 8 |
 | ONR 4 | Résilience et stratégie | Résilience | 4 |
-| ONR 5 | Management | Valeurs | 6 |
-| **Total** | | | **28** |
+| ONR 5 | Management | Valeurs | 7 |
+| **Total** | | | **32** |
 
 ---
 
@@ -23,7 +23,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 > S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation
 
-**Thème de synthèse :** Environnement · **7 cibles**
+**Thème de synthèse :** Environnement · **8 cibles**
 
 | Code | Cible | En clair |
 |---|---|---|
@@ -34,6 +34,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | `1.5` | En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire. | Ne plus jeter : réparer, réemployer, recycler. |
 | `1.6` | En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables. | Faire tourner le numérique avec de l'électricité renouvelable. |
 | `1.7` | En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales | N'utiliser l'IA que si elle sert vraiment, et choisir la moins gourmande. |
+| `1.8` | En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant | Savoir ce que l'IA coûte à la planète, et le faire baisser. |
 
 ---
 
@@ -41,7 +42,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 > S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables
 
-**Thème de synthèse :** Accessibilité · **4 cibles**
+**Thème de synthèse :** Accessibilité · **5 cibles**
 
 | Code | Cible | En clair |
 |---|---|---|
@@ -49,6 +50,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | `2.2` | En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA | Faire des sites et des applications utilisables par les personnes handicapées, et mesurer où on en est. |
 | `2.3` | En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous | Faire des outils simples, faciles à utiliser, et vraiment utilisés. |
 | `2.4` | En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus | Demander leur avis aux futurs utilisateurs, et ne livrer que ce dont ils ont besoin. |
+| `2.5` | En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous | S'assurer que l'IA traite tout le monde correctement. |
 
 ---
 
@@ -56,7 +58,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 > S'engager pour des pratiques numériques éthiques et responsables
 
-**Thème de synthèse :** Éthique · **7 cibles**
+**Thème de synthèse :** Éthique · **8 cibles**
 
 | Code | Cible | En clair |
 |---|---|---|
@@ -67,6 +69,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | `3.5` | En améliorant les conditions des travailleurs du numérique | Se soucier de celles et ceux qui fabriquent et font tourner le numérique. |
 | `3.6` | En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle | Se fixer des règles claires sur les données et l'IA, et les respecter. |
 | `3.7` | En déployant et valorisant la démarche RSE | Mener une démarche responsable, et la faire connaître. |
+| `3.8` | En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles | Prévenir qu'on parle à une machine, et garder un humain qui tranche. |
 
 ---
 
@@ -89,7 +92,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 
 > S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent
 
-**Thème de synthèse :** Valeurs · **6 cibles**
+**Thème de synthèse :** Valeurs · **7 cibles**
 
 | Code | Cible | En clair |
 |---|---|---|
@@ -99,6 +102,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | `5.4` | En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble. | Laisser une organisation où celles et ceux qui suivront pourront encore agir. |
 | `5.5` | En suivant les indicateurs de performances et de conformité | Suivre quelques indicateurs simples pour voir si on progresse. |
 | `5.6` | En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques ) | Proposer des améliorations, même quand elles ne sont pas numériques. |
+| `5.7` | En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail | Choisir avec les équipes, pas à leur place. |
 
 ---
 

@@ -11,7 +11,7 @@ L'**Institut du Numérique Responsable (INR)** publie la GPC-ONR, issue d'un tra
 
 ## Référentiel source
 
-Les 5 axes et 28 cibles reprennent la charte des Objectifs du Numérique Responsable de l'INR, élaborée avec la communauté de ses membres.
+Les 5 axes et 32 cibles reprennent la charte des Objectifs du Numérique Responsable de l'INR, élaborée avec la communauté de ses membres.
 
 ## Ajouts
 

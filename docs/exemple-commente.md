@@ -1,6 +1,6 @@
 # Exemple commenté
 
-Extrait du classeur `INR_GPC_ONR Exemple.xlsx` : une organisation fictive ayant renseigné une partie des 28 cibles. Il montre le niveau de détail attendu dans les colonnes texte, qui portent l'essentiel de la valeur de l'exercice.
+Extrait du classeur `INR_GPC_ONR Exemple.xlsx` : une organisation fictive ayant renseigné une partie des 32 cibles. Il montre le niveau de détail attendu dans les colonnes texte, qui portent l'essentiel de la valeur de l'exercice.
 
 Données complètes de cet exemple : [`data/gpc-onr-exemple.json`](../data/gpc-onr-exemple.json).
 
@@ -123,4 +123,4 @@ La colonne « Stratégies d'action » est la sortie utile de l'exercice : elle t
 ## Voir aussi
 
 - [Méthodologie](methodologie.md)
-- [Référentiel des 28 cibles ONR](referentiel-onr.md)
+- [Référentiel des 32 cibles ONR](referentiel-onr.md)

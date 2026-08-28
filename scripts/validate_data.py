@@ -2,7 +2,7 @@
 """Vérifie la cohérence des données ouvertes du dépôt GPC-ONR.
 
 Contrôles :
-  1. 28 cibles, réparties 7/4/7/4/6 sur les 5 axes ;
+  1. 32 cibles, réparties 8/5/8/4/7 sur les 5 axes ;
   2. JSON et CSV identiques (codes, libellés, explications) ;
   3. chaque cible possède un libellé et une explication non vides ;
   4. matrice de priorisation : 16 combinaisons importance x performance ;
@@ -20,7 +20,7 @@ from html import unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CIBLES_PAR_AXE = {1: 7, 2: 4, 3: 7, 4: 4, 5: 6}
+CIBLES_PAR_AXE = {1: 8, 2: 5, 3: 8, 4: 4, 5: 7}
 FAUTES = ["vis-àvis", "utilisatuer", "garrantissant", "accompagnat ", "cbile", "partie prenantes"]
 
 erreurs = []
@@ -35,7 +35,7 @@ referentiel = json.loads((ROOT / "data/onr-referentiel.json").read_text(encoding
 cibles = {c["code"]: c for a in referentiel["axes"] for c in a["cibles"]}
 
 # 1. structure
-verifier(len(cibles) == 28, f"28 cibles attendues, {len(cibles)} trouvées")
+verifier(len(cibles) == 32, f"32 cibles attendues, {len(cibles)} trouvées")
 for axe in referentiel["axes"]:
     attendu = CIBLES_PAR_AXE[axe["numero"]]
     verifier(
@@ -78,11 +78,20 @@ verifier(
 template = next(ROOT.glob("*Template.xlsx"), None)
 verifier(template is not None, "classeur Template.xlsx introuvable")
 if template:
-    xml = zipfile.ZipFile(template).read("xl/sharedStrings.xml").decode("utf8")
+    classeur = zipfile.ZipFile(template)
+    xml = classeur.read("xl/sharedStrings.xml").decode("utf8")
     chaines = {
         unescape("".join(re.findall(r"<t[^>]*>(.*?)</t>", bloc, re.S)))
         for bloc in re.findall(r"<si>(.*?)</si>", xml, re.S)
     }
+    # les cibles ajoutées après coup sont écrites en texte direct dans la cellule
+    for nom in classeur.namelist():
+        if nom.startswith("xl/worksheets/sheet"):
+            feuille = classeur.read(nom).decode("utf8")
+            chaines.update(
+                unescape("".join(re.findall(r"<t[^>]*>(.*?)</t>", bloc, re.S)))
+                for bloc in re.findall(r"<is>(.*?)</is>", feuille, re.S)
+            )
     normaliser = lambda s: re.sub(r"\s+", " ", s.replace("’", "'")).strip()
     chaines_normalisees = {normaliser(s) for s in chaines}
     for code, cible in cibles.items():

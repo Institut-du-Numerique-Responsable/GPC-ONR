@@ -39,6 +39,11 @@
           "code": "1.7",
           "libelle": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
           "explication": "N'utiliser l'IA que si elle sert vraiment, et choisir la moins gourmande."
+        },
+        {
+          "code": "1.8",
+          "libelle": "En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant",
+          "explication": "Savoir ce que l'IA coûte à la planète, et le faire baisser."
         }
       ],
       "theme": "Environnement"
@@ -67,6 +72,11 @@
           "code": "2.4",
           "libelle": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
           "explication": "Demander leur avis aux futurs utilisateurs, et ne livrer que ce dont ils ont besoin."
+        },
+        {
+          "code": "2.5",
+          "libelle": "En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous",
+          "explication": "S'assurer que l'IA traite tout le monde correctement."
         }
       ],
       "theme": "Accessibilité"
@@ -110,6 +120,11 @@
           "code": "3.7",
           "libelle": "En déployant et valorisant la démarche RSE",
           "explication": "Mener une démarche responsable, et la faire connaître."
+        },
+        {
+          "code": "3.8",
+          "libelle": "En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles",
+          "explication": "Prévenir qu'on parle à une machine, et garder un humain qui tranche."
         }
       ],
       "theme": "Éthique"
@@ -176,6 +191,11 @@
           "code": "5.6",
           "libelle": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
           "explication": "Proposer des améliorations, même quand elles ne sont pas numériques."
+        },
+        {
+          "code": "5.7",
+          "libelle": "En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail",
+          "explication": "Choisir avec les équipes, pas à leur place."
         }
       ],
       "theme": "Valeurs"

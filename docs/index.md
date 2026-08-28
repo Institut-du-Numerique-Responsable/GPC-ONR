@@ -2,7 +2,7 @@
 
 **Grille de Priorisation des Cibles des Objectifs du Numérique Responsable.** Un outil libre d'auto-évaluation et de priorisation participative, publié par l'[Institut du Numérique Responsable](https://institutnr.org).
 
-La GPC-ONR répond à une question simple et rarement traitée de front : parmi les 28 cibles des Objectifs du Numérique Responsable, **par lesquelles commencer ?** Elle croise, cible par cible, l'importance de l'enjeu pour l'organisation et sa performance actuelle, puis en déduit un ordre d'intervention.
+La GPC-ONR répond à une question simple et rarement traitée de front : parmi les 32 cibles des Objectifs du Numérique Responsable, **par lesquelles commencer ?** Elle croise, cible par cible, l'importance de l'enjeu pour l'organisation et sa performance actuelle, puis en déduit un ordre d'intervention.
 
 !!! info "Ce que l'outil ne fait pas"
     Il ne délivre aucun score de conformité et aucun label. Il classe les cibles en sept niveaux d'intervention, pour servir de support à une décision collective.
@@ -39,13 +39,13 @@ Une cible laissée vide compte comme **non complétée**, jamais comme non prior
 
 | Axe | Engagement | Thème | Cibles |
 |---|---|---|---|
-| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 7 |
-| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 4 |
-| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 7 |
+| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 8 |
+| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 5 |
+| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 8 |
 | **ONR 4 : Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
-| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 6 |
+| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 7 |
 
-Chaque cible s'accompagne d'une reformulation **En clair**, en langage courant : voir **[les 28 cibles](referentiel-onr.md)**.
+Chaque cible s'accompagne d'une reformulation **En clair**, en langage courant : voir **[les 32 cibles](referentiel-onr.md)**.
 
 ## Données ouvertes
 
@@ -58,7 +58,7 @@ jq -r '.axes[] | select(.numero==1) | .cibles[] | "\(.code)  \(.explication)"' d
 
 | Fichier | Contenu |
 |---|---|
-| [`onr-referentiel.json`](../data/onr-referentiel.json) | Les 5 axes et 28 cibles, structurés |
+| [`onr-referentiel.json`](../data/onr-referentiel.json) | Les 5 axes et 32 cibles, structurés |
 | [`onr-referentiel.csv`](../data/onr-referentiel.csv) | Même contenu, tabulaire |
 | [`matrice-priorisation.json`](../data/matrice-priorisation.json) | Les 16 combinaisons et leur niveau |
 | [`gpc-onr-exemple.json`](../data/gpc-onr-exemple.json) | Contenu textuel du classeur d'exemple |

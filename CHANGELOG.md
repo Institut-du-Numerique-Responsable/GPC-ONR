@@ -2,6 +2,12 @@
 
 Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce projet suit le [versionnement sémantique](https://semver.org/lang/fr/).
 
+## [Non publié]
+
+### Reformulé (décision INR)
+
+- `4.2` « En participant à une démarche collaborative de conception et d'évaluation des services numériques en adéquation avec les réels besoins » devient **« En évaluant nos services numériques dans la durée, et en partageant les résultats de ces évaluations »**. La formulation initiale faisait doublon avec la cible 2.4, qui porte la conception avec les utilisateurs. L'ONR 4 retrouve son sujet : mesurer, comparer, rendre compte.
+
 ## [1.1.0] - 2026-08-28
 
 ### Ajouté

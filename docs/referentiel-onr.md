@@ -82,7 +82,7 @@ Version texte du contenu des classeurs `.xlsx` de ce dépôt. Données structur�
 | Code | Cible | En clair |
 |---|---|---|
 | `4.1` | En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC). | Mesurer nos impacts avec les mêmes méthodes que les autres, pour pouvoir se comparer. |
-| `4.2` | En participant à une démarche collaborative de conception et d’évaluation des services numériques en adéquation avec les réels besoins. | Construire les outils avec celles et ceux qui s'en servent, à partir de vrais besoins. |
+| `4.2` | En évaluant nos services numériques dans la durée, et en partageant les résultats de ces évaluations | Regarder si nos services tiennent leurs promesses dans le temps, et le dire. |
 | `4.3` | En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs | Continuer d'innover, en mesurant l'impact et en le disant clairement. |
 | `4.4` | En permettant et en garantissant plus de souveraineté numérique | Garder la maîtrise de nos données, de nos outils et de nos fournisseurs. |
 

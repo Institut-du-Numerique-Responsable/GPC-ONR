@@ -3,7 +3,7 @@
   "axes": [
     {
       "numero": 1,
-      "nom": "SOBRIÉTÉ",
+      "nom": "Sobriété",
       "engagement": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
       "cibles": [
         {
@@ -114,7 +114,7 @@
     },
     {
       "numero": 2,
-      "nom": "INCLUSION",
+      "nom": "Inclusion",
       "engagement": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
       "cibles": [
         {
@@ -297,7 +297,7 @@
     },
     {
       "numero": 4,
-      "nom": "RESILIENCE ET STRATEGIE",
+      "nom": "Résilience et stratégie",
       "engagement": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
       "cibles": [
         {
@@ -356,7 +356,7 @@
     },
     {
       "numero": 5,
-      "nom": "MANAGEMENT",
+      "nom": "Management",
       "engagement": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
       "cibles": [
         {

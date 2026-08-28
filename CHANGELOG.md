@@ -2,6 +2,13 @@
 
 Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce projet suit le [versionnement sémantique](https://semver.org/lang/fr/).
 
+## [Non publié]
+
+### Modifié
+
+- **En-têtes d'axes des classeurs** uniformisés sur la forme de la documentation : `ONR 1 : Sobriété · S'engager à…` au lieu de `ONR 1  -   SOBRIÉTÉ : S'engager à…`, sans espaces multiples, capitales ni tabulation résiduelle. Ces libellés remontent dans `Résultats détaillés` et dans la synthèse.
+- Noms d'axes de `data/gpc-onr-exemple.json` alignés sur le référentiel.
+
 ## [1.2.0] - 2026-08-28
 
 ### Reformulé (décision INR)

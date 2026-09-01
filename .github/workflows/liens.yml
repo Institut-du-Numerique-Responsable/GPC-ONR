@@ -28,7 +28,7 @@ jobs:
 
       - name: Ouvrir une issue en cas de lien mort
         if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Liens morts détectés dans la documentation
           content-filepath: ./lychee/out.md

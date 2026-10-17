@@ -36,16 +36,16 @@ Onglets `ONR 1` à `ONR 5`, une ligne par cible. Colonnes à remplir :
 
 | Colonne | Contenu | Type |
 |---|---|---|
-| Enjeux | Opportunités et menaces liées à la cible | Texte |
-| Importance de la cible | Note de 0 à 3 | **Saisie** |
-| Performance actuelle | Note de 1 à 4 | **Saisie** |
-| Documentation de la performance | Ce qui est déjà en place, tel que les participants le connaissent | Texte |
-| Compétences | Disponibilité des compétences internes ou externes | Note |
-| Forces et faiblesses | Analyse interne | Texte |
+| Avantages possibles et risques | Ce que la cible peut apporter, et ce qui peut mal tourner | Texte |
+| Importance | Note de 0 à 3 | **Saisie** |
+| Niveau actuel | Note de 1 à 4 (performance actuelle) | **Saisie** |
+| Ce qui est déjà fait et ce qui justifie la note | Mesures en place, telles que les participants les connaissent | Texte |
+| Compétences nécessaires | Disponibilité des compétences internes ou externes | Note |
+| Points forts et points faibles | Analyse interne | Texte |
 | Niveau de priorité | Résultat | *Calculé* |
-| Stratégies d'action | Pistes concrètes pour atteindre la cible | Texte |
+| Actions proposées pour atteindre la cible | Pistes concrètes, attribuables | Texte |
 
-Les colonnes texte forment le volet SWOT : les enjeux couvrent l'externe (opportunités, menaces), les forces et faiblesses l'interne.
+Les colonnes texte forment le volet SWOT : les avantages possibles et les risques couvrent l'externe (opportunités, menaces), les points forts et points faibles l'interne.
 
 ### 3. Échelles de notation
 
@@ -99,7 +99,7 @@ Version machine de cette matrice : [`data/matrice-priorisation.json`](../data/ma
 - **`Résultats détaillés`**, répartition des cibles par niveau d'intervention, axe par axe.
 - **`Résultats synthèse`**, vue consolidée des 32 cibles sur les 5 thèmes (Environnement, Accessibilité, Éthique, Résilience, Valeurs), avec le nombre de cibles non complétées, urgentes, prioritaires, à moyen terme et à long terme. Six graphiques accompagnent le tableau, à droite des données : un diagramme en barres pour l'ensemble des 32 cibles, puis un camembert par ONR, qui montre comment les cibles de l'axe se répartissent entre les sept niveaux d'intervention.
 
-Les cibles classées « urgente » et « prioritaire » forment votre plan d'action de premier rang, et leurs colonnes « Stratégies d'action » en donnent le contenu.
+Les cibles classées « urgente » et « prioritaire » forment votre plan d'action de premier rang, et leurs colonnes « Actions proposées pour atteindre la cible » en donnent le contenu.
 
 ## Conditions de validité
 
@@ -109,7 +109,7 @@ L'atelier ne demande aucune preuve documentaire. Les notes reposent sur ce que s
 - **L'itération.** Une grille remplie une fois donne une photo. Rejouez l'exercice à intervalle régulier avec le même groupe : c'est l'écart entre deux éditions qui mesure la maturité, pas la valeur absolue d'une note.
 - **Le groupe interrogé.** Renseignez dans l'onglet `Contexte` qui a répondu. Un score donné par l'IT seule et un score donné par un panel transverse ne se lisent pas de la même manière.
 
-La colonne « Documentation de la performance » sert à écrire ce que les participants savent des mesures déjà en place. Elle explique la note aux personnes qui reliront la grille plus tard, y compris à vous-même au passage suivant.
+La colonne « Ce qui est déjà fait et ce qui justifie la note » sert à écrire ce que les participants savent des mesures déjà en place. Elle explique la note aux personnes qui reliront la grille plus tard, y compris à vous-même au passage suivant.
 
 ## Voir aussi
 

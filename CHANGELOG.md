@@ -4,7 +4,18 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 
 ## [Non publié]
 
+### Ajouté
+
+- **Page de présentation** (`presentation.html`) : la vidéo de démonstration d'une minute, une matrice interactive importance × niveau actuel, les étapes d'une évaluation et des captures de l'exemple rempli.
+- **Captures d'écran** des onglets ONR 1 et Résultats de synthèse dans le README, l'exemple commenté et la page de présentation.
+- Champs `libelle_charte` et `engagement_charte` dans `data/onr-referentiel.json` (colonne `cible_libelle_charte` dans le CSV) : les libellés d'origine de la charte restent disponibles. Ils sont aussi repris en annexe du référentiel.
+
 ### Modifié
+
+- **Classeurs en langage clair** : les 32 cibles, les engagements des cinq axes, les en-têtes de colonnes (« Avantages possibles et risques », « Niveau actuel », « Ce qui est déjà fait et ce qui justifie la note », « Points forts et points faibles », « Actions proposées pour atteindre la cible ») et les consignes sont reformulés. Le logo de l'INR figure en tête de chaque onglet ; les textes de l'exemple rempli sont réécrits dans le même style.
+- Données (`onr-referentiel.json`, `.csv`, `gpc-onr-exemple.json`), référentiel, méthodologie, exemple commenté, README et accueil alignés sur ces formulations.
+- Logo stocké une seule fois dans chaque classeur : 213 Ko au lieu de 663 Ko pour la grille vierge.
+- `validate_data.py` lit aussi les classeurs dont le XML utilise un préfixe d'espace de noms (`x:`).
 
 - **En-têtes d'axes des classeurs** uniformisés sur la forme de la documentation : `ONR 1 : Sobriété · S'engager à…` au lieu de `ONR 1  -   SOBRIÉTÉ : S'engager à…`, sans espaces multiples, capitales ni tabulation résiduelle. Ces libellés remontent dans `Résultats détaillés` et dans la synthèse.
 - Noms d'axes de `data/gpc-onr-exemple.json` alignés sur le référentiel.

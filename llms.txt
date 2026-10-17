@@ -8,7 +8,7 @@ La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classem
 
 ## Documentation
 
-- [Référentiel des 32 cibles ONR](docs/referentiel-onr.md) : chaque cible avec son libellé officiel et une reformulation « En clair » en langage courant ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
+- [Référentiel des 32 cibles ONR](docs/referentiel-onr.md) : chaque cible formulée en langage clair, avec un résumé et, en annexe, le libellé d'origine de la charte ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
 - [Méthodologie](docs/methodologie.md) : déroulé en 5 étapes, échelles de notation, matrice de priorisation, conditions de validité.
 - [Exemple commenté](docs/exemple-commente.md) : cibles renseignées par une organisation fictive, avec enjeux, forces/faiblesses et stratégies d'action.
 - [Questions fréquentes](docs/faq.md) : périmètre, durée, public visé, différence template/exemple, citation.

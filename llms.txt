@@ -2,7 +2,7 @@
 
 > Outil libre d'auto-évaluation et de priorisation participative, publié par l'Institut du Numérique Responsable (INR), qui aide une organisation à classer les 32 cibles des Objectifs du Numérique Responsable (ONR) par ordre d'intervention, en croisant l'importance de chaque cible et la performance actuelle de l'organisation.
 
-Site public : https://institut-du-numerique-responsable.github.io/GPC-ONR/ · Éditeur : Institut du Numérique Responsable (https://institutnr.org) · Licence : MIT · Langue : français · Format : classeur `.xlsx` + données ouvertes JSON/CSV.
+Site public : https://institut-du-numerique-responsable.github.io/GPC-ONR/ · Éditeur : Institut du Numérique Responsable (https://institutnr.org) · Licences : CC BY 4.0 (classeurs, données, documentation) et EUPL-1.2 (scripts) · Langue : français · Format : classeur `.xlsx` + données ouvertes JSON/CSV.
 
 La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classement des cibles en sept niveaux d'intervention, de « urgente » à « non pertinente », à partir de deux notes saisies collectivement : l'importance de la cible (0 à 3) et la performance actuelle (1 à 4).
 
@@ -31,4 +31,4 @@ La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classem
 - [CONTRIBUTING.md](CONTRIBUTING.md) : guide de contribution et Certificat d'Origine du Développeur (DCO).
 - [CONTRIBUTORS.md](CONTRIBUTORS.md) : contributeurs de la GPC-ONR.
 - [CHANGELOG.md](CHANGELOG.md) : journal des modifications.
-- [LICENSE](LICENSE) : licence MIT.
+- [LICENSE](LICENSE) : licence EUPL-1.2 des scripts ; [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt) : licence CC BY 4.0 des classeurs, données et documentation.

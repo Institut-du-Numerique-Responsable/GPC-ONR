@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que la GPC-ONR ?
 
-La GPC-ONR est une grille de priorisation des cibles des Objectifs du Numérique Responsable. C'est un classeur tableur qui aide une organisation à évaluer collectivement, cible par cible, l'écart entre ce qui compte pour elle et ce qu'elle fait réellement, puis à en déduire un ordre d'action. Elle est publiée par l'Institut du Numérique Responsable sous licence MIT.
+La GPC-ONR est une grille de priorisation des cibles des Objectifs du Numérique Responsable. C'est un classeur tableur qui aide une organisation à évaluer collectivement, cible par cible, l'écart entre ce qui compte pour elle et ce qu'elle fait réellement, puis à en déduire un ordre d'action. L'Institut du Numérique Responsable la publie sous licence CC BY 4.0 pour les classeurs, les données et la documentation, et sous EUPL-1.2 pour les scripts.
 
 ## Que sont les Objectifs du Numérique Responsable (ONR) ?
 

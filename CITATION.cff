@@ -24,7 +24,9 @@ authors:
     affiliation: "Institut du Numérique Responsable"
 repository-code: "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR"
 url: "https://institutnr.org"
-license: MIT
+license:
+  - EUPL-1.2
+  - CC-BY-4.0
 date-released: 2026-02-19
 keywords:
   - "assessment-tool"

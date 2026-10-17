@@ -1,6 +1,7 @@
 # GPC-ONR : Grille de Priorisation des Cibles des Objectifs du Numérique Responsable
 
-[![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
+[![Licence des scripts : EUPL-1.2](https://img.shields.io/badge/Scripts-EUPL--1.2-blue.svg)](LICENSE)
+[![Licence des contenus : CC BY 4.0](https://img.shields.io/badge/Contenus-CC%20BY%204.0-blue.svg)](LICENSES/CC-BY-4.0.txt)
 [![Format](https://img.shields.io/badge/Format-XLSX%20%7C%20JSON%20%7C%20CSV-green.svg)](data/)
 [![Institut du Numérique Responsable](https://img.shields.io/badge/Éditeur-INR-orange.svg)](https://institutnr.org/)
 [![Cibles](https://img.shields.io/badge/Cibles%20ONR-32-lightgrey.svg)](docs/referentiel-onr.md)
@@ -126,7 +127,8 @@ GPC-ONR/
 ├── CONTRIBUTING.md                      Guide de contribution et DCO
 ├── CODE_OF_CONDUCT.md                   Code de conduite
 ├── SECURITY.md                          Politique de sécurité
-└── LICENSE                              Licence MIT
+├── LICENSE                              Licence des scripts (EUPL-1.2)
+└── LICENSES/                            Textes des licences (EUPL-1.2, CC BY 4.0, MIT historique)
 ```
 
 ## Données ouvertes
@@ -173,11 +175,18 @@ Les modifications de `main` passent par une pull request : une relecture approuv
 
 Les métadonnées sont dans [`CITATION.cff`](CITATION.cff), au format Citation File Format 1.2.0, lisible par GitHub, Zenodo et les gestionnaires de références.
 
-> Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
+> Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licences EUPL-1.2 et CC BY 4.0. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
 
 ## Licence et crédits
 
-Publié sous [licence MIT](LICENSE) par l'**[Institut du Numérique Responsable](https://institutnr.org/)**.
+Publié par l'**[Institut du Numérique Responsable](https://institutnr.org/)** sous deux licences ouvertes européennes :
+
+| Éléments | Licence | Ce qu'elle vous permet |
+|---|---|---|
+| Classeurs `.xlsx`, données de `data/`, documentation, vidéo et captures | [CC BY 4.0](LICENSES/CC-BY-4.0.txt), licence de réutilisation de la Commission européenne | Utiliser, adapter et partager, y compris dans un cadre commercial, en citant l'INR comme source |
+| Scripts (`scripts/`), workflows, page `presentation.html` | [EUPL-1.2](LICENSE), licence publique de l'Union européenne | Utiliser, modifier et redistribuer, y compris dans un cadre commercial ; les versions modifiées que vous distribuez restent sous EUPL-1.2 ou une licence compatible |
+
+L'EUPL-1.2 existe dans les 24 langues officielles de l'Union, toutes de même valeur : [version française](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12). Les versions publiées jusqu'à la 1.3.0 restent disponibles sous licence MIT ([texte](LICENSES/MIT-historique.txt)).
 
 L'INR est une association qui fédère organisations publiques et privées autour de la réduction des impacts environnementaux, sociaux et économiques du numérique.
 

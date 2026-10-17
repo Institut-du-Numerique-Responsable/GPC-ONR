@@ -2,6 +2,12 @@
 
 Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce projet suit le [versionnement sémantique](https://semver.org/lang/fr/).
 
+## [Non publié]
+
+### Modifié
+
+- **Licences ouvertes européennes** à la place de la licence MIT : CC BY 4.0, licence de réutilisation de la Commission européenne, pour les classeurs, les données, la documentation, la vidéo et les captures ; EUPL-1.2 pour les scripts, les workflows et la page de présentation. Les deux licences permettent l'usage commercial ; CC BY 4.0 demande de citer l'INR, l'EUPL-1.2 demande de redistribuer sous la même licence les scripts modifiés. Les versions jusqu'à la 1.3.0 restent disponibles sous MIT (`LICENSES/MIT-historique.txt`).
+
 ## [1.3.0] - 2026-10-18
 
 ### Ajouté

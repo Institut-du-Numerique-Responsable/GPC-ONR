@@ -171,4 +171,4 @@ Formulations d'origine de la charte des Objectifs du Numérique Responsable, uti
 
 ## Citation
 
-Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licence MIT. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>
+Institut du Numérique Responsable, *GPC-ONR : Grille de priorisation des cibles des Objectifs du Numérique Responsable*, 2026. Licences CC BY 4.0 et EUPL-1.2. <https://github.com/Institut-du-Numerique-Responsable/GPC-ONR>

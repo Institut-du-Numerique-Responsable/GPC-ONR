@@ -6,7 +6,8 @@ site_description: >-
 site_url: https://institut-du-numerique-responsable.github.io/GPC-ONR/
 site_author: Institut du Numérique Responsable
 copyright: >-
-  Publié sous licence MIT par l'Institut du Numérique Responsable
+  Publié par l'Institut du Numérique Responsable : contenus sous CC BY 4.0,
+  scripts sous EUPL-1.2
 repo_url: https://github.com/Institut-du-Numerique-Responsable/GPC-ONR
 repo_name: INR/GPC-ONR
 edit_uri: edit/main/docs/

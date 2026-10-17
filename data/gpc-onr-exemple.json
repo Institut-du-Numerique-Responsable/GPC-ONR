@@ -4,50 +4,50 @@
     {
       "numero": 1,
       "nom": "Sobriété",
-      "engagement": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
+      "engagement": "Utiliser les outils numériques pour consommer moins de ressources et réduire leurs effets sur l’environnement",
       "cibles": [
         {
           "code": "1.1",
-          "cible": "En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique",
-          "enjeux": "Enjeux (opportunités et menaces) : Opportunité de réduire l'empreinte carbone globale de l'organisation et d'anticiper les futures réglementations environnementales. La menace est le coût initial potentiellement plus élevé d'équipements éco-conçus.",
+          "cible": "Prendre en compte toutes les étapes de la vie des équipements et des logiciels, de leur création à leur fin de vie, pour contribuer à la transition énergétique.",
+          "enjeux": "Avantages possibles : réduire les émissions de gaz à effet de serre de l’organisation et se préparer aux futures règles environnementales.\nRisque : payer plus cher à l’achat certains équipements conçus pour limiter leurs effets sur l’environnement.",
           "importance": 3,
           "performance": 1,
-          "documentation": "Actuellement, le seul critère pris en compte lors des achats est le prix direct. Aucune analyse du cycle de vie (ACV) n'est demandée aux fournisseurs lors des appels d'offres",
+          "documentation": "L’équipe Achats retient le prix d’achat comme seul critère de choix. Elle ne demande pas d’analyse du cycle de vie (ACV) aux fournisseurs dans les appels d’offres.",
           "competences": "3",
-          "forces_faiblesses": "Faiblesse : manque de connaissances de l'équipe Achats sur les labels environnementaux informatiques. Force : volonté forte de la direction des achats d'évoluer vers des pratiques durables",
+          "forces_faiblesses": "Point fort : la direction des achats souhaite adopter des pratiques plus durables.\nPoint faible : l’équipe connaît peu les labels environnementaux des équipements informatiques.",
           "priorite": "Intervention urgente",
           "priorite_valeur": 6,
-          "strategies": "Former l'équipe Achats aux critères du Numérique Responsable (labels TCO, EPEAT). Intégrer une pondération environnementale de 15% dans les prochains appels d'offres de renouvellement de serveurs"
+          "strategies": "Former l’équipe Achats aux critères du numérique responsable et aux labels TCO et EPEAT. Dans les prochains appels d’offres pour remplacer les serveurs, faire compter les critères environnementaux pour 15 % de la note."
         },
         {
           "code": "1.2",
-          "cible": "En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable",
-          "enjeux": "Enjeux (opportunités et menaces) : Opportunité de faire des économies budgétaires significatives (CAPEX) et de réduire drastiquement la production de déchets électroniques (DEEE).",
+          "cible": "Utiliser les équipements plus longtemps, même après la fin de leur amortissement, c’est-à-dire la période sur laquelle leur coût est réparti dans les comptes.",
+          "enjeux": "Avantages possibles : réduire les dépenses d’achat de matériel et les déchets d’équipements électriques et électroniques (DEEE).",
           "importance": 3,
           "performance": 3,
-          "documentation": "La durée de renouvellement standard des ordinateurs portables est passée de 3 ans à 4 ans l'année dernière. Un contrat de maintenance est en place.",
+          "documentation": "L’organisation a porté la durée de renouvellement des ordinateurs portables de trois à quatre ans l’année dernière. Elle dispose d’un contrat de maintenance.",
           "competences": "2",
-          "forces_faiblesses": "Force : capacité technique à réparer en interne. Faiblesse : pression psychologique de certains utilisateurs exigeant du matériel neuf et esthétique.",
+          "forces_faiblesses": "Point fort : l’équipe technique peut réparer les équipements en interne.\nPoint faible : certains utilisateurs demandent du matériel neuf pour son apparence.",
           "priorite": "Intervention à moyen terme",
           "priorite_valeur": 4,
-          "strategies": "Allonger la politique d'amortissement à 5 ans minimum. Créer un stock de pièces détachées pour faciliter les réparations rapides. Lancer une campagne de communication interne pour valoriser l'impact carbone évité en gardant son ordinateur plus longtemps"
+          "strategies": "Répartir le coût des équipements dans les comptes sur cinq ans au minimum : c’est la durée d’amortissement. Prévoir un stock de pièces détachées pour faciliter les réparations. Expliquer aux équipes comment garder leur ordinateur plus longtemps permet d’éviter des émissions de gaz à effet de serre."
         },
         {
           "code": "1.3",
-          "cible": "En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD)",
-          "enjeux": "Enjeux (opportunités et menaces) : L'opportunité est de réduire drastiquement l'empreinte environnementale des services dès leur création (démarche d'éco-conception) tout en améliorant l'expérience utilisateur (des sites plus légers chargent plus vite). Aligner les projets sur les ODD de l'ONU renforce également l'impact positif de l'organisation. La menace est la \"dette technique\" et la création d'\"obésiciels\" (logiciels inutilement lourds) qui forceront les utilisateurs à renouveler leur matériel plus vite.",
+          "cible": "Concevoir des services numériques qui limitent leurs effets sur l’environnement. Choisir des technologies qui contribuent aux Objectifs de développement durable (ODD).",
+          "enjeux": "Avantages possibles : réduire les effets des services sur l’environnement dès leur conception, faciliter leur utilisation et contribuer aux Objectifs de développement durable (ODD).\nRisques : accumuler des problèmes techniques non résolus ou créer des logiciels trop gourmands en ressources, qui obligent à remplacer le matériel plus tôt.",
           "importance": 3,
           "performance": 2,
-          "documentation": "Documentation et mesures en place : Actuellement, les nouveaux services numériques ou sites web sont validés uniquement sur des critères fonctionnels, graphiques et financiers. Le \"poids\" informatique des pages et l'impact environnemental du code ne sont pas mesurés.",
+          "documentation": "Les équipes valident les nouveaux services et sites web selon des critères fonctionnels, graphiques et financiers. Elles ne mesurent ni le poids des pages ni l’impact environnemental du code.",
           "competences": "2",
-          "forces_faiblesses": "Force : Une équipe de développeurs et de chefs de produit très motivée par les enjeux RSE. Faiblesse : Manque de formation sur les référentiels d'éco-conception (comme le RGESN en France) et méconnaissance de la méthode pour lier concrètement un projet numérique aux ODD de l'ONU.",
+          "forces_faiblesses": "Point fort : les développeurs et les chefs de produit s’intéressent aux effets de leurs activités sur la société et l’environnement.\nPoints faibles : ils connaissent peu les guides pour concevoir des services numériques moins polluants, comme le RGESN. Ils savent peu comment relier leurs projets aux ODD.",
           "priorite": "Intervention prioritaire",
           "priorite_valeur": 5,
-          "strategies": "1. Former les équipes (Designers, Développeurs, Chefs de projet) aux bonnes pratiques de l'éco-conception numérique.\n2. Modifier les cahiers des charges (appels d'offres) : imposer des critères de performance environnementale aux prestataires qui créent les futurs sites ou applications de l'organisation (ex: limite de poids des images, optimisation des requêtes serveurs).\n3. Créer une grille d'impact : pour chaque nouveau projet numérique, évaluer formellement à quel(s) Objectif(s) de Développement Durable (ODD) il contribue"
+          "strategies": "1. Former les équipes de conception, de développement et de gestion de projet à créer des services numériques qui limitent leurs effets sur l’environnement.\n2. Ajouter des exigences environnementales aux cahiers des charges, comme limiter le poids des images et réduire les demandes envoyées aux serveurs.\n3. Pour chaque nouveau projet, préciser à quels Objectifs de développement durable il contribue."
         },
         {
           "code": "1.4",
-          "cible": "En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables",
+          "cible": "Adopter des pratiques qui consomment moins de matériel, de ressources, d’énergie et de consommables, comme le papier ou l’encre.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -60,7 +60,7 @@
         },
         {
           "code": "1.5",
-          "cible": "En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire.",
+          "cible": "Réutiliser ou recycler les déchets pour en faire de nouvelles ressources. Soutenir les emplois liés à leur traitement et à l’économie circulaire.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -73,7 +73,7 @@
         },
         {
           "code": "1.6",
-          "cible": "En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables.",
+          "cible": "Choisir des énergies renouvelables et encourager leur utilisation.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -86,40 +86,40 @@
         },
         {
           "code": "1.7",
-          "cible": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
-          "enjeux": "Enjeux (opportunités et menaces) : L'opportunité est de maîtriser les coûts (d'infrastructure ou d'API) et de réduire l'empreinte carbone (très élevée) liée à l'entraînement et à l'utilisation quotidienne de l'IA. La menace principale est l'\"effet de mode\" : vouloir intégrer de l'IA partout, même quand un algorithme classique ou une simple automatisation suffirait, ce qui ferait exploser la consommation de ressources",
+          "cible": "Réserver l’intelligence artificielle aux besoins qui la justifient et privilégier des solutions sobres en ressources.",
+          "enjeux": "Avantages possibles : maîtriser les coûts du matériel et des services d’IA, et réduire les émissions de gaz à effet de serre liées à leur entraînement et à leur utilisation.\nRisque : utiliser l’IA par effet de mode, sans besoin réel, et consommer davantage de ressources.",
           "importance": 3,
           "performance": 1,
-          "documentation": "Actuellement, plusieurs projets d'IA générative (type ChatGPT) sont testés par les métiers, mais aucune mesure de leur impact énergétique n'est réalisée et aucune charte d'utilisation n'encadre le besoin réel",
+          "documentation": "Les équipes métiers expérimentent plusieurs projets d’IA générative, dont des usages de ChatGPT. Elles ne mesurent pas leur impact énergétique et ne disposent pas de charte pour encadrer les besoins et les usages.",
           "competences": "2",
-          "forces_faiblesses": "Force : Une équipe Data/IT curieuse et compétente techniquement. Faiblesse : Manque total de connaissances sur les concepts de \"Green AI\" (comment mesurer la consommation d'un modèle, comment l'optimiser) et manque de recul critique sur l'utilité réelle de l'IA pour certains cas d'usage",
+          "forces_faiblesses": "Point fort : l’équipe chargée des données et de l’informatique dispose de compétences techniques et souhaite explorer ces outils.\nPoints faibles : elle connaît peu les méthodes pour mesurer et réduire la consommation de l’IA. Elle manque aussi de recul pour savoir quand l’IA est utile.",
           "priorite": "Intervention urgente",
           "priorite_valeur": 6,
-          "strategies": "1. Créer une grille d'évaluation préalable (Go/No-Go) pour chaque nouveau projet : l'IA est-elle indispensable ou une méthode informatique classique suffit-elle ?\n2. Privilégier des modèles plus petits et spécialisés (Small Language Models) plutôt que de faire appel à des modèles massifs et très énergivores pour des tâches simples.\n3. Sensibiliser les développeurs et les data scientists aux techniques d'éco-conception logicielle appliquées à l'IA (optimisation du code, limitation des calculs redondants)"
+          "strategies": "1. Vérifier le besoin avant chaque projet : faut-il de l’IA ou un outil informatique classique suffit-il ?\n2. Choisir de petits modèles spécialisés quand ils répondent au besoin.\n3. Former les développeurs et les spécialistes des données à réduire la consommation de l’IA, en améliorant le code et en évitant les calculs répétés."
         },
         {
           "code": "1.8",
-          "cible": "En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant",
-          "enjeux": "",
-          "importance": null,
-          "performance": null,
-          "documentation": "",
-          "competences": "",
-          "forces_faiblesses": "",
-          "priorite": "",
-          "priorite_valeur": null,
-          "strategies": ""
+          "cible": "Mesurer et réduire ce que consomme l’intelligence artificielle, pendant son entraînement comme pendant son utilisation.",
+          "enjeux": "Avantages possibles : maîtriser les coûts du matériel et des services d’IA, et réduire les émissions de gaz à effet de serre liées à leur entraînement et à leur utilisation.\nRisque : utiliser l’IA par effet de mode, sans besoin réel, et consommer davantage de ressources.",
+          "importance": 3,
+          "performance": 1,
+          "documentation": "Les équipes métiers expérimentent plusieurs projets d’IA générative, dont des usages de ChatGPT. Elles ne mesurent pas leur impact énergétique et ne disposent pas de charte pour encadrer les besoins et les usages.",
+          "competences": "2",
+          "forces_faiblesses": "Point fort : l’équipe chargée des données et de l’informatique dispose de compétences techniques et souhaite explorer ces outils.\nPoints faibles : elle connaît peu les méthodes pour mesurer et réduire la consommation de l’IA. Elle manque aussi de recul pour savoir quand l’IA est utile.",
+          "priorite": "Intervention urgente",
+          "priorite_valeur": 6,
+          "strategies": "1. Vérifier le besoin avant chaque projet : faut-il de l’IA ou un outil informatique classique suffit-il ?\n2. Choisir de petits modèles spécialisés quand ils répondent au besoin.\n3. Former les développeurs et les spécialistes des données à réduire la consommation de l’IA, en améliorant le code et en évitant les calculs répétés."
         }
       ]
     },
     {
       "numero": 2,
       "nom": "Inclusion",
-      "engagement": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
+      "engagement": "Développer des services numériques durables que toutes et tous peuvent utiliser",
       "cibles": [
         {
           "code": "2.1",
-          "cible": "En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales.",
+          "cible": "Intégrer dans tous les achats des exigences qui tiennent compte de leurs effets sur la société et l’environnement.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -132,7 +132,7 @@
         },
         {
           "code": "2.2",
-          "cible": "En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA",
+          "cible": "Rendre les services numériques accessibles à toutes et tous. Mesurer leur respect du RGAA, le référentiel français sur l’accessibilité numérique.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -145,7 +145,7 @@
         },
         {
           "code": "2.3",
-          "cible": "En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous",
+          "cible": "Créer des applications utiles, faciles à utiliser et réellement utilisées : les « 3 U ». Les rendre accessibles pour permettre à chacun d’utiliser le numérique.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -158,7 +158,7 @@
         },
         {
           "code": "2.4",
-          "cible": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
+          "cible": "Concevoir les services avec leurs utilisateurs et utilisatrices, en se concentrant sur leurs besoins réels.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -171,7 +171,7 @@
         },
         {
           "code": "2.5",
-          "cible": "En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous",
+          "cible": "Vérifier que l’intelligence artificielle ne discrimine personne et que ses services peuvent être utilisés par toutes et tous.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -187,11 +187,11 @@
     {
       "numero": 3,
       "nom": "RSE",
-      "engagement": "S'engager pour des pratiques numériques éthiques et responsables",
+      "engagement": "Utiliser le numérique de façon éthique et responsable",
       "cibles": [
         {
           "code": "3.1",
-          "cible": "En développant des usages raisonnés des données et services dans une démarche éthique vis-à-vis des impacts sur l’environnement et les populations.",
+          "cible": "Utiliser les données et les services numériques avec mesure, en respectant les personnes et l’environnement.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -204,7 +204,7 @@
         },
         {
           "code": "3.2",
-          "cible": "En luttant contre les pratiques trompeuses et présence de dark pattern dans les sites internet et en permettant de se conformer à la réglementation",
+          "cible": "Supprimer les pratiques et les interfaces qui trompent les utilisateurs sur les sites web, aussi appelées « dark patterns ». Respecter la réglementation.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -217,7 +217,7 @@
         },
         {
           "code": "3.3",
-          "cible": "En ne collectant que les données utiles et nécessaires au service des utilisateurs, afin de limiter les risques en matière de vie privée et impacts environnementaux en conformité avec le Règlement Général sur la Protection des Données (RGPD).",
+          "cible": "Collecter seulement les données nécessaires au service rendu. Protéger la vie privée, réduire les effets sur l’environnement et respecter le RGPD, le règlement sur la protection des données personnelles.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -230,7 +230,7 @@
         },
         {
           "code": "3.4",
-          "cible": "En favorisant la diversité des recrutements des métiers du numérique",
+          "cible": "Recruter des personnes aux profils variés dans les métiers du numérique.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -243,7 +243,7 @@
         },
         {
           "code": "3.5",
-          "cible": "En améliorant les conditions des travailleurs du numérique",
+          "cible": "Améliorer les conditions de travail des personnes qui travaillent dans le numérique.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -256,7 +256,7 @@
         },
         {
           "code": "3.6",
-          "cible": "En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle",
+          "cible": "Fixer et appliquer des règles éthiques pour utiliser les algorithmes, en particulier l’intelligence artificielle. Encadrer l’utilisation des données et assurer leur protection.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -269,7 +269,7 @@
         },
         {
           "code": "3.7",
-          "cible": "En déployant et valorisant la démarche RSE",
+          "cible": "Mettre en place et faire connaître les actions de responsabilité sociétale (RSE), qui prennent en compte les effets de l’organisation sur la société et l’environnement.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -282,7 +282,7 @@
         },
         {
           "code": "3.8",
-          "cible": "En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles",
+          "cible": "Indiquer quand une intelligence artificielle répond et expliquer comment elle prend ses décisions. Garder un contrôle humain sur les sujets sensibles.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -298,11 +298,11 @@
     {
       "numero": 4,
       "nom": "Résilience et stratégie",
-      "engagement": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
+      "engagement": "Utiliser le numérique responsable pour aider l’organisation à faire face aux difficultés et à s’adapter",
       "cibles": [
         {
           "code": "4.1",
-          "cible": "En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC).",
+          "cible": "Suivre des normes communes pour recueillir, regrouper, analyser et partager les données sur les effets des technologies de l’information et de la communication (TIC).",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -315,7 +315,7 @@
         },
         {
           "code": "4.2",
-          "cible": "En évaluant nos services numériques dans la durée, et en partageant les résultats de ces évaluations",
+          "cible": "Évaluer les services numériques au fil du temps et partager les résultats.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -328,7 +328,7 @@
         },
         {
           "code": "4.3",
-          "cible": "En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs",
+          "cible": "Innover en utilisant de nouveaux outils numériques. Évaluer leurs effets et expliquer les résultats aux personnes qui les utilisent.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -341,7 +341,7 @@
         },
         {
           "code": "4.4",
-          "cible": "En permettant et en garantissant plus de souveraineté numérique",
+          "cible": "Renforcer la souveraineté numérique : garder la maîtrise de nos choix, de nos outils et de nos données.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -357,11 +357,11 @@
     {
       "numero": 5,
       "nom": "Management",
-      "engagement": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
+      "engagement": "Donner du sens au travail et préserver les personnes et les ressources nécessaires à nos activités",
       "cibles": [
         {
           "code": "5.1",
-          "cible": "En incluant l’innovation sociale dans la définition de nouveaux systèmes et services numériques.",
+          "cible": "Concevoir les systèmes et les services numériques en intégrant de nouvelles façons de répondre aux besoins sociaux.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -374,7 +374,7 @@
         },
         {
           "code": "5.2",
-          "cible": "En valorisant les initiatives internes qui mobilisent l’organisation, favorisent les collaborations transversales et le bien-être au travail.",
+          "cible": "Faire connaître et soutenir les initiatives des équipes qui encouragent l’engagement, la coopération entre services et le bien-être au travail.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -387,7 +387,7 @@
         },
         {
           "code": "5.3",
-          "cible": "En sollicitant l’engagement et l’expertise des parties prenantes (sur les sujets environnementaux, sociaux et sociétaux)",
+          "cible": "Faire participer les personnes et les organisations concernées. S’appuyer sur leurs connaissances des questions d’environnement, de conditions de vie et de société.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -400,7 +400,7 @@
         },
         {
           "code": "5.4",
-          "cible": "En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble.",
+          "cible": "Permettre aux générations futures d’innover pour mieux vivre ensemble, s’ouvrir aux autres et préserver l’équilibre de la nature.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -413,7 +413,7 @@
         },
         {
           "code": "5.5",
-          "cible": "En suivant les indicateurs de performances et de conformité",
+          "cible": "Suivre les résultats obtenus et le respect des règles à l’aide d’indicateurs.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -426,7 +426,7 @@
         },
         {
           "code": "5.6",
-          "cible": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
+          "cible": "Proposer des améliorations et de nouvelles idées pour un numérique responsable, y compris des solutions sans outils numériques.",
           "enjeux": "",
           "importance": null,
           "performance": null,
@@ -439,7 +439,7 @@
         },
         {
           "code": "5.7",
-          "cible": "En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail",
+          "cible": "Décider avec les équipes comment utiliser l’intelligence artificielle. Les former à ses limites et préserver le sens de leur travail.",
           "enjeux": "",
           "importance": null,
           "performance": null,

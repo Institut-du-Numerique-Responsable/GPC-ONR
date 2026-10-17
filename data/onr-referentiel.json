@@ -3,46 +3,55 @@
     {
       "numero": 1,
       "nom": "Sobriété",
-      "engagement": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
+      "engagement": "Utiliser les outils numériques pour consommer moins de ressources et réduire leurs effets sur l’environnement",
+      "engagement_charte": "S'engager à optimiser les outils numériques pour limiter leurs impacts et consommation",
       "cibles": [
         {
           "code": "1.1",
-          "libelle": "En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique",
+          "libelle": "Prendre en compte toutes les étapes de la vie des équipements et des logiciels, de leur création à leur fin de vie, pour contribuer à la transition énergétique.",
+          "libelle_charte": "En intégrant le cycle de vie complet des équipements et logiciels pour le mettre au service de la transition énergétique",
           "explication": "Savoir d'où vient notre matériel, combien de temps il sert, et où il finit."
         },
         {
           "code": "1.2",
-          "libelle": "En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable",
+          "libelle": "Utiliser les équipements plus longtemps, même après la fin de leur amortissement, c’est-à-dire la période sur laquelle leur coût est réparti dans les comptes.",
+          "libelle_charte": "En allongeant la durée d'usage des équipements, même au-delà de leur amortissement comptable",
           "explication": "Garder le matériel plus longtemps, même une fois qu'il est payé."
         },
         {
           "code": "1.3",
-          "libelle": "En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD)",
+          "libelle": "Concevoir des services numériques qui limitent leurs effets sur l’environnement. Choisir des technologies qui contribuent aux Objectifs de développement durable (ODD).",
+          "libelle_charte": "En éco-concevant les services numériques, et en choisissant des technologies qui contribuent aux Objectifs de développement durable (ODD)",
           "explication": "Faire des sites et des applications qui consomment peu et servent vraiment."
         },
         {
           "code": "1.4",
-          "libelle": "En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables",
+          "libelle": "Adopter des pratiques qui consomment moins de matériel, de ressources, d’énergie et de consommables, comme le papier ou l’encre.",
+          "libelle_charte": "En favorisant des usages et des pratiques limitant les consommations de matériels, de ressources, d’énergies et de consommables",
           "explication": "Prendre des habitudes qui économisent le matériel, l'énergie et les fournitures."
         },
         {
           "code": "1.5",
-          "libelle": "En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire.",
+          "libelle": "Réutiliser ou recycler les déchets pour en faire de nouvelles ressources. Soutenir les emplois liés à leur traitement et à l’économie circulaire.",
+          "libelle_charte": "En considérant nos déchets comme une ressource et leur traitement comme une source d’emplois participant au développement de l’économie circulaire.",
           "explication": "Ne plus jeter : réparer, réemployer, recycler."
         },
         {
           "code": "1.6",
-          "libelle": "En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables.",
+          "libelle": "Choisir des énergies renouvelables et encourager leur utilisation.",
+          "libelle_charte": "En privilégiant et en favorisant l’utilisation de sources d’énergies renouvelables.",
           "explication": "Faire tourner le numérique avec de l'électricité renouvelable."
         },
         {
           "code": "1.7",
-          "libelle": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
+          "libelle": "Réserver l’intelligence artificielle aux besoins qui la justifient et privilégier des solutions sobres en ressources.",
+          "libelle_charte": "En favorisant l'utilisation d'IA lorsque nécessaire uniquement et en privilégiant des IA frugales",
           "explication": "N'utiliser l'IA que si elle sert vraiment, et choisir la moins gourmande."
         },
         {
           "code": "1.8",
-          "libelle": "En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant",
+          "libelle": "Mesurer et réduire ce que consomme l’intelligence artificielle, pendant son entraînement comme pendant son utilisation.",
+          "libelle_charte": "En mesurant ce que consomme l'IA, de son entraînement à son usage, et en le réduisant",
           "explication": "Savoir ce que l'IA coûte à la planète, et le faire baisser."
         }
       ],
@@ -51,31 +60,37 @@
     {
       "numero": 2,
       "nom": "Inclusion",
-      "engagement": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
+      "engagement": "Développer des services numériques durables que toutes et tous peuvent utiliser",
+      "engagement_charte": "S'engager à développer des services numériques accessibles à toutes et tous, inclusifs et durables",
       "cibles": [
         {
           "code": "2.1",
-          "libelle": "En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales.",
+          "libelle": "Intégrer dans tous les achats des exigences qui tiennent compte de leurs effets sur la société et l’environnement.",
+          "libelle_charte": "En généralisant une démarche d’achats responsables avec l’adoption de clauses sociétales et environnementales.",
           "explication": "Acheter en regardant l'impact social et écologique, pas seulement le prix."
         },
         {
           "code": "2.2",
-          "libelle": "En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA",
+          "libelle": "Rendre les services numériques accessibles à toutes et tous. Mesurer leur respect du RGAA, le référentiel français sur l’accessibilité numérique.",
+          "libelle_charte": "En rendant nos services numériques accessibles à toutes et tous, et en mesurant leur conformité au RGAA",
           "explication": "Faire des sites et des applications utilisables par les personnes handicapées, et mesurer où on en est."
         },
         {
           "code": "2.3",
-          "libelle": "En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous",
+          "libelle": "Créer des applications utiles, faciles à utiliser et réellement utilisées : les « 3 U ». Les rendre accessibles pour permettre à chacun d’utiliser le numérique.",
+          "libelle_charte": "En déployant les applications autour des 3 U : Utiles, Utilisables, Utilisées pour en simplifier l’usage en intégrant l’accessibilité universelle pour réussir l’e-inclusion de tous",
           "explication": "Faire des outils simples, faciles à utiliser, et vraiment utilisés."
         },
         {
           "code": "2.4",
-          "libelle": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
+          "libelle": "Concevoir les services avec leurs utilisateurs et utilisatrices, en se concentrant sur leurs besoins réels.",
+          "libelle_charte": "En concevant les services avec celles et ceux qui les utiliseront, pour livrer ce dont ils ont besoin et rien de plus",
           "explication": "Demander leur avis aux futurs utilisateurs, et ne livrer que ce dont ils ont besoin."
         },
         {
           "code": "2.5",
-          "libelle": "En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous",
+          "libelle": "Vérifier que l’intelligence artificielle ne discrimine personne et que ses services peuvent être utilisés par toutes et tous.",
+          "libelle_charte": "En vérifiant que l'IA ne discrimine personne et que ses services restent utilisables par tous",
           "explication": "S'assurer que l'IA traite tout le monde correctement."
         }
       ],
@@ -84,46 +99,55 @@
     {
       "numero": 3,
       "nom": "RSE",
-      "engagement": "S'engager pour des pratiques numériques éthiques et responsables",
+      "engagement": "Utiliser le numérique de façon éthique et responsable",
+      "engagement_charte": "S'engager pour des pratiques numériques éthiques et responsables",
       "cibles": [
         {
           "code": "3.1",
-          "libelle": "En développant des usages raisonnés des données et services dans une démarche éthique vis-à-vis des impacts sur l’environnement et les populations.",
+          "libelle": "Utiliser les données et les services numériques avec mesure, en respectant les personnes et l’environnement.",
+          "libelle_charte": "En développant des usages raisonnés des données et services dans une démarche éthique vis-à-vis des impacts sur l’environnement et les populations.",
           "explication": "Utiliser les données avec bon sens, en pensant aux gens et à la planète."
         },
         {
           "code": "3.2",
-          "libelle": "En luttant contre les pratiques trompeuses et présence de dark pattern dans les sites internet et en permettant de se conformer à la réglementation",
+          "libelle": "Supprimer les pratiques et les interfaces qui trompent les utilisateurs sur les sites web, aussi appelées « dark patterns ». Respecter la réglementation.",
+          "libelle_charte": "En luttant contre les pratiques trompeuses et présence de dark pattern dans les sites internet et en permettant de se conformer à la réglementation",
           "explication": "Ne pas piéger l'utilisateur avec des écrans qui l'induisent en erreur."
         },
         {
           "code": "3.3",
-          "libelle": "En ne collectant que les données utiles et nécessaires au service des utilisateurs, afin de limiter les risques en matière de vie privée et impacts environnementaux en conformité avec le Règlement Général sur la Protection des Données (RGPD).",
+          "libelle": "Collecter seulement les données nécessaires au service rendu. Protéger la vie privée, réduire les effets sur l’environnement et respecter le RGPD, le règlement sur la protection des données personnelles.",
+          "libelle_charte": "En ne collectant que les données utiles et nécessaires au service des utilisateurs, afin de limiter les risques en matière de vie privée et impacts environnementaux en conformité avec le Règlement Général sur la Protection des Données (RGPD).",
           "explication": "Ne demander que les données vraiment nécessaires."
         },
         {
           "code": "3.4",
-          "libelle": "En favorisant la diversité des recrutements des métiers du numérique",
+          "libelle": "Recruter des personnes aux profils variés dans les métiers du numérique.",
+          "libelle_charte": "En favorisant la diversité des recrutements des métiers du numérique",
           "explication": "Recruter des profils variés dans les métiers du numérique."
         },
         {
           "code": "3.5",
-          "libelle": "En améliorant les conditions des travailleurs du numérique",
+          "libelle": "Améliorer les conditions de travail des personnes qui travaillent dans le numérique.",
+          "libelle_charte": "En améliorant les conditions des travailleurs du numérique",
           "explication": "Se soucier de celles et ceux qui fabriquent et font tourner le numérique."
         },
         {
           "code": "3.6",
-          "libelle": "En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle",
+          "libelle": "Fixer et appliquer des règles éthiques pour utiliser les algorithmes, en particulier l’intelligence artificielle. Encadrer l’utilisation des données et assurer leur protection.",
+          "libelle_charte": "En s’inscrivant résolument dans des dispositifs d’éthique algorithmique sur l’utilisation et la protection des données, notamment au regard de l’intelligence artificielle",
           "explication": "Se fixer des règles claires sur les données et l'IA, et les respecter."
         },
         {
           "code": "3.7",
-          "libelle": "En déployant et valorisant la démarche RSE",
+          "libelle": "Mettre en place et faire connaître les actions de responsabilité sociétale (RSE), qui prennent en compte les effets de l’organisation sur la société et l’environnement.",
+          "libelle_charte": "En déployant et valorisant la démarche RSE",
           "explication": "Mener une démarche responsable, et la faire connaître."
         },
         {
           "code": "3.8",
-          "libelle": "En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles",
+          "libelle": "Indiquer quand une intelligence artificielle répond et expliquer comment elle prend ses décisions. Garder un contrôle humain sur les sujets sensibles.",
+          "libelle_charte": "En disant quand c'est une IA qui répond, en expliquant comment elle décide, et en gardant un humain aux commandes sur les sujets sensibles",
           "explication": "Prévenir qu'on parle à une machine, et garder un humain qui tranche."
         }
       ],
@@ -132,26 +156,31 @@
     {
       "numero": 4,
       "nom": "Résilience et stratégie",
-      "engagement": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
+      "engagement": "Utiliser le numérique responsable pour aider l’organisation à faire face aux difficultés et à s’adapter",
+      "engagement_charte": "S'engager vers un numérique responsable, indispensable pour assurer la résilience des organisations",
       "cibles": [
         {
           "code": "4.1",
-          "libelle": "En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC).",
+          "libelle": "Suivre des normes communes pour recueillir, regrouper, analyser et partager les données sur les effets des technologies de l’information et de la communication (TIC).",
+          "libelle_charte": "En respectant l'application des normes communes pour collecter, rassembler, analyser et partager les données sur les impacts des Technologies de l’Information et de la Communication (TIC).",
           "explication": "Mesurer nos impacts avec les mêmes méthodes que les autres, pour pouvoir se comparer."
         },
         {
           "code": "4.2",
-          "libelle": "En évaluant nos services numériques dans la durée, et en partageant les résultats de ces évaluations",
+          "libelle": "Évaluer les services numériques au fil du temps et partager les résultats.",
+          "libelle_charte": "En évaluant nos services numériques dans la durée, et en partageant les résultats de ces évaluations",
           "explication": "Regarder si nos services tiennent leurs promesses dans le temps, et le dire."
         },
         {
           "code": "4.3",
-          "libelle": "En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs",
+          "libelle": "Innover en utilisant de nouveaux outils numériques. Évaluer leurs effets et expliquer les résultats aux personnes qui les utilisent.",
+          "libelle_charte": "En restant innovant dans l’utilisation de nouveaux outils numériques et assurer leur analyse d'impact avec transparence et visibilité pour les utilisateurs",
           "explication": "Continuer d'innover, en mesurant l'impact et en le disant clairement."
         },
         {
           "code": "4.4",
-          "libelle": "En permettant et en garantissant plus de souveraineté numérique",
+          "libelle": "Renforcer la souveraineté numérique : garder la maîtrise de nos choix, de nos outils et de nos données.",
+          "libelle_charte": "En permettant et en garantissant plus de souveraineté numérique",
           "explication": "Garder la maîtrise de nos données, de nos outils et de nos fournisseurs."
         }
       ],
@@ -160,41 +189,49 @@
     {
       "numero": 5,
       "nom": "Management",
-      "engagement": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
+      "engagement": "Donner du sens au travail et préserver les personnes et les ressources nécessaires à nos activités",
+      "engagement_charte": "S'engager à faire les choses avec sens en respectant et en préservant les ressources qui produisent",
       "cibles": [
         {
           "code": "5.1",
-          "libelle": "En incluant l’innovation sociale dans la définition de nouveaux systèmes et services numériques.",
+          "libelle": "Concevoir les systèmes et les services numériques en intégrant de nouvelles façons de répondre aux besoins sociaux.",
+          "libelle_charte": "En incluant l’innovation sociale dans la définition de nouveaux systèmes et services numériques.",
           "explication": "Se demander à quoi sert vraiment un nouveau service, et pour qui."
         },
         {
           "code": "5.2",
-          "libelle": "En valorisant les initiatives internes qui mobilisent l’organisation, favorisent les collaborations transversales et le bien-être au travail.",
+          "libelle": "Faire connaître et soutenir les initiatives des équipes qui encouragent l’engagement, la coopération entre services et le bien-être au travail.",
+          "libelle_charte": "En valorisant les initiatives internes qui mobilisent l’organisation, favorisent les collaborations transversales et le bien-être au travail.",
           "explication": "Reconnaître les initiatives internes qui améliorent le travail de tous."
         },
         {
           "code": "5.3",
-          "libelle": "En sollicitant l’engagement et l’expertise des parties prenantes (sur les sujets environnementaux, sociaux et sociétaux)",
+          "libelle": "Faire participer les personnes et les organisations concernées. S’appuyer sur leurs connaissances des questions d’environnement, de conditions de vie et de société.",
+          "libelle_charte": "En sollicitant l’engagement et l’expertise des parties prenantes (sur les sujets environnementaux, sociaux et sociétaux)",
           "explication": "Demander leur avis aux personnes concernées avant de décider."
         },
         {
           "code": "5.4",
-          "libelle": "En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble.",
+          "libelle": "Permettre aux générations futures d’innover pour mieux vivre ensemble, s’ouvrir aux autres et préserver l’équilibre de la nature.",
+          "libelle_charte": "En permettant aux générations futures d’innover pour construire un monde ouvert à l’autre soucieux de l’équilibre des écosystèmes et du bien-vivre ensemble.",
           "explication": "Laisser une organisation où celles et ceux qui suivront pourront encore agir."
         },
         {
           "code": "5.5",
-          "libelle": "En suivant les indicateurs de performances et de conformité",
+          "libelle": "Suivre les résultats obtenus et le respect des règles à l’aide d’indicateurs.",
+          "libelle_charte": "En suivant les indicateurs de performances et de conformité",
           "explication": "Suivre quelques indicateurs simples pour voir si on progresse."
         },
         {
           "code": "5.6",
-          "libelle": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
+          "libelle": "Proposer des améliorations et de nouvelles idées pour un numérique responsable, y compris des solutions sans outils numériques.",
+          "libelle_charte": "En proposant des axes d’amélioration et d'innovation autour du NR ( y compris s'ils ne sont pas numériques )",
           "explication": "Proposer des améliorations, même quand elles ne sont pas numériques."
         },
         {
           "code": "5.7",
-          "libelle": "En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail",
+          "libelle": "Décider avec les équipes comment utiliser l’intelligence artificielle. Les former à ses limites et préserver le sens de leur travail.",
+          "libelle_charte": "En décidant des usages de l'IA avec les équipes, en les formant à ses limites, et en préservant le sens de leur travail",
           "explication": "Choisir avec les équipes, pas à leur place."
         }
       ],

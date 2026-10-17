@@ -14,7 +14,9 @@ La GPC-ONR aide une organisation à répondre à une question simple et rarement
 
 C'est un support de décision collective. Aucun score de conformité, aucun label.
 
-**Documentation en ligne : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>**
+**Documentation en ligne : <https://institut-du-numerique-responsable.github.io/GPC-ONR/>** · **[Découvrir l'outil en une minute (vidéo)](https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html)**
+
+[![Onglet ONR 1 de l'exemple rempli : notes, niveaux de priorité colorés et actions proposées](docs/assets/capture-onr1.webp)](https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html)
 
 ## Télécharger le classeur
 
@@ -54,7 +56,7 @@ Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numb
 
 1. Ouvrez le classeur téléchargé ci-dessus avec Excel, LibreOffice Calc ou tout tableur compatible `.xlsx`. Aucune macro n'est utilisée : rien à activer.
 2. Renseignez l'onglet **`Contexte`** : organisation, participants, date. C'est ce qui rendra vos passages successifs comparables.
-3. Parcourez les onglets **`ONR 1`** à **`ONR 5`**. Pour chaque cible, notez l'**importance** (0–3) et la **performance actuelle** (1–4), puis documentez enjeux, forces/faiblesses et stratégies d'action.
+3. Parcourez les onglets **`ONR 1`** à **`ONR 5`**. Pour chaque cible, notez l'**importance** (0–3) et la **performance actuelle** (1–4), puis décrivez les avantages et les risques, ce qui est déjà fait, les points forts et faibles, et les actions proposées.
 4. Lisez les onglets **`Résultats détaillés`** et **`Résultats synthèse`** : les cibles urgentes et prioritaires forment votre plan de premier rang.
 
 > [!TIP]
@@ -64,13 +66,13 @@ Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numb
 
 | Axe | Engagement | Thème | Cibles |
 |---|---|---|---|
-| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 8 |
-| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 5 |
-| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 8 |
-| **ONR 4 : Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
-| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 7 |
+| **ONR 1 : Sobriété** | Utiliser les outils numériques pour consommer moins de ressources et réduire leurs effets sur l’environnement | Environnement | 8 |
+| **ONR 2 : Inclusion** | Développer des services numériques durables que toutes et tous peuvent utiliser | Accessibilité | 5 |
+| **ONR 3 : RSE** | Utiliser le numérique de façon éthique et responsable | Éthique | 8 |
+| **ONR 4 : Résilience et stratégie** | Utiliser le numérique responsable pour aider l’organisation à faire face aux difficultés et à s’adapter | Résilience | 4 |
+| **ONR 5 : Management** | Donner du sens au travail et préserver les personnes et les ressources nécessaires à nos activités | Valeurs | 7 |
 
-Le détail des 32 cibles est disponible en texte intégral : **[docs/referentiel-onr.md](docs/referentiel-onr.md)**. Chaque cible y est accompagnée d'une reformulation **En clair**, en langage courant, pour être comprise sans connaissance préalable du sujet.
+Le détail des 32 cibles est disponible en texte intégral : **[docs/referentiel-onr.md](docs/referentiel-onr.md)**. Les cibles y sont formulées en langage clair, avec un résumé **En bref** et, en annexe, les libellés d'origine de la charte.
 
 Ces objectifs sont issus de la charte de l'[Institut du Numérique Responsable](https://institutnr.org/), qui formalise les engagements pris par une organisation (entreprise, association, TPE/PME, acteur public) sur les impacts environnementaux, sociaux et éthiques du numérique.
 
@@ -97,7 +99,7 @@ GPC-ONR/
 ├── INR_GPC_ONR Exemple.xlsx             Classeur pré-rempli, illustratif
 ├── docs/                                Source du site public
 │   ├── index.md                         Accueil
-│   ├── referentiel-onr.md               Les 32 cibles, avec reformulation « En clair »
+│   ├── referentiel-onr.md               Les 32 cibles en langage clair, libellés de la charte en annexe
 │   ├── methodologie.md                  Déroulé, échelles, matrice de priorisation
 │   ├── exemple-commente.md              Lecture commentée du classeur d'exemple
 │   ├── faq.md                           Questions fréquentes

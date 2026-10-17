@@ -11,3 +11,6 @@ __pycache__/
 ~$*.xlsx
 .~lock.*#
 .DS_Store
+
+# Exports locaux des classeurs
+outputs/

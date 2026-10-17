@@ -81,16 +81,16 @@ if template:
     classeur = zipfile.ZipFile(template)
     xml = classeur.read("xl/sharedStrings.xml").decode("utf8")
     chaines = {
-        unescape("".join(re.findall(r"<t[^>]*>(.*?)</t>", bloc, re.S)))
-        for bloc in re.findall(r"<si>(.*?)</si>", xml, re.S)
+        unescape("".join(re.findall(r"<(?:\w+:)?t[^>]*>(.*?)</(?:\w+:)?t>", bloc, re.S)))
+        for bloc in re.findall(r"<(?:\w+:)?si>(.*?)</(?:\w+:)?si>", xml, re.S)
     }
     # les cibles ajoutées après coup sont écrites en texte direct dans la cellule
     for nom in classeur.namelist():
         if nom.startswith("xl/worksheets/sheet"):
             feuille = classeur.read(nom).decode("utf8")
             chaines.update(
-                unescape("".join(re.findall(r"<t[^>]*>(.*?)</t>", bloc, re.S)))
-                for bloc in re.findall(r"<is>(.*?)</is>", feuille, re.S)
+                unescape("".join(re.findall(r"<(?:\w+:)?t[^>]*>(.*?)</(?:\w+:)?t>", bloc, re.S)))
+                for bloc in re.findall(r"<(?:\w+:)?is>(.*?)</(?:\w+:)?is>", feuille, re.S)
             )
     normaliser = lambda s: re.sub(r"\s+", " ", s.replace("’", "'")).strip()
     chaines_normalisees = {normaliser(s) for s in chaines}

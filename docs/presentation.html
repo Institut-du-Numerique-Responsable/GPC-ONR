@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPC-ONR : par quelles cibles commencer ?</title>
+<meta name="description" content="La GPC-ONR est une grille libre et gratuite pour prioriser les 32 cibles des Objectifs du Numérique Responsable. Deux notes par cible, une priorité calculée automatiquement. Publiée par l'Institut du Numérique Responsable.">
+<link rel="canonical" href="https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html">
+<meta property="og:title" content="GPC-ONR : par quelles cibles commencer ?">
+<meta property="og:description" content="Prioriser les 32 cibles des Objectifs du Numérique Responsable avec deux notes par cible. Outil libre de l'Institut du Numérique Responsable.">
+<meta property="og:image" content="https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-demo-poster.webp">
+<meta property="og:locale" content="fr_FR">
+<style>
+:root {
+  --navy: #12263a;
+  --navy-2: #1b3550;
+  --teal: #1f8a9b;
+  --teal-light: #7fd0d9;
+  --ink: #17232d;
+  --muted: #4d5d69;
+  --paper: #ffffff;
+  --mist: #eef4f6;
+  --line: #d3dee3;
+  /* Les sept niveaux d'intervention, couleurs du classeur */
+  --p6: #e3241b; --p5: #ff9f1a; --p4: #ffe14d; --p3: #3d8fd1;
+  --p2: #3aa655; --p1: #c3ccd2; --p0: #5d6b75;
+  --font: "Atkinson Hyperlegible", "Avenir Next", Avenir, "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --measure: 66ch;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 1.0625rem/1.6 var(--font);
+}
+a { color: var(--teal); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, video:focus-visible {
+  outline: 3px solid var(--teal-light); outline-offset: 3px; border-radius: 4px;
+}
+.wrap { width: min(1120px, 100% - 32px); margin-inline: auto; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 16px; top: 16px; background: var(--paper); padding: .5rem 1rem; z-index: 10; }
+
+/* En-tête */
+.hero { background: var(--navy); color: #fff; padding: clamp(2rem, 5vw, 4.5rem) 0 clamp(2.5rem, 6vw, 5rem); position: relative; overflow: hidden; }
+.hero::after {
+  content: ""; position: absolute; width: 520px; height: 520px; right: -170px; top: -160px;
+  border-radius: 50%; border: 28px solid rgba(31,138,155,.18);
+  box-shadow: 0 0 0 46px var(--navy), 0 0 0 64px rgba(31,138,155,.12);
+  pointer-events: none;
+}
+.hero .wrap { position: relative; z-index: 1; display: grid; gap: clamp(2rem, 4vw, 3.5rem); grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: center; }
+.brand { display: flex; align-items: center; gap: .75rem; margin-bottom: 2rem; color: #c9d7df; font-size: .95rem; text-decoration: none; }
+.brand b { color: #fff; letter-spacing: .02em; }
+h1 { font-size: clamp(2.4rem, 5.4vw, 4.1rem); line-height: 1.02; letter-spacing: -.02em; margin: 0 0 1.1rem; font-weight: 700; }
+h1 small { display: block; font-size: .42em; line-height: 1.3; letter-spacing: 0; font-weight: 400; color: var(--teal-light); margin-top: .9rem; }
+.lead { font-size: 1.15rem; color: #d6e2e8; max-width: 38ch; margin: 0 0 1.8rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.btn {
+  display: inline-flex; align-items: center; gap: .55rem; padding: .85rem 1.25rem; border-radius: 6px;
+  font-weight: 700; text-decoration: none; border: 2px solid transparent; line-height: 1.2;
+}
+.btn-main { background: #fff; color: var(--navy); }
+.btn-main:hover { background: var(--teal-light); }
+.btn-alt { color: #fff; border-color: rgba(255,255,255,.45); }
+.btn-alt:hover { border-color: #fff; }
+.btn svg { width: 1.1em; height: 1.1em; flex: none; }
+.note { font-size: .92rem; color: #aebfc9; margin: 1rem 0 0; }
+
+.player { margin: 0; }
+.player video {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #0b1826;
+  border-radius: 10px; box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 24px 60px -20px rgba(0,0,0,.6);
+}
+.player figcaption { font-size: .9rem; color: #aebfc9; margin-top: .7rem; }
+
+/* Sections */
+section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
+section + section { border-top: 1px solid var(--line); }
+h2 { font-size: clamp(1.7rem, 3.2vw, 2.4rem); line-height: 1.12; letter-spacing: -.01em; margin: 0 0 1rem; }
+h3 { font-size: 1.15rem; margin: 0 0 .35rem; }
+.intro { max-width: var(--measure); color: var(--muted); margin: 0 0 2.2rem; }
+
+/* Matrice interactive */
+.matrix-zone { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: start; }
+.matrix { display: grid; grid-template-columns: auto repeat(4, minmax(0, 1fr)); gap: 6px; }
+.matrix .axis { font-size: .85rem; color: var(--muted); display: flex; align-items: flex-end; justify-content: center; text-align: center; padding: 0 .2rem .35rem; line-height: 1.25; }
+.matrix .row-h { justify-content: flex-end; align-items: center; text-align: right; padding: 0 .6rem 0 0; }
+.cell {
+  min-height: 74px; border: 0; border-radius: 6px; cursor: pointer; font: inherit; font-size: .82rem; font-weight: 700;
+  line-height: 1.2; padding: .4rem; color: var(--ink);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.cell[data-v="6"] { background: var(--p6); color: #fff; }
+.cell[data-v="5"] { background: var(--p5); }
+.cell[data-v="4"] { background: var(--p4); }
+.cell[data-v="3"] { background: var(--p3); color: #fff; }
+.cell[data-v="2"] { background: var(--p2); color: #fff; }
+.cell[data-v="1"] { background: var(--p1); }
+.cell[data-v="0"] { background: var(--p0); color: #fff; }
+.cell[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--paper), 0 0 0 6px var(--navy); transform: scale(1.03); }
+.corner { font-size: .78rem; color: var(--muted); display: flex; align-items: flex-end; padding: 0 .6rem .35rem 0; }
+.verdict { background: var(--mist); border-radius: 10px; padding: 1.5rem 1.6rem; }
+.verdict .swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -1px; margin-right: .5rem; }
+.verdict output { display: block; font-size: 1.6rem; font-weight: 700; line-height: 1.2; margin: .3rem 0 .8rem; }
+.verdict p { margin: 0 0 .7rem; color: var(--muted); }
+.verdict p:last-child { margin-bottom: 0; }
+.scale { list-style: none; padding: 0; margin: 1.2rem 0 0; display: grid; gap: .35rem; font-size: .92rem; }
+.scale li { display: flex; align-items: center; gap: .6rem; }
+.scale i { width: 26px; height: 12px; border-radius: 2px; flex: none; }
+
+/* Étapes */
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; counter-reset: s; }
+.steps li { counter-increment: s; border-top: 3px solid var(--navy); padding-top: 1rem; }
+.steps li::before { content: counter(s); display: block; font-size: 2.2rem; font-weight: 700; line-height: 1; color: var(--teal); margin-bottom: .6rem; }
+.steps p { margin: 0; color: var(--muted); font-size: .98rem; }
+
+/* Captures */
+.shots { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 1.5rem; align-items: start; }
+.shots figure { margin: 0; }
+.shots img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+.shots figcaption { font-size: .9rem; color: var(--muted); margin-top: .6rem; }
+
+/* Axes */
+.axes { list-style: none; padding: 0; margin: 0; }
+.axes li { display: grid; grid-template-columns: 3.2rem minmax(0, 14rem) minmax(0, 1fr) auto; gap: 1rem; align-items: baseline; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.axes .n { font-weight: 700; color: var(--teal); font-size: 1.1rem; }
+.axes .name { font-weight: 700; }
+.axes .eng { color: var(--muted); }
+.axes .count { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+
+/* Pratique */
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.facts p { margin: 0; color: var(--muted); }
+.cta-band { background: var(--navy); color: #fff; }
+.cta-band .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.cta-band h2 { margin: 0; max-width: 22ch; }
+footer { background: var(--navy-2); color: #b9c8d1; font-size: .92rem; padding: 2rem 0; }
+footer a { color: #fff; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: space-between; }
+footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+
+@media (max-width: 860px) {
+  .hero .wrap, .matrix-zone, .shots, .facts { grid-template-columns: minmax(0, 1fr); }
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .axes li { grid-template-columns: 2.4rem 1fr auto; }
+  .axes .eng { grid-column: 2 / -1; }
+}
+@media (max-width: 520px) {
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .matrix { grid-template-columns: 4.6rem repeat(4, minmax(0, 1fr)); gap: 4px; }
+  .matrix > * { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+  .corner { font-size: .68rem; padding-right: .3rem; }
+  .cell { min-height: 60px; font-size: .68rem; padding: .2rem; }
+  .matrix .axis { font-size: .7rem; }
+  .matrix .row-h { padding-right: .3rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="https://institutnr.org/">
+        <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#7fd0d9" stroke-width="3.2" stroke-linecap="round"><path d="M33 12a16 16 0 1 0 2 12"/><path d="M28 15a10 10 0 1 0 1.4 7"/><path d="M23.5 18a4.5 4.5 0 1 0 .6 3"/></g></svg>
+        <span><b>Institut du Numérique Responsable</b></span>
+      </a>
+      <h1>GPC-ONR<small>Par quelles cibles commencer ?</small></h1>
+      <p class="lead">Une grille libre pour classer les 32 cibles des Objectifs du Numérique Responsable. Deux notes par cible, et la priorité se calcule toute seule.</p>
+      <div class="actions">
+        <a class="btn btn-main" href="https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 3h2v10.2l3.6-3.6 1.4 1.4-6 6-6-6 1.4-1.4 3.6 3.6zM4 19h16v2H4z"/></svg>
+          Télécharger la grille vierge
+        </a>
+        <a class="btn btn-alt" href="https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Exemple.xlsx">Voir un exemple rempli</a>
+      </div>
+      <p class="note">Fichier Excel, sans macro. S’ouvre aussi avec LibreOffice, ONLYOFFICE et Google Sheets.</p>
+    </div>
+    <figure class="player">
+      <video controls preload="none" playsinline muted
+             poster="assets/gpc-onr-demo-poster.webp" width="1920" height="1080"
+             aria-describedby="video-desc">
+        <source src="assets/gpc-onr-demo.mp4" type="video/mp4">
+        <a href="assets/gpc-onr-demo.mp4">Télécharger la vidéo de démonstration (MP4, 1,1 Mo)</a>
+      </video>
+      <figcaption id="video-desc">Démonstration en une minute, sans son : décrire les enjeux d’une cible, noter son importance et son niveau actuel, puis lire la priorité calculée.</figcaption>
+    </figure>
+  </div>
+</header>
+
+<main id="contenu">
+  <section aria-labelledby="t-matrice">
+    <div class="wrap">
+      <h2 id="t-matrice">Deux notes suffisent</h2>
+      <p class="intro">Pour chaque cible, vous notez son importance pour votre organisation et ce qui est déjà fait. Leur croisement donne l’un des sept niveaux d’intervention. Choisissez une case pour voir le résultat.</p>
+      <div class="matrix-zone">
+        <div class="matrix" role="group" aria-label="Matrice importance et niveau actuel">
+          <span class="corner" aria-hidden="true">Importance ↓ · Niveau actuel →</span>
+          <span class="axis">1. Aucun progrès</span>
+          <span class="axis">2. Progrès limités</span>
+          <span class="axis">3. Progrès notables</span>
+          <span class="axis">4. Cible atteinte</span>
+        </div>
+        <div class="verdict" aria-live="polite">
+          <span id="v-pair">Importance 3 · Niveau actuel 1</span>
+          <output id="v-out"><span class="swatch" style="background:var(--p6)"></span>Intervention urgente</output>
+          <p id="v-help"></p>
+          <ul class="scale" aria-label="Les sept niveaux, du plus urgent au non pertinent"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-etapes">
+    <div class="wrap">
+      <h2 id="t-etapes">Comment se déroule une évaluation</h2>
+      <p class="intro">Comptez une à deux heures pour un premier passage, seul ou en atelier. Rejouez la grille quelques mois plus tard pour mesurer le chemin parcouru.</p>
+      <ol class="steps">
+        <li><h3>Poser le contexte</h3><p>Dans l’onglet Contexte : organisation, personnes présentes, date. Vos passages successifs restent comparables.</p></li>
+        <li><h3>Noter chaque cible</h3><p>Dans les onglets ONR 1 à ONR 5 : importance de 0 à 3, niveau actuel de 1 à 4, et ce qui justifie la note.</p></li>
+        <li><h3>Proposer des actions</h3><p>Pour chaque cible, notez les points forts, les points faibles et les actions qui la feraient avancer.</p></li>
+        <li><h3>Lire les priorités</h3><p>L’onglet Résultats de synthèse montre où concentrer les efforts et les cibles à traiter en premier.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-captures">
+    <div class="wrap">
+      <h2 id="t-captures">À quoi ressemble la grille</h2>
+      <p class="intro">Captures de l’exemple rempli fourni avec l’outil. Les cellules jaunes reçoivent vos notes ; la colonne de priorité se colore seule.</p>
+      <div class="shots">
+        <figure>
+          <img src="assets/capture-onr1.webp" width="1200" height="1116" loading="lazy" decoding="async"
+               alt="Onglet ONR 1 de l’exemple rempli : chaque cible a ses avantages et risques, sa note d’importance, son niveau actuel, ses compétences, ses points forts et faibles, un niveau de priorité coloré et des actions proposées.">
+          <figcaption>Onglet ONR 1 : les huit cibles de sobriété, dont trois en intervention urgente.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/capture-synthese.webp" width="627" height="813" loading="lazy" decoding="async"
+               alt="Onglet Résultats de synthèse : indicateurs clés, comparaison des cinq ONR et graphiques des cibles évaluées, urgentes et prioritaires.">
+          <figcaption>Résultats de synthèse : avancement et priorités par ONR.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-axes">
+    <div class="wrap">
+      <h2 id="t-axes">32 cibles réparties en cinq axes</h2>
+      <p class="intro">Les Objectifs du Numérique Responsable reprennent les engagements de la charte de l’INR. Quatre cibles portent sur l’intelligence artificielle.</p>
+      <ul class="axes">
+        <li><span class="n">1</span><span class="name">Sobriété</span><span class="eng">Utiliser les outils numériques pour consommer moins de ressources et réduire leurs effets sur l’environnement</span><span class="count">8 cibles</span></li>
+        <li><span class="n">2</span><span class="name">Inclusion</span><span class="eng">Développer des services numériques durables que toutes et tous peuvent utiliser</span><span class="count">5 cibles</span></li>
+        <li><span class="n">3</span><span class="name">RSE</span><span class="eng">Utiliser le numérique de façon éthique et responsable</span><span class="count">8 cibles</span></li>
+        <li><span class="n">4</span><span class="name">Résilience et stratégie</span><span class="eng">Utiliser le numérique responsable pour aider l’organisation à faire face aux difficultés et à s’adapter</span><span class="count">4 cibles</span></li>
+        <li><span class="n">5</span><span class="name">Management</span><span class="eng">Donner du sens au travail et préserver les personnes et les ressources nécessaires à nos activités</span><span class="count">7 cibles</span></li>
+      </ul>
+      <p style="margin-top:1.5rem"><a href="referentiel-onr/">Lire les 32 cibles</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-pratique">
+    <div class="wrap">
+      <h2 id="t-pratique">Bon à savoir</h2>
+      <div class="facts">
+        <div><h3>Libre et gratuit</h3><p>Publié sous licence MIT : vous pouvez l’utiliser, l’adapter et le partager, y compris dans un cadre commercial.</p></div>
+        <div><h3>Ni score ni label</h3><p>La grille ne mesure pas une conformité. Elle aide un groupe à décider par quoi commencer.</p></div>
+        <div><h3>Données ouvertes</h3><p>Le référentiel et la matrice existent aussi en JSON et en CSV, pour vos propres outils.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" aria-labelledby="t-cta">
+    <div class="wrap">
+      <h2 id="t-cta">Repartez avec vos chantiers prioritaires</h2>
+      <div class="actions">
+        <a class="btn btn-main" href="https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 3h2v10.2l3.6-3.6 1.4 1.4-6 6-6-6 1.4-1.4 3.6 3.6zM4 19h16v2H4z"/></svg>
+          Télécharger la grille vierge
+        </a>
+        <a class="btn btn-alt" href="./">Lire la documentation</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>GPC-ONR, publiée par l’<a href="https://institutnr.org/">Institut du Numérique Responsable</a> sous licence MIT.</span>
+    <nav aria-label="Liens du projet">
+      <a href="./">Documentation</a>
+      <a href="methodologie/">Méthodologie</a>
+      <a href="faq/">FAQ</a>
+      <a href="https://github.com/Institut-du-Numerique-Responsable/GPC-ONR">Code source</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(() => {
+  // Matrice de data/matrice-priorisation.json : niveau[importance][performance - 1]
+  const levels = {
+    6: ["Intervention urgente", "--p6", "Enjeu majeur et rien n’est fait : à traiter en premier."],
+    5: ["Intervention prioritaire", "--p5", "Enjeu important encore peu traité : à inscrire dans le premier plan d’action."],
+    4: ["Intervention à moyen terme", "--p4", "Les premiers progrès sont là : poursuivre dans les prochains mois."],
+    3: ["Intervention à long terme", "--p3", "Enjeu secondaire pour l’organisation : à planifier plus tard."],
+    2: ["Intervention de consolidation", "--p2", "La cible est bien engagée : maintenir l’effort et le rendre durable."],
+    1: ["Intervention non prioritaire", "--p1", "Peu d’enjeu ou déjà atteinte : pas d’effort supplémentaire pour l’instant."],
+    0: ["Intervention non pertinente", "--p0", "La cible ne concerne pas l’organisation."]
+  };
+  const grid = [[0, 0, 0, 0], [3, 3, 1, 1], [5, 4, 2, 1], [6, 5, 4, 2]];
+  const importance = ["0. Non pertinente", "1. Peu importante", "2. Importante", "3. Très importante"];
+  const matrix = document.querySelector(".matrix");
+  const out = document.getElementById("v-out");
+  const pair = document.getElementById("v-pair");
+  const help = document.getElementById("v-help");
+  const cells = [];
+
+  for (let imp = 3; imp >= 0; imp--) {
+    const head = document.createElement("span");
+    head.className = "axis row-h";
+    head.textContent = importance[imp];
+    matrix.append(head);
+    for (let perf = 1; perf <= 4; perf++) {
+      const v = grid[imp][perf - 1];
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "cell";
+      b.dataset.v = v;
+      b.textContent = levels[v][0].replace("Intervention ", "");
+      b.setAttribute("aria-pressed", "false");
+      b.setAttribute("aria-label", `Importance ${imp}, niveau actuel ${perf} : ${levels[v][0]}`);
+      b.addEventListener("click", () => select(b, imp, perf, v));
+      matrix.append(b);
+      cells.push(b);
+    }
+  }
+
+  function select(button, imp, perf, v) {
+    cells.forEach(c => c.setAttribute("aria-pressed", String(c === button)));
+    pair.textContent = `Importance ${imp} · Niveau actuel ${perf}`;
+    out.innerHTML = `<span class="swatch" style="background:var(${levels[v][1]})"></span>${levels[v][0]}`;
+    help.textContent = levels[v][2];
+  }
+
+  const scale = document.querySelector(".scale");
+  for (let v = 6; v >= 0; v--) {
+    const li = document.createElement("li");
+    li.innerHTML = `<i style="background:var(${levels[v][1]})"></i>${levels[v][0]}`;
+    scale.append(li);
+  }
+
+  select(cells[0], 3, 1, 6);
+})();
+</script>
+</body>
+</html>

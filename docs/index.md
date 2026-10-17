@@ -10,13 +10,15 @@ La GPC-ONR répond à une question simple et rarement traitée de front : parmi 
 [⬇ Télécharger la grille vierge](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx){ .md-button .md-button--primary }
 [⬇ Télécharger l'exemple rempli](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Exemple.xlsx){ .md-button }
 
+[▶ Voir la démonstration en une minute](presentation.html){ .md-button }
+
 Un fichier Excel, rien à installer. Il s'ouvre avec Excel, LibreOffice Calc, Numbers ou Google Sheets, et ne contient aucune macro.
 
 ## Démarrer
 
 1. Ouvrez le classeur téléchargé ci-dessus. Aucune macro : rien à activer.
 2. Renseignez l'onglet **Contexte** : organisation, participants, date. C'est ce qui rendra vos passages successifs comparables.
-3. Parcourez les onglets **ONR 1** à **ONR 5**. Pour chaque cible, notez l'**importance** (0 à 3) et la **performance actuelle** (1 à 4), puis documentez enjeux, forces, faiblesses et stratégies d'action.
+3. Parcourez les onglets **ONR 1** à **ONR 5**. Pour chaque cible, notez l'**importance** (0 à 3) et la **performance actuelle** (1 à 4), puis décrivez les avantages et les risques, ce qui est déjà fait, les points forts et faibles, et les actions proposées.
 4. Lisez les onglets de résultats : les cibles urgentes et prioritaires forment votre plan de premier rang. Rejouez la grille plus tard pour mesurer la progression.
 
 !!! tip "Seul puis à plusieurs"
@@ -39,13 +41,13 @@ Une cible laissée vide compte comme **non complétée**, jamais comme non prior
 
 | Axe | Engagement | Thème | Cibles |
 |---|---|---|---|
-| **ONR 1 : Sobriété** | Optimiser les outils numériques pour limiter leurs impacts et consommation | Environnement | 8 |
-| **ONR 2 : Inclusion** | Développer des services numériques accessibles à toutes et tous, inclusifs et durables | Accessibilité | 5 |
-| **ONR 3 : RSE** | S'engager pour des pratiques numériques éthiques et responsables | Éthique | 8 |
-| **ONR 4 : Résilience et stratégie** | Aller vers un numérique responsable, indispensable à la résilience des organisations | Résilience | 4 |
-| **ONR 5 : Management** | Faire les choses avec sens, en respectant et préservant les ressources qui produisent | Valeurs | 7 |
+| **ONR 1 : Sobriété** | Utiliser les outils numériques pour consommer moins de ressources et réduire leurs effets sur l’environnement | Environnement | 8 |
+| **ONR 2 : Inclusion** | Développer des services numériques durables que toutes et tous peuvent utiliser | Accessibilité | 5 |
+| **ONR 3 : RSE** | Utiliser le numérique de façon éthique et responsable | Éthique | 8 |
+| **ONR 4 : Résilience et stratégie** | Utiliser le numérique responsable pour aider l’organisation à faire face aux difficultés et à s’adapter | Résilience | 4 |
+| **ONR 5 : Management** | Donner du sens au travail et préserver les personnes et les ressources nécessaires à nos activités | Valeurs | 7 |
 
-Chaque cible s'accompagne d'une reformulation **En clair**, en langage courant : voir **[les 32 cibles](referentiel-onr.md)**.
+Les cibles sont formulées en langage clair, avec un résumé **En bref** : voir **[les 32 cibles](referentiel-onr.md)**.
 
 ## Données ouvertes
 

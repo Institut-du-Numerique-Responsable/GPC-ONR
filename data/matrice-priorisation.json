@@ -4,13 +4,13 @@
     "3": "Très importante",
     "2": "Importante",
     "1": "Peu importante",
-    "0": "Non pertinente"
+    "0": "Non applicable"
   },
   "echelle_performance": {
-    "4": "Cible atteinte ou quasi atteinte",
-    "3": "Progrès notables",
-    "2": "Progrès limités",
-    "1": "Aucun progrès"
+    "4": "Atteinte",
+    "3": "En voie d'être atteinte",
+    "2": "Atteinte en partie",
+    "1": "Pas du tout atteinte"
   },
   "niveaux": [
     {
@@ -155,5 +155,11 @@
       "niveau": "Intervention de consolidation",
       "valeur": 2
     }
-  ]
+  ],
+  "echelle_competences": {
+    "1": "Équipe NR / RSE",
+    "2": "NR / RSE et DSI",
+    "3": "NR / RSE et équipe hors DSI",
+    "4": "Intervention extérieure"
+  }
 }

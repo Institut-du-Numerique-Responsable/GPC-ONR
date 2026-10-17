@@ -81,12 +81,12 @@ Ces objectifs sont issus de la charte de l'[Institut du Numérique Responsable](
 
 Deux notes suffisent. L'**importance de la cible** pour l'organisation (0 à 3) et sa **performance actuelle** (1 à 4). Leur croisement donne le niveau d'intervention :
 
-| Importance \ Performance | 1 : aucun progrès | 2 : progrès limités | 3 : progrès notables | 4 : cible atteinte |
+| Importance \ Niveau actuel | 1 : pas du tout atteinte | 2 : atteinte en partie | 3 : en voie d'être atteinte | 4 : atteinte |
 |---|---|---|---|---|
 | **3 : très importante** | 🔴 Urgente | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation |
 | **2 : importante** | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation | ⚪ Non prioritaire |
 | **1 : peu importante** | 🔵 Long terme | 🔵 Long terme | ⚪ Non prioritaire | ⚪ Non prioritaire |
-| **0 : non pertinente** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
+| **0 : non applicable** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
 
 Une cible laissée vide compte comme **non complétée**, jamais comme non prioritaire. Vous saurez ainsi ce qu'il reste à documenter.
 

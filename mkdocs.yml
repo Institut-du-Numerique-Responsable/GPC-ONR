@@ -45,7 +45,8 @@ theme:
 
 nav:
   - Accueil: index.md
-  - Les 28 cibles: referentiel-onr.md
+  - Découvrir en vidéo: presentation.html
+  - Les 32 cibles: referentiel-onr.md
   - Méthodologie: methodologie.md
   - Exemple commenté: exemple-commente.md
   - FAQ: faq.md

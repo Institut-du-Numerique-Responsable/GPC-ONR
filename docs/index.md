@@ -24,16 +24,18 @@ Un fichier Excel, rien à installer. Il s'ouvre avec Excel, LibreOffice Calc, Nu
 !!! tip "Seul puis à plusieurs"
     Vous pouvez remplir la grille seul pour un premier repérage, puis la rejouer en intelligence collective. La maturité se lit dans l'écart entre deux passages. Le **[classeur d'exemple](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/raw/main/INR_GPC_ONR%20Exemple.xlsx)** montre le niveau de détail attendu.
 
+![Onglet ONR 1 de l'exemple rempli : notes en jaune, niveaux de priorité colorés et actions proposées](assets/capture-onr1.webp){ loading=lazy }
+
 ## Comment la priorité est calculée
 
 Deux notes suffisent. Leur croisement donne le niveau d'intervention :
 
-| Importance \ Performance | 1 : aucun progrès | 2 : progrès limités | 3 : progrès notables | 4 : cible atteinte |
+| Importance \ Niveau actuel | 1 : pas du tout atteinte | 2 : atteinte en partie | 3 : en voie d'être atteinte | 4 : atteinte |
 |---|---|---|---|---|
 | **3 : très importante** | 🔴 Urgente | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation |
 | **2 : importante** | 🟠 Prioritaire | 🟡 Moyen terme | 🟢 Consolidation | ⚪ Non prioritaire |
 | **1 : peu importante** | 🔵 Long terme | 🔵 Long terme | ⚪ Non prioritaire | ⚪ Non prioritaire |
-| **0 : non pertinente** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
+| **0 : non applicable** | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente | ⚫ Non pertinente |
 
 Une cible laissée vide compte comme **non complétée**, jamais comme non prioritaire. Vous saurez ainsi ce qu'il reste à documenter.
 

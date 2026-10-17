@@ -201,10 +201,10 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
       <div class="matrix-zone">
         <div class="matrix" role="group" aria-label="Matrice importance et niveau actuel">
           <span class="corner" aria-hidden="true">Importance ↓ · Niveau actuel →</span>
-          <span class="axis">1. Aucun progrès</span>
-          <span class="axis">2. Progrès limités</span>
-          <span class="axis">3. Progrès notables</span>
-          <span class="axis">4. Cible atteinte</span>
+          <span class="axis">1. Pas du tout atteinte</span>
+          <span class="axis">2. Atteinte en partie</span>
+          <span class="axis">3. En voie d’être atteinte</span>
+          <span class="axis">4. Atteinte</span>
         </div>
         <div class="verdict" aria-live="polite">
           <span id="v-pair">Importance 3, niveau actuel 1</span>
@@ -219,7 +219,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
   <section aria-labelledby="t-etapes">
     <div class="wrap">
       <h2 id="t-etapes">Comment se déroule une évaluation</h2>
-      <p class="intro">Comptez une à deux heures pour un premier passage, seul ou en atelier. Quelques mois plus tard, rejouez la grille pour mesurer vos progrès.</p>
+      <p class="intro">Comptez deux à trois heures seul pour un premier passage, une demi-journée en atelier. Quelques mois plus tard, rejouez la grille pour mesurer vos progrès.</p>
       <ol class="steps">
         <li><h3>Poser le contexte</h3><p>Dans l’onglet Contexte : organisation, personnes présentes, date. Vos passages successifs restent comparables.</p></li>
         <li><h3>Noter chaque cible</h3><p>Dans les onglets ONR 1 à ONR 5 : importance de 0 à 3, niveau actuel de 1 à 4, et ce qui justifie la note.</p></li>
@@ -313,7 +313,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
     0: ["Intervention non pertinente", "--p0", "Cette cible ne concerne pas votre organisation."]
   };
   const grid = [[0, 0, 0, 0], [3, 3, 1, 1], [5, 4, 2, 1], [6, 5, 4, 2]];
-  const importance = ["0. Non pertinente", "1. Peu importante", "2. Importante", "3. Très importante"];
+  const importance = ["0. Non applicable", "1. Peu importante", "2. Importante", "3. Très importante"];
   const matrix = document.querySelector(".matrix");
   const out = document.getElementById("v-out");
   const pair = document.getElementById("v-pair");

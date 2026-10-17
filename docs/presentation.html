@@ -8,13 +8,96 @@
 <link rel="canonical" href="https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html">
 <meta property="og:title" content="GPC-ONR : par quelles cibles commencer ?">
 <meta property="og:description" content="Classez les 32 cibles des Objectifs du Numérique Responsable avec deux notes par cible. Outil libre de l'Institut du Numérique Responsable.">
-<meta property="og:image" content="https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-demo-poster.webp">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html">
+<meta property="og:site_name" content="GPC-ONR · Institut du Numérique Responsable">
+<meta property="og:image" content="https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-partage.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="GPC-ONR : par quelles cibles commencer ? Prioriser les 32 cibles des Objectifs du Numérique Responsable.">
+<meta property="og:video" content="https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-demo.mp4">
+<meta property="og:video:type" content="video/mp4">
 <meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://institutnr.org/#organisation",
+   "name": "Institut du Numérique Responsable",
+   "alternateName": "INR",
+   "url": "https://institutnr.org/",
+   "logo": "https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/logo-inr.webp",
+   "sameAs": [
+    "https://github.com/Institut-du-Numerique-Responsable",
+    "https://isit-europe.org/"
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://institut-du-numerique-responsable.github.io/GPC-ONR/#gpc-onr",
+   "name": "GPC-ONR",
+   "alternateName": "Grille de Priorisation des Cibles des Objectifs du Numérique Responsable",
+   "description": "Classeur libre pour prioriser les 32 cibles des Objectifs du Numérique Responsable : deux notes par cible (importance de 0 à 3, niveau actuel de 1 à 4), sept niveaux d'intervention calculés.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Excel, LibreOffice Calc, ONLYOFFICE, Google Sheets, Numbers",
+   "inLanguage": "fr",
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+   },
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "downloadUrl": "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Template.xlsx",
+   "url": "https://institut-du-numerique-responsable.github.io/GPC-ONR/",
+   "codeRepository": "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR",
+   "publisher": {
+    "@id": "https://institutnr.org/#organisation"
+   },
+   "keywords": "numérique responsable, sobriété numérique, Green IT, RSE, priorisation, auto-évaluation, ONR"
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Démonstration de la GPC-ONR en une minute",
+   "description": "Décrire les enjeux d'une cible, noter son importance et son niveau actuel, puis lire la priorité calculée par la grille. Vidéo sans son.",
+   "thumbnailUrl": "https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-partage.jpg",
+   "contentUrl": "https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-demo.mp4",
+   "uploadDate": "2026-10-14",
+   "duration": "PT1M",
+   "inLanguage": "fr",
+   "publisher": {
+    "@id": "https://institutnr.org/#organisation"
+   },
+   "about": {
+    "@id": "https://institut-du-numerique-responsable.github.io/GPC-ONR/#gpc-onr"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html",
+   "url": "https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html",
+   "name": "GPC-ONR : par quelles cibles commencer ?",
+   "inLanguage": "fr",
+   "about": {
+    "@id": "https://institut-du-numerique-responsable.github.io/GPC-ONR/#gpc-onr"
+   },
+   "publisher": {
+    "@id": "https://institutnr.org/#organisation"
+   },
+   "primaryImageOfPage": "https://institut-du-numerique-responsable.github.io/GPC-ONR/assets/gpc-onr-partage.jpg"
+  }
+ ]
+}
+</script>
 <style>
 :root {
   --navy: #12263a;
   --navy-2: #1b3550;
-  --teal: #1f8a9b;
+  --teal: #0a7190;
   --teal-light: #7fd0d9;
   --ink: #17232d;
   --muted: #4d5d69;
@@ -50,8 +133,8 @@ a:focus-visible, button:focus-visible, video:focus-visible {
   pointer-events: none;
 }
 .hero .wrap { position: relative; z-index: 1; display: grid; gap: clamp(2rem, 4vw, 3.5rem); grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: center; }
-.brand { display: flex; align-items: center; gap: .75rem; margin-bottom: 2rem; color: #c9d7df; font-size: .95rem; text-decoration: none; }
-.brand b { color: #fff; letter-spacing: .02em; }
+.brand { display: inline-block; margin-bottom: 2rem; }
+.brand img { display: block; height: 60px; width: auto; }
 h1 { font-size: clamp(2.4rem, 5.4vw, 4.1rem); line-height: 1.02; letter-spacing: -.02em; margin: 0 0 1.1rem; font-weight: 700; }
 h1 small { display: block; font-size: .42em; line-height: 1.3; letter-spacing: 0; font-weight: 400; color: var(--teal-light); margin-top: .9rem; }
 .lead { font-size: 1.15rem; color: #d6e2e8; max-width: 38ch; margin: 0 0 1.8rem; }
@@ -166,10 +249,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
 <header class="hero">
   <div class="wrap">
     <div>
-      <a class="brand" href="https://institutnr.org/">
-        <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#7fd0d9" stroke-width="3.2" stroke-linecap="round"><path d="M33 12a16 16 0 1 0 2 12"/><path d="M28 15a10 10 0 1 0 1.4 7"/><path d="M23.5 18a4.5 4.5 0 1 0 .6 3"/></g></svg>
-        <span><b>Institut du Numérique Responsable</b></span>
-      </a>
+      <a class="brand" href="https://institutnr.org/"><img src="assets/logo-inr-blanc.svg" width="196" height="60" alt="Institut du Numérique Responsable"></a>
       <h1>GPC-ONR<small>Par quelles cibles commencer ?</small></h1>
       <p class="lead">Une grille libre pour classer les 32 cibles des Objectifs du Numérique Responsable. Vous donnez deux notes par cible, la grille calcule la priorité.</p>
       <div class="actions">
@@ -205,12 +285,40 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
           <span class="axis">2. Atteinte en partie</span>
           <span class="axis">3. En voie d’être atteinte</span>
           <span class="axis">4. Atteinte</span>
+          <span class="axis row-h">3. Très importante</span>
+          <button type="button" class="cell" data-v="6" data-imp="3" data-perf="1" aria-pressed="true" aria-label="Importance 3, niveau actuel 1 : Intervention urgente">urgente</button>
+          <button type="button" class="cell" data-v="5" data-imp="3" data-perf="2" aria-pressed="false" aria-label="Importance 3, niveau actuel 2 : Intervention prioritaire">prioritaire</button>
+          <button type="button" class="cell" data-v="4" data-imp="3" data-perf="3" aria-pressed="false" aria-label="Importance 3, niveau actuel 3 : Intervention à moyen terme">à moyen terme</button>
+          <button type="button" class="cell" data-v="2" data-imp="3" data-perf="4" aria-pressed="false" aria-label="Importance 3, niveau actuel 4 : Intervention de consolidation">de consolidation</button>
+          <span class="axis row-h">2. Importante</span>
+          <button type="button" class="cell" data-v="5" data-imp="2" data-perf="1" aria-pressed="false" aria-label="Importance 2, niveau actuel 1 : Intervention prioritaire">prioritaire</button>
+          <button type="button" class="cell" data-v="4" data-imp="2" data-perf="2" aria-pressed="false" aria-label="Importance 2, niveau actuel 2 : Intervention à moyen terme">à moyen terme</button>
+          <button type="button" class="cell" data-v="2" data-imp="2" data-perf="3" aria-pressed="false" aria-label="Importance 2, niveau actuel 3 : Intervention de consolidation">de consolidation</button>
+          <button type="button" class="cell" data-v="1" data-imp="2" data-perf="4" aria-pressed="false" aria-label="Importance 2, niveau actuel 4 : Intervention non prioritaire">non prioritaire</button>
+          <span class="axis row-h">1. Peu importante</span>
+          <button type="button" class="cell" data-v="3" data-imp="1" data-perf="1" aria-pressed="false" aria-label="Importance 1, niveau actuel 1 : Intervention à long terme">à long terme</button>
+          <button type="button" class="cell" data-v="3" data-imp="1" data-perf="2" aria-pressed="false" aria-label="Importance 1, niveau actuel 2 : Intervention à long terme">à long terme</button>
+          <button type="button" class="cell" data-v="1" data-imp="1" data-perf="3" aria-pressed="false" aria-label="Importance 1, niveau actuel 3 : Intervention non prioritaire">non prioritaire</button>
+          <button type="button" class="cell" data-v="1" data-imp="1" data-perf="4" aria-pressed="false" aria-label="Importance 1, niveau actuel 4 : Intervention non prioritaire">non prioritaire</button>
+          <span class="axis row-h">0. Non applicable</span>
+          <button type="button" class="cell" data-v="0" data-imp="0" data-perf="1" aria-pressed="false" aria-label="Importance 0, niveau actuel 1 : Intervention non pertinente">non pertinente</button>
+          <button type="button" class="cell" data-v="0" data-imp="0" data-perf="2" aria-pressed="false" aria-label="Importance 0, niveau actuel 2 : Intervention non pertinente">non pertinente</button>
+          <button type="button" class="cell" data-v="0" data-imp="0" data-perf="3" aria-pressed="false" aria-label="Importance 0, niveau actuel 3 : Intervention non pertinente">non pertinente</button>
+          <button type="button" class="cell" data-v="0" data-imp="0" data-perf="4" aria-pressed="false" aria-label="Importance 0, niveau actuel 4 : Intervention non pertinente">non pertinente</button>
         </div>
         <div class="verdict" aria-live="polite">
           <span id="v-pair">Importance 3, niveau actuel 1</span>
           <output id="v-out"><span class="swatch" style="background:var(--p6)"></span>Intervention urgente</output>
-          <p id="v-help"></p>
-          <ul class="scale" aria-label="Les sept niveaux, du plus urgent au non pertinent"></ul>
+          <p id="v-help">Enjeu majeur, aucune action engagée : traitez cette cible en premier.</p>
+          <ul class="scale" aria-label="Les sept niveaux, du plus urgent au non pertinent">
+            <li><i style="background:var(--p6)"></i>Intervention urgente</li>
+            <li><i style="background:var(--p5)"></i>Intervention prioritaire</li>
+            <li><i style="background:var(--p4)"></i>Intervention à moyen terme</li>
+            <li><i style="background:var(--p3)"></i>Intervention à long terme</li>
+            <li><i style="background:var(--p2)"></i>Intervention de consolidation</li>
+            <li><i style="background:var(--p1)"></i>Intervention non prioritaire</li>
+            <li><i style="background:var(--p0)"></i>Intervention non pertinente</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -302,59 +410,27 @@ footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
 
 <script>
 (() => {
-  // Matrice de data/matrice-priorisation.json : niveau[importance][performance - 1]
-  const levels = {
-    6: ["Intervention urgente", "--p6", "Enjeu majeur, aucune action engagée : traitez cette cible en premier."],
-    5: ["Intervention prioritaire", "--p5", "Enjeu important, peu d’actions engagées : inscrivez-la dans votre premier plan d’action."],
-    4: ["Intervention à moyen terme", "--p4", "Vous avez progressé : poursuivez l’effort dans les prochains mois."],
-    3: ["Intervention à long terme", "--p3", "Enjeu secondaire pour votre organisation : planifiez-la plus tard."],
-    2: ["Intervention de consolidation", "--p2", "Vous avez bien avancé : maintenez l’effort dans la durée."],
-    1: ["Intervention non prioritaire", "--p1", "Peu d’enjeu, ou cible déjà atteinte : aucun effort supplémentaire pour l’instant."],
-    0: ["Intervention non pertinente", "--p0", "Cette cible ne concerne pas votre organisation."]
+  // Textes affichés au clic ; les niveaux viennent de data/matrice-priorisation.json.
+  const help = {
+    6: "Enjeu majeur, aucune action engagée : traitez cette cible en premier.",
+    5: "Enjeu important, peu d’actions engagées : inscrivez-la dans votre premier plan d’action.",
+    4: "Vous avez progressé : poursuivez l’effort dans les prochains mois.",
+    3: "Enjeu secondaire pour votre organisation : planifiez-la plus tard.",
+    2: "Vous avez bien avancé : maintenez l’effort dans la durée.",
+    1: "Peu d’enjeu, ou cible déjà atteinte : aucun effort supplémentaire pour l’instant.",
+    0: "Cette cible ne concerne pas votre organisation."
   };
-  const grid = [[0, 0, 0, 0], [3, 3, 1, 1], [5, 4, 2, 1], [6, 5, 4, 2]];
-  const importance = ["0. Non applicable", "1. Peu importante", "2. Importante", "3. Très importante"];
-  const matrix = document.querySelector(".matrix");
+  const cells = document.querySelectorAll(".matrix .cell");
   const out = document.getElementById("v-out");
   const pair = document.getElementById("v-pair");
-  const help = document.getElementById("v-help");
-  const cells = [];
-
-  for (let imp = 3; imp >= 0; imp--) {
-    const head = document.createElement("span");
-    head.className = "axis row-h";
-    head.textContent = importance[imp];
-    matrix.append(head);
-    for (let perf = 1; perf <= 4; perf++) {
-      const v = grid[imp][perf - 1];
-      const b = document.createElement("button");
-      b.type = "button";
-      b.className = "cell";
-      b.dataset.v = v;
-      b.textContent = levels[v][0].replace("Intervention ", "");
-      b.setAttribute("aria-pressed", "false");
-      b.setAttribute("aria-label", `Importance ${imp}, niveau actuel ${perf} : ${levels[v][0]}`);
-      b.addEventListener("click", () => select(b, imp, perf, v));
-      matrix.append(b);
-      cells.push(b);
-    }
-  }
-
-  function select(button, imp, perf, v) {
-    cells.forEach(c => c.setAttribute("aria-pressed", String(c === button)));
-    pair.textContent = `Importance ${imp}, niveau actuel ${perf}`;
-    out.innerHTML = `<span class="swatch" style="background:var(${levels[v][1]})"></span>${levels[v][0]}`;
-    help.textContent = levels[v][2];
-  }
-
-  const scale = document.querySelector(".scale");
-  for (let v = 6; v >= 0; v--) {
-    const li = document.createElement("li");
-    li.innerHTML = `<i style="background:var(${levels[v][1]})"></i>${levels[v][0]}`;
-    scale.append(li);
-  }
-
-  select(cells[0], 3, 1, 6);
+  const text = document.getElementById("v-help");
+  cells.forEach(cell => cell.addEventListener("click", () => {
+    const v = cell.dataset.v;
+    cells.forEach(c => c.setAttribute("aria-pressed", String(c === cell)));
+    pair.textContent = `Importance ${cell.dataset.imp}, niveau actuel ${cell.dataset.perf}`;
+    out.innerHTML = `<span class="swatch" style="background:var(--p${v})"></span>Intervention ${cell.textContent}`;
+    text.textContent = help[v];
+  }));
 })();
 </script>
 </body>

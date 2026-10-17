@@ -8,16 +8,17 @@ La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classem
 
 ## Documentation
 
-- [Référentiel des 32 cibles ONR](docs/referentiel-onr.md) : chaque cible formulée en langage clair, avec un résumé et, en annexe, le libellé d'origine de la charte ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
-- [Méthodologie](docs/methodologie.md) : déroulé en 5 étapes, échelles de notation, matrice de priorisation, conditions de validité.
-- [Exemple commenté](docs/exemple-commente.md) : cibles renseignées par une organisation fictive, avec enjeux, forces/faiblesses et stratégies d'action.
-- [Questions fréquentes](docs/faq.md) : périmètre, durée, public visé, différence template/exemple, citation.
+- [Présentation en une minute](https://institut-du-numerique-responsable.github.io/GPC-ONR/presentation.html) : vidéo de démonstration, matrice importance × niveau actuel, étapes d'une évaluation, captures du classeur.
+- [Référentiel des 32 cibles ONR](https://institut-du-numerique-responsable.github.io/GPC-ONR/referentiel-onr/) : chaque cible formulée en langage clair, avec un résumé et, en annexe, le libellé d'origine de la charte ; les 5 axes (Sobriété, Inclusion, RSE, Résilience et stratégie, Management) et l'intégralité des cibles, en texte.
+- [Méthodologie](https://institut-du-numerique-responsable.github.io/GPC-ONR/methodologie/) : déroulé en 5 étapes, échelles d'importance, de niveau actuel et de compétences, matrice de priorisation, lecture de l'onglet de synthèse, organisation d'un atelier.
+- [Exemple commenté](https://institut-du-numerique-responsable.github.io/GPC-ONR/exemple-commente/) : cibles renseignées par une organisation fictive, avec avantages et risques, justification de la note, points forts et faibles, actions proposées.
+- [Questions fréquentes](https://institut-du-numerique-responsable.github.io/GPC-ONR/faq/) : périmètre, durée, public visé, différence template/exemple, comparaison de deux passages, réutilisation, citation.
 
 ## Données structurées
 
-- [data/onr-referentiel.json](data/onr-referentiel.json) : les 5 axes et 32 cibles, structurés, avec le champ `explication` (reformulation en langage courant).
+- [data/onr-referentiel.json](data/onr-referentiel.json) : les 5 axes et 32 cibles, structurés, avec le résumé `explication` et le libellé d'origine de la charte `libelle_charte`.
 - [data/onr-referentiel.csv](data/onr-referentiel.csv) : même contenu, tabulaire.
-- [data/matrice-priorisation.json](data/matrice-priorisation.json) : les 16 combinaisons importance × performance et le niveau d'intervention correspondant.
+- [data/matrice-priorisation.json](data/matrice-priorisation.json) : les 16 combinaisons importance × niveau actuel, le niveau d'intervention correspondant et les échelles de notation.
 - [data/gpc-onr-exemple.json](data/gpc-onr-exemple.json) : contenu textuel complet du classeur d'exemple.
 
 ## Fichiers de travail

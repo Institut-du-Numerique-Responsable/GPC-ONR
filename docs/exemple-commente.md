@@ -14,7 +14,7 @@ Données complètes de cet exemple : [`data/gpc-onr-exemple.json`](../data/gpc-o
 |---|---|
 | **Importance** | 3 / 3 |
 | **Niveau actuel** | 1 / 4 |
-| **Compétences nécessaires** | 3 |
+| **Compétences nécessaires** | 3 : NR / RSE et équipe hors DSI |
 | **Niveau de priorité** | **Intervention urgente** |
 
 **Avantages possibles et risques**
@@ -41,7 +41,7 @@ Former l’équipe Achats aux critères du numérique responsable et aux labels 
 |---|---|
 | **Importance** | 3 / 3 |
 | **Niveau actuel** | 3 / 4 |
-| **Compétences nécessaires** | 2 |
+| **Compétences nécessaires** | 2 : NR / RSE et DSI |
 | **Niveau de priorité** | **Intervention à moyen terme** |
 
 **Avantages possibles et risques**
@@ -67,7 +67,7 @@ Répartir le coût des équipements dans les comptes sur cinq ans au minimum : c
 |---|---|
 | **Importance** | 3 / 3 |
 | **Niveau actuel** | 2 / 4 |
-| **Compétences nécessaires** | 2 |
+| **Compétences nécessaires** | 2 : NR / RSE et DSI |
 | **Niveau de priorité** | **Intervention prioritaire** |
 
 **Avantages possibles et risques**
@@ -98,7 +98,7 @@ Points faibles : ils connaissent peu les guides pour concevoir des services num�
 |---|---|
 | **Importance** | 3 / 3 |
 | **Niveau actuel** | 1 / 4 |
-| **Compétences nécessaires** | 2 |
+| **Compétences nécessaires** | 2 : NR / RSE et DSI |
 | **Niveau de priorité** | **Intervention urgente** |
 
 **Avantages possibles et risques**
@@ -129,7 +129,7 @@ Points faibles : elle connaît peu les méthodes pour mesurer et réduire la con
 |---|---|
 | **Importance** | 3 / 3 |
 | **Niveau actuel** | 1 / 4 |
-| **Compétences nécessaires** | 2 |
+| **Compétences nécessaires** | 2 : NR / RSE et DSI |
 | **Niveau de priorité** | **Intervention urgente** |
 
 **Avantages possibles et risques**

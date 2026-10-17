@@ -4,8 +4,18 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 
 ## [Non publié]
 
+### Ajouté
+
+- Méthodologie : échelle des compétences nécessaires, lecture bloc par bloc de l'onglet `Résultats synthèse` et déroulé d'atelier sur une demi-journée.
+- FAQ : comparer deux passages, retrouver les libellés de la charte, réutiliser la grille.
+- Page de présentation dans le menu du site ; captures d'écran sur l'accueil et dans la méthodologie.
+- `echelle_competences` dans `data/matrice-priorisation.json`.
+
 ### Modifié
 
+- Échelles alignées sur les classeurs dans la documentation, la page de présentation et `data/matrice-priorisation.json` : importance 0 « non applicable », niveau actuel « pas du tout atteinte », « atteinte en partie », « en voie d'être atteinte », « atteinte ».
+- Menu du site : « Les 32 cibles » au lieu de « Les 28 cibles ».
+- Durée d'un premier passage harmonisée : deux à trois heures seul, une demi-journée en atelier.
 - **Licences ouvertes européennes** à la place de la licence MIT : CC BY 4.0, licence de réutilisation de la Commission européenne, pour les classeurs, les données, la documentation, la vidéo et les captures ; EUPL-1.2 pour les scripts, les workflows et la page de présentation. Les deux licences permettent l'usage commercial ; CC BY 4.0 demande de citer l'INR, l'EUPL-1.2 demande de redistribuer sous la même licence les scripts modifiés. Les versions jusqu'à la 1.3.0 restent disponibles sous MIT (`LICENSES/MIT-historique.txt`).
 
 ## [1.3.0] - 2026-10-18

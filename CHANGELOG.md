@@ -6,6 +6,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 
 ### Ajouté
 
+- Page de présentation : logo officiel de l'INR, données structurées schema.org (organisation, logiciel, vidéo), balises de partage complètes avec une image JPEG 1200 × 630, matrice en HTML statique lisible par les robots sans JavaScript.
+- `presentation.html` dans `sitemap.xml` (hook MkDocs `hooks/sitemap_pages_html.py`) et dans `llms.txt`, dont les liens pointent désormais vers le site public.
 - Méthodologie : échelle des compétences nécessaires, lecture bloc par bloc de l'onglet `Résultats synthèse` et déroulé d'atelier sur une demi-journée.
 - FAQ : comparer deux passages, retrouver les libellés de la charte, réutiliser la grille.
 - Page de présentation dans le menu du site ; captures d'écran sur l'accueil et dans la méthodologie.

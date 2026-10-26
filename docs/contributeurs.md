@@ -13,7 +13,7 @@ La GPC-ONR prolonge les Objectifs du Numérique Responsable, que la communauté 
 
 ## Versions sectorielles
 
-Les versions [Collectivités territoriales](secteurs/collectivites.md) et [Enseignement supérieur et recherche](secteurs/enseignement-superieur.md) sont co-éditées par l'INR et **LaNum Pays Basque**, dans le cadre du projet **NÉONUM**.
+Les versions [Collectivités territoriales](secteurs/collectivites.md) et [Enseignement supérieur et recherche](secteurs/enseignement-superieur.md) sont proposées par **LaNum Pays Basque** et co-éditées avec l'INR. LaNum les a conçues pour faciliter l'adoption de la grille par les collectivités et les établissements qu'elle accompagne dans le projet européen **NÉONUM** : reformulation des cibles, cibles propres à chaque secteur, liens avec les ODD.
 
 ![Institut du Numérique Responsable](assets/logo-inr.webp){ height=44 style="vertical-align:middle" }
 ![LaNum Pays Basque](assets/logo-lanum.svg){ height=44 style="vertical-align:middle" }

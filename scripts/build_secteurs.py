@@ -30,21 +30,18 @@ from couverture_odd import NB_CIBLES_ODD, NOMS_ODD, charger_liens, pct, structur
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "INR_GPC_ONR Template.xlsx"
-LOGOS = [  # (fichier dans secteurs/logos, nom affiché)
-    ("logo-lanum.png", "LaNum Pays Basque"),
-    ("logo-neonum.png", "NÉONUM"),
-]
+# Bandeau INR + LaNum + NÉONUM composé une fois (secteurs/logos) : il remplace le logo INR
+# à la même ancre. Une image unique ne peut pas se chevaucher, quel que soit le tableur
+# (Excel, LibreOffice et OnlyOffice ne calculent pas les largeurs de colonnes pareil).
+BANDEAU = "bandeau-coedition.png"
 DEPOT = "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR"
 COEDITEURS = "l'Institut du Numérique Responsable (INR) et LaNum Pays Basque"
-CADRE = "dans le cadre du projet NÉONUM"
-FEUILLE_SOURCE_METIER = "ONR 2"  # 5 cibles, comme chaque jeu de cibles métier
+CADRE = "pour les publics qu'elle accompagne dans le projet européen NÉONUM"
 NOM_FEUILLE_METIER = "Cibles métier"
 
 NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
-NS_A = "http://schemas.openxmlformats.org/drawingml/2006/main"
 REL_IMAGE = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
 REL_SHEET = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet"
-EMU_PAR_PX = 9525
 
 erreurs = []
 
@@ -70,34 +67,6 @@ def remplacer_texte(xml, ancien, nouveau):
 def taille_png(donnees):
     largeur, hauteur = struct.unpack(">II", donnees[16:24])
     return largeur, hauteur
-
-
-def positions_colonnes(feuille_xml):
-    """Abscisse (EMU) du bord gauche de chaque colonne, à partir des largeurs déclarées."""
-    defaut = re.search(r'defaultColWidth="([\d.]+)"', feuille_xml)
-    defaut = float(defaut.group(1)) if defaut else 8.43
-    largeurs = {}
-    for mn, mx, w in re.findall(r'<(?:x:)?col min="(\d+)" max="(\d+)" width="([\d.]+)"', feuille_xml):
-        for c in range(int(mn), min(int(mx), 200) + 1):
-            largeurs[c] = float(w)
-    positions, x = [], 0
-    for c in range(1, 201):
-        positions.append(x)
-        x += int(largeurs.get(c, defaut) * 7 + 5) * EMU_PAR_PX
-    return positions
-
-
-def ancre_image(positions, x, row, row_off, cx, cy, rid, id_forme, nom):
-    col = max(i for i, p in enumerate(positions) if p <= x)
-    return (
-        f'<xdr:oneCellAnchor><xdr:from><xdr:col>{col}</xdr:col><xdr:colOff>{x - positions[col]}</xdr:colOff>'
-        f'<xdr:row>{row}</xdr:row><xdr:rowOff>{row_off}</xdr:rowOff></xdr:from>'
-        f'<xdr:ext cx="{cx}" cy="{cy}"/><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="{id_forme}" name="{html.escape(nom)}" '
-        f'descr="Logo {html.escape(nom)}"/><xdr:cNvPicPr><a:picLocks xmlns:a="{NS_A}" noChangeAspect="1"/>'
-        f'</xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:a="{NS_A}" xmlns:r="{NS_R}" r:embed="{rid}"/>'
-        f'<a:stretch xmlns:a="{NS_A}"><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr>'
-        f'<a:prstGeom xmlns:a="{NS_A}" prst="rect"/></xdr:spPr></xdr:pic><xdr:clientData/></xdr:oneCellAnchor>'
-    )
 
 
 def chemin_cible(base, cible):
@@ -148,42 +117,67 @@ def feuilles(parts):
     ]
 
 
-def ajouter_logos(parts, logos):
-    """Place les logos des co-éditeurs à droite du logo INR, sur chaque feuille qui en porte un."""
+def positions_colonnes(feuille_xml):
+    """Abscisse approximative (EMU) du bord gauche de chaque colonne. Sert seulement à caler le
+    bandeau : une erreur d'estimation le décale un peu, elle ne peut pas créer de chevauchement."""
+    defaut = re.search(r'defaultColWidth="([\d.]+)"', feuille_xml)
+    defaut = float(defaut.group(1)) if defaut else 8.43
+    largeurs = {}
+    for mn, mx, w in re.findall(r'<(?:x:)?col min="(\d+)" max="(\d+)" width="([\d.]+)"', feuille_xml):
+        for c in range(int(mn), min(int(mx), 200) + 1):
+            largeurs[c] = float(w)
+    positions, x = [], 0
+    for c in range(1, 201):
+        positions.append(x)
+        x += int(largeurs.get(c, defaut) * 7 + 5) * 9525
+    return positions
+
+
+def ajuster_hauteurs(feuille_xml, car_par_ligne=40, pt_par_ligne=11.5):
+    """Agrandit les lignes de cibles dont le libellé (colonne C) dépasse la hauteur prévue."""
+    def ligne(m):
+        row = m.group(0)
+        texte = re.search(r'<x:c r="C\d+"[^>]*t="inlineStr"><x:is><x:t[^>]*>([^<]*)</x:t>', row)
+        ht = re.search(r' ht="([\d.]+)"', row)
+        if not texte or not ht:
+            return row
+        besoin = -(-len(html.unescape(texte.group(1))) // car_par_ligne) * pt_par_ligne + 8
+        if besoin <= float(ht.group(1)):
+            return row
+        return row.replace(ht.group(0), f' ht="{besoin:g}"', 1)
+    return re.sub(r'<x:row r="\d+"[^>]*>.*?</x:row>', ligne, feuille_xml, flags=re.S)
+
+
+def poser_bandeau(parts, fichier, largeur, hauteur):
+    """Remplace le logo INR par le bandeau des co-éditeurs, à la même ancre et à la même hauteur."""
     for _, _, feuille in feuilles(parts):
         for rel in relations(parts, feuille):
             if not rel["Type"].endswith("/drawing"):
                 continue
             dessin = chemin_cible(feuille, rel["Target"])
-            xml = parts[dessin]
             ids_inr = {r["Id"] for r in relations(parts, dessin) if "inr" in r["Target"].lower()}
-            ancre = next(
-                (a for a in re.findall(r"<xdr:oneCellAnchor>.*?</xdr:oneCellAnchor>", xml, re.S)
-                 if any(f'r:embed="{i}"' in a for i in ids_inr)),
-                None,
-            )
-            if ancre is None:
-                continue
-            col, col_off, row, row_off = (int(v) for v in re.findall(
-                r"<xdr:(?:col|colOff|row|rowOff)>(\d+)<", ancre)[:4])
-            cx, cy = (int(v) for v in re.search(r'<xdr:ext cx="(\d+)" cy="(\d+)"', ancre).groups())
-            positions = positions_colonnes(parts[feuille])
-            # Logo INR en haut à gauche (Accueil) : les co-éditeurs suivent à sa droite.
-            # Logo INR calé à droite de la feuille : ils se placent à sa gauche, pour ne pas
-            # déborder de la zone imprimable.
-            x_inr = positions[col] + col_off
-            a_droite = col <= 2
-            largeurs = [cy * largeur // hauteur for _, _, largeur, hauteur in logos]
-            x = x_inr + cx if a_droite else x_inr - sum(largeurs) - len(logos) * (cy // 3)
-            nouvelles = []
-            for i, ((fichier, nom, _, _), largeur_emu) in enumerate(zip(logos, largeurs)):
-                rid = f"logoCoediteur{i + 1}"
-                ajouter_relation(parts, dessin, rid, REL_IMAGE, f"/xl/media/{fichier}")
-                if a_droite:
-                    x += cy // 3
-                nouvelles.append(ancre_image(positions, x, row, row_off, largeur_emu, cy, rid, 900 + i, nom))
-                x += largeur_emu + (0 if a_droite else cy // 3)
-            parts[dessin] = xml.replace("</xdr:wsDr>", "".join(nouvelles) + "</xdr:wsDr>")
+            xml = parts[dessin]
+            for ancre in re.findall(r"<xdr:oneCellAnchor>.*?</xdr:oneCellAnchor>", xml, re.S):
+                if not any(f'r:embed="{i}"' in ancre for i in ids_inr):
+                    continue
+                cx, cy = (int(v) for v in re.search(r'<xdr:ext cx="(\d+)" cy="(\d+)"', ancre).groups())
+                bx = cy * largeur // hauteur
+                nouvelle = re.sub(r'<xdr:ext cx="\d+"', f'<xdr:ext cx="{bx}"', ancre)
+                col, col_off = (int(v) for v in re.findall(r"<xdr:(?:col|colOff)>(\d+)<", ancre)[:2])
+                if col > 2:
+                    # logo INR calé à droite : le bandeau se termine là où il se terminait
+                    positions = positions_colonnes(parts[feuille])
+                    x = max(0, positions[col] + col_off + cx - bx)
+                    c = max(i for i, p in enumerate(positions) if p <= x)
+                    nouvelle = re.sub(r"<xdr:col>\d+</xdr:col><xdr:colOff>\d+</xdr:colOff>",
+                                      f"<xdr:col>{c}</xdr:col><xdr:colOff>{x - positions[c]}</xdr:colOff>",
+                                      nouvelle, count=1)
+                nouvelle = re.sub(r'r:embed="[^"]+"', 'r:embed="bandeauCoedition"', nouvelle)
+                nouvelle = re.sub(r'(<xdr:cNvPr id="\d+" name=")[^"]*"',
+                                  r'\1Logos INR, LaNum Pays Basque et NÉONUM"', nouvelle)
+                xml = xml.replace(ancre, nouvelle)
+                ajouter_relation(parts, dessin, "bandeauCoedition", REL_IMAGE, f"/xl/media/{fichier}")
+            parts[dessin] = xml
 
 
 def paragraphe_comme(modele, texte):
@@ -210,8 +204,8 @@ def personnaliser_accueil(parts, variante):
         credits = next(p for p in paragraphes if texte(p).startswith("Cette fiche est inspirée"))
         xml = xml.replace(titre, titre + paragraphe_comme(sous_titre, "VERSION " + variante["nom"].upper()), 1)
         xml = xml.replace(credits, credits + paragraphe_comme(credits, (
-            f"Version « {variante['nom']} » co-éditée par {COEDITEURS}, {CADRE}, "
-            "d'après la GPC-ONR de l'INR. "
+            f"Version « {variante['nom']} » proposée par LaNum Pays Basque {CADRE}, "
+            "et co-éditée avec l'INR, d'après la GPC-ONR. "
             "Les cibles métier (feuille « Cibles métier ») ne sont pas reprises dans les feuilles de résultats."
         )), 1)
         parts[dessin] = xml
@@ -237,7 +231,13 @@ def libre(parts, modele):
 
 
 def ajouter_feuille_metier(parts, variante, cibles_metier, cibles, base):
-    nom_src, _, src = next(f for f in feuilles(parts) if f[0] == FEUILLE_SOURCE_METIER)
+    # Feuille source : l'onglet ONR qui a juste assez de lignes ; les lignes en trop sont masquées.
+    axe = min((a for a in base["axes"] if len(a["cibles"]) >= len(cibles_metier)),
+              key=lambda a: len(a["cibles"]), default=None)
+    if axe is None:
+        erreurs.append(f"feuille métier : {len(cibles_metier)} cibles, aucun onglet ONR assez long")
+        return
+    _, _, src = next(f for f in feuilles(parts) if f[0] == f"ONR {axe['numero']}")
     nouvelle = libre(parts, "xl/worksheets/sheet{}.xml")
     copier_partie(parts, src, nouvelle)
     xml = parts[nouvelle]
@@ -247,13 +247,17 @@ def ajouter_feuille_metier(parts, variante, cibles_metier, cibles, base):
     xml, n = re.subn(r'(<x:c r="B2"[^>]*>)<x:v>[^<]*</x:v>', lambda m: m.group(1) + f"<x:v>{html.escape(entete)}</x:v>", xml)
     if not n:
         erreurs.append("feuille métier : en-tête B2 introuvable")
-    axe2 = [c for a in base["axes"] if a["numero"] == 2 for c in a["cibles"]]
-    for ancienne, metier in zip(axe2, cibles_metier):
+    for i, ancienne in enumerate(axe["cibles"]):
+        metier = cibles_metier[i] if i < len(cibles_metier) else {"code": "", "libelle": ""}
+        motif = rf'<x:c r="B(\d+)"[^>]*><x:is><x:t[^>]*>{re.escape(ancienne["code"])}</x:t>'
+        ligne = re.search(motif, xml)
         xml, n1 = re.subn(rf'(<x:c r="B\d+"[^>]*><x:is><x:t[^>]*>){re.escape(ancienne["code"])}(</x:t>)',
                           lambda m: m.group(1) + metier["code"] + m.group(2), xml)
         xml, n2 = remplacer_texte(xml, cibles[ancienne["code"]]["libelle"], metier["libelle"])
-        if not (n1 and n2):
+        if not (ligne and n1 and n2):
             erreurs.append(f"feuille métier : cible {ancienne['code']} introuvable")
+        elif not metier["code"]:
+            xml = re.sub(rf'<x:row r="{ligne.group(1)}"', f'<x:row r="{ligne.group(1)}" hidden="1"', xml, count=1)
     parts[nouvelle] = xml
 
     # relations : commentaires, VML, réglages d'impression et logos sont dupliqués
@@ -277,6 +281,14 @@ def ajouter_feuille_metier(parts, variante, cibles_metier, cibles, base):
                 lambda m: f'localSheetId="{int(m.group(1)) + (int(m.group(1)) >= rang)}"', wb)
     ancre = re.search(r'<sheet name="ONR 5"[^>]*/>', wb).group(0)
     wb = wb.replace(ancre, ancre + f'<sheet name="{NOM_FEUILLE_METIER}" sheetId="{sheet_id}" r:id="{rid}"/>')
+    # zone d'impression et titres repris de l'onglet source
+    rang_src = noms.index(f"ONR {axe['numero']}")
+    copies = [
+        re.sub(r'localSheetId="\d+"', f'localSheetId="{rang}"', d).replace(
+            f"'ONR {axe['numero']}'!", f"'{NOM_FEUILLE_METIER}'!")
+        for d in re.findall(rf'<definedName name="_xlnm\.[^"]+" localSheetId="{rang_src}"[^>]*>[^<]*</definedName>', wb)
+    ]
+    wb = wb.replace("</definedNames>", "".join(copies) + "</definedNames>")
     parts["xl/workbook.xml"] = wb
 
     # propriétés : liste des titres de feuilles
@@ -310,16 +322,16 @@ def construire_classeur(variante, cibles, cibles_metier, base, sortie):
         if not trouve:
             erreurs.append(f"classeur : cible {code} introuvable")
 
-    # 2. feuille des cibles métier (copie de « ONR 2 », avant l'ajout des logos)
+    # 2. feuille des cibles métier (copie d'un onglet ONR, avant la pose du bandeau)
     ajouter_feuille_metier(parts, variante, cibles_metier, cibles, base)
+    for nom, _, feuille in feuilles(parts):
+        if nom.startswith("ONR ") or nom == NOM_FEUILLE_METIER:
+            parts[feuille] = ajuster_hauteurs(parts[feuille])
 
     # 3. logos et crédits
-    logos = []
-    for fichier, nom in LOGOS:
-        donnees = (ROOT / "secteurs/logos" / fichier).read_bytes()
-        parts[f"xl/media/{fichier}"] = donnees
-        logos.append((fichier, nom, *taille_png(donnees)))
-    ajouter_logos(parts, logos)
+    donnees = (ROOT / "secteurs/logos" / BANDEAU).read_bytes()
+    parts[f"xl/media/{BANDEAU}"] = donnees
+    poser_bandeau(parts, BANDEAU, *taille_png(donnees))
     personnaliser_accueil(parts, variante)
 
     # 4. propriétés du document
@@ -365,8 +377,8 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
         '![NÉONUM](../assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }',
         "</div>",
         "",
-        f"Version co-éditée par {COEDITEURS}, {CADRE}, d'après la GPC-ONR de l'INR. "
-        "Elle fait partie des [versions sectorielles](index.md) de la grille.",
+        f"Version proposée par LaNum Pays Basque {CADRE}, et co-éditée avec l'INR, d'après la GPC-ONR. "
+        "Elle fait partie des [versions alternatives](index.md) de la grille.",
         "",
         "!!! note \"Version de travail\"",
         "    Les reformulations et les cibles métier sont des propositions à relire avec des personnes du secteur "
@@ -385,7 +397,7 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
         "",
         "- Les **32 cibles** gardent leur code et leur sens. Seuls leur formulation et leurs exemples sont adaptés "
         "au secteur. Les résultats restent comparables avec la grille commune.",
-        f"- **{len(cibles_metier)} cibles métier** (codes `{cibles_metier[0]['code'][0]}.x`), une par axe, couvrent "
+        f"- **{len(cibles_metier)} cibles métier** (codes `{cibles_metier[0]['code'][0]}.x`), réparties sur les cinq axes, couvrent "
         "des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». "
         "Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.",
         "",
@@ -445,8 +457,8 @@ def main():
             for champ in ("libelle", "libelle_charte", "explication"):
                 if not c.get(champ, "").strip():
                     erreurs.append(f"{variante['id']} : cible {code}, champ {champ} vide")
-        if [c["axe"] for c in metier] != [1, 2, 3, 4, 5]:
-            erreurs.append(f"{variante['id']} : une cible métier par axe attendue")
+        if not metier or any(c["axe"] not in (1, 2, 3, 4, 5) for c in metier):
+            erreurs.append(f"{variante['id']} : cibles métier absentes ou axe hors 1-5")
 
         cibles = {code: cibles[code] for code in base["cibles"]}  # ordre du référentiel
         ecrire_csv(dossier / "onr-referentiel.csv",

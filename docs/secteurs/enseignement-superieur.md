@@ -8,7 +8,7 @@ Version de la GPC-ONR adaptée aux universités, écoles, instituts, organismes 
 ![NÉONUM](../assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }
 </div>
 
-Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays Basque, dans le cadre du projet NÉONUM, d'après la GPC-ONR de l'INR. Elle fait partie des [versions sectorielles](index.md) de la grille.
+Version proposée par LaNum Pays Basque pour les publics qu'elle accompagne dans le projet européen NÉONUM, et co-éditée avec l'INR, d'après la GPC-ONR. Elle fait partie des [versions alternatives](index.md) de la grille.
 
 !!! note "Version de travail"
     Les reformulations et les cibles métier sont des propositions à relire avec des personnes du secteur avant toute diffusion.
@@ -23,7 +23,7 @@ Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays
 ## Ce qui change
 
 - Les **32 cibles** gardent leur code et leur sens. Seuls leur formulation et leurs exemples sont adaptés au secteur. Les résultats restent comparables avec la grille commune.
-- **5 cibles métier** (codes `E.x`), une par axe, couvrent des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.
+- **5 cibles métier** (codes `E.x`), réparties sur les cinq axes, couvrent des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.
 
 ## Les cibles
 

@@ -1,6 +1,6 @@
 # Versions sectorielles
 
-Versions de la GPC-ONR adaptées à un secteur, co-éditées par l'Institut du Numérique Responsable (INR) et LaNum Pays Basque, dans le cadre du projet NÉONUM.
+Versions alternatives de la GPC-ONR, proposées par LaNum Pays Basque pour faciliter l'adoption de la grille par les publics qu'elle accompagne dans le projet européen NÉONUM. Elles sont co-éditées avec l'Institut du Numérique Responsable (INR).
 
 | Secteur | Classeur | Page |
 |---|---|---|
@@ -33,7 +33,7 @@ Les pages `docs/secteurs/<secteur>.md` sont générées elles aussi.
 
 - `variante` : identifiant, nom, titre, public visé et cadre réglementaire du secteur.
 - `cibles` : les 32 cibles de la grille commune, avec les mêmes codes. Chacune porte un `libelle` (reformulation), un `libelle_charte` (forme « En … ») et une `explication` (en bref). Le sens reste celui de la cible commune, pour que les résultats restent comparables.
-- `cibles_metier` : 5 cibles propres au secteur, une par axe. Les codes commencent par une lettre (`C.1`, `E.1`…).
+- `cibles_metier` : cibles propres au secteur, 8 au plus, chacune rattachée à un axe (`axe` de 1 à 5). La feuille « Cibles métier » est copiée de l'onglet ONR qui a juste assez de lignes ; les lignes en trop sont masquées. Les codes commencent par une lettre (`C.1`, `E.1`…).
 - `odd_metier` : liens ODD des cibles métier, au format `[cible, odd, cible_odd, "principal" | "contributif", justification]`. Chaque cible métier a un seul lien principal.
 
 Les cibles communes reprennent les liens ODD de `data/onr-odd.csv`.

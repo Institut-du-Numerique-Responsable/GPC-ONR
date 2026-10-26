@@ -25,12 +25,15 @@ C'est un support de décision collective. Aucun score de conformité, aucun labe
 >
 > **[⬇ Télécharger l'exemple rempli (Excel)](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/releases/latest/download/INR_GPC_ONR_Exemple.xlsx)**
 
+> **Nouveau : deux versions sectorielles**, réalisées avec LaNum Pays Basque dans le cadre du projet NÉONUM : [⬇ collectivités territoriales](secteurs/collectivites/GPC-ONR_collectivites_Template.xlsx) · [⬇ enseignement supérieur et recherche](secteurs/enseignement-superieur/GPC-ONR_enseignement-superieur_Template.xlsx). [En savoir plus](#versions-sectorielles)
+
 Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numbers ou Google Sheets, et ne contient aucune macro. Si vous ne venez que pour la grille, vous pouvez vous arrêter ici : la suite de cette page s'adresse à celles et ceux qui veulent réutiliser les données ou contribuer.
 
 
 ## Sommaire
 
 - [Télécharger le classeur](#télécharger-le-classeur)
+- [Versions sectorielles](#versions-sectorielles)
 - [Ce que fait l'outil](#ce-que-fait-loutil)
 - [Démarrage rapide](#démarrage-rapide)
 - [Les 5 axes et 32 cibles](#les-5-axes-et-32-cibles)
@@ -42,6 +45,29 @@ Rien d'autre à installer. Le fichier s'ouvre avec Excel, LibreOffice Calc, Numb
 - [Contributeurs](#contributeurs)
 - [Citer ce travail](#citer-ce-travail)
 - [Licence et crédits](#licence-et-crédits)
+
+## Versions sectorielles
+
+<p>
+  <img src="docs/assets/logo-inr.webp" alt="Institut du Numérique Responsable" height="44" align="middle">
+  <img src="docs/assets/logo-lanum.svg" alt="LaNum Pays Basque" height="44" align="middle">
+  <img src="docs/assets/logo-neonum.webp" alt="NÉONUM" height="64" align="middle">
+</p>
+
+L'INR et **LaNum Pays Basque** ont réalisé deux versions de la grille, dans le cadre du projet **NÉONUM**. Elles s'adressent à des organisations qui ne se reconnaissent pas toujours dans le vocabulaire de l'entreprise.
+
+| Version | Pour qui | Cibles propres au secteur | Classeur | Documentation |
+|---|---|---|---|---|
+| **Collectivités territoriales** | Communes, intercommunalités, départements, régions, syndicats et opérateurs publics de services numériques | Territoire intelligent, illectronisme et médiation, données publiques ouvertes, mutualisation et continuité en cas de crise, formation des élus et stratégie loi REEN | [⬇ Excel](secteurs/collectivites/GPC-ONR_collectivites_Template.xlsx) | [Page](docs/secteurs/collectivites.md) |
+| **Enseignement supérieur et recherche** | Universités, écoles, organismes et laboratoires de recherche, CROUS | Sobriété du calcul et du stockage de recherche, égalité d'accès des étudiants, science ouverte, plan de transition et label DD&RS, formation à la transition écologique | [⬇ Excel](secteurs/enseignement-superieur/GPC-ONR_enseignement-superieur_Template.xlsx) | [Page](docs/secteurs/enseignement-superieur.md) |
+
+Ce qui change par rapport à la grille commune :
+
+- **Les 32 cibles gardent leur code et leur sens.** Leur formulation et leurs exemples parlent le langage du secteur : habitants, agents et élus d'un côté ; étudiants, enseignants et chercheurs de l'autre. Les résultats restent comparables avec la grille commune.
+- **5 cibles propres au secteur** s'ajoutent, une par axe, dans la feuille « Cibles métier » du classeur. Elles ont leur propre calcul de priorité, mais n'apparaissent pas dans les feuilles de résultats.
+- **Chaque cible est reliée aux Objectifs de développement durable (ODD).** Beaucoup de collectivités et d'établissements travaillent déjà avec les ODD : la grille s'appuie sur ce qu'ils connaissent. Voir [Couverture des ODD](docs/couverture-odd.md).
+
+Ces versions sont des **versions de travail**, à relire avec des personnes de chaque secteur. Vos retours sont les bienvenus en [issue](https://github.com/Institut-du-Numerique-Responsable/GPC-ONR/issues). Pour modifier une version ou en créer une autre, voir [secteurs/README.md](secteurs/README.md).
 
 ## Ce que fait l'outil
 
@@ -104,14 +130,23 @@ GPC-ONR/
 │   ├── methodologie.md                  Déroulé, échelles, matrice de priorisation
 │   ├── exemple-commente.md              Lecture commentée du classeur d'exemple
 │   ├── faq.md                           Questions fréquentes
+│   ├── couverture-odd.md                Rapprochement cibles-ODD et indicateurs de couverture
+│   └── secteurs/                        Pages des versions sectorielles (générées)
 │   └── contributeurs.md                 Crédits
 ├── data/
 │   ├── onr-referentiel.json             Axes, cibles et explications, structurés
 │   ├── onr-referentiel.csv              Même contenu, tabulaire
 │   ├── matrice-priorisation.json        Les 16 combinaisons et leur niveau
+│   ├── onr-odd.csv                      Liens cibles-ODD (principal, contributif) et justifications
 │   └── gpc-onr-exemple.json             Contenu textuel du classeur d'exemple
+├── secteurs/                            Versions sectorielles avec LaNum (voir secteurs/README.md)
+│   ├── logos/                           Logos des co-éditeurs insérés dans les classeurs
+│   ├── collectivites/                   referentiel.json (source), CSV et classeur générés
+│   └── enseignement-superieur/          referentiel.json (source), CSV et classeur générés
 ├── scripts/
-│   └── validate_data.py                 Contrôle de cohérence des données
+│   ├── validate_data.py                 Contrôle de cohérence des données
+│   ├── couverture_odd.py                Indicateurs de couverture des ODD
+│   └── build_secteurs.py                Génère CSV, classeurs et pages des versions sectorielles
 ├── .github/
 │   ├── workflows/pages.yml              Construction et publication du site
 │   ├── workflows/validate.yml           Validation des données à chaque PR
@@ -153,6 +188,9 @@ Ces fichiers sont dérivés des classeurs `.xlsx`, qui restent la source de réf
 | [Méthodologie](docs/methodologie.md) | Comment remplir la grille et lire les résultats |
 | [Exemple commenté](docs/exemple-commente.md) | Cas fictif détaillé, cible par cible |
 | [FAQ](docs/faq.md) | Périmètre, durée, public, différence template/exemple |
+| [Couverture des ODD](docs/couverture-odd.md) | Liens entre cibles et ODD, indicateurs de couverture |
+| [Collectivités territoriales](docs/secteurs/collectivites.md) | Version sectorielle : cibles reformulées et cibles métier |
+| [Enseignement supérieur et recherche](docs/secteurs/enseignement-superieur.md) | Version sectorielle : cibles reformulées et cibles métier |
 | [Contributeurs](CONTRIBUTORS.md) | Crédits et conditions d'ajout |
 | [Journal des modifications](CHANGELOG.md) | Historique des versions |
 
@@ -198,6 +236,14 @@ L'INR est une association qui fédère organisations publiques et privées autou
 | **Benjamin Duthil** | Institut du Numérique Responsable |
 | **Nathalie Sauzeau** | Institut du Numérique Responsable |
 | **Guillaume Gallon** | Institut du Numérique Responsable |
+
+Versions sectorielles (collectivités territoriales, enseignement supérieur et recherche) co-éditées avec **LaNum Pays Basque**, dans le cadre du projet **NÉONUM**.
+
+<p>
+  <img src="docs/assets/logo-inr.webp" alt="Institut du Numérique Responsable" height="44" align="middle">
+  <img src="docs/assets/logo-lanum.svg" alt="LaNum Pays Basque" height="44" align="middle">
+  <img src="docs/assets/logo-neonum.webp" alt="NÉONUM" height="64" align="middle">
+</p>
 
 Liste détaillée : [CONTRIBUTORS.md](CONTRIBUTORS.md). Métadonnées citables : [`CITATION.cff`](CITATION.cff).
 

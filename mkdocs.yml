@@ -49,6 +49,11 @@ nav:
   - Les 32 cibles: referentiel-onr.md
   - Méthodologie: methodologie.md
   - Exemple commenté: exemple-commente.md
+  - Couverture des ODD: couverture-odd.md
+  - Versions sectorielles:
+      - Présentation: secteurs/index.md
+      - Collectivités territoriales: secteurs/collectivites.md
+      - Enseignement supérieur et recherche: secteurs/enseignement-superieur.md
   - FAQ: faq.md
   - Contributeurs: contributeurs.md
 

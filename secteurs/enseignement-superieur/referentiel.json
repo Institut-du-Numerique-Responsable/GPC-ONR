@@ -1,0 +1,329 @@
+{
+  "variante": {
+    "id": "enseignement-superieur",
+    "nom": "Enseignement supérieur et recherche",
+    "titre": "GPC-ONR · Version enseignement supérieur et recherche",
+    "public": "Universités, écoles, instituts, organismes et laboratoires de recherche, CROUS et services interuniversitaires",
+    "cadre": "Référentiel et label DD&RS, plan de transition (article 55 de la loi Grenelle 1), formation à la transition écologique, plan national pour la science ouverte, RGAA, RGESN, RGPD"
+  },
+  "cibles": {
+    "1.1": {
+      "libelle": "Prendre en compte toute la vie des équipements et des logiciels de l'établissement, de l'achat à la fin de vie : postes, salles informatiques, équipements de laboratoire et de calcul.",
+      "libelle_charte": "En intégrant le cycle de vie complet des équipements et logiciels de l'établissement, laboratoires et calcul compris",
+      "explication": "Savoir d'où viennent les postes, les serveurs de calcul et le matériel des salles, combien de temps ils servent, et où ils finissent."
+    },
+    "1.2": {
+      "libelle": "Utiliser plus longtemps les équipements des personnels, des salles et des laboratoires, même après leur amortissement, en organisant leur réparation et leur réaffectation.",
+      "libelle_charte": "En allongeant la durée d'usage des équipements des personnels, des salles et des laboratoires, par la réparation et la réaffectation",
+      "explication": "Un poste remplacé dans un laboratoire peut encore équiper une salle de cours ou un étudiant."
+    },
+    "1.3": {
+      "libelle": "Concevoir des services numériques qui limitent leurs effets sur l'environnement, en suivant le RGESN : plateforme pédagogique (LMS comme Moodle), environnement numérique de travail (ENT), applications de scolarité, logiciels de recherche. Choisir des technologies qui contribuent aux ODD.",
+      "libelle_charte": "En éco-concevant LMS, ENT, applications de scolarité et logiciels de recherche selon le RGESN, et en choisissant des technologies qui contribuent aux ODD",
+      "explication": "Un cours Moodle et un ENT légers, qui marchent aussi avec le vieil ordinateur d'un étudiant."
+    },
+    "1.4": {
+      "libelle": "Adopter, dans les cours, les examens, l'administration et les laboratoires, des pratiques qui consomment moins de matériel, d'énergie, de papier et de stockage.",
+      "libelle_charte": "En favorisant, en formation, en administration et en recherche, des usages limitant les consommations de matériels, d'énergie et de consommables",
+      "explication": "Moins d'impressions, des vidéos de cours en définition raisonnable, la caméra coupée en visioconférence quand elle n'apporte rien, et moins de données gardées « au cas où »."
+    },
+    "1.5": {
+      "libelle": "Confier les équipements en fin d'usage à des filières de réemploi et de l'économie sociale et solidaire, par exemple pour équiper des étudiants.",
+      "libelle_charte": "En confiant nos équipements en fin d'usage aux filières de réemploi et de l'économie sociale et solidaire, au bénéfice des étudiants",
+      "explication": "Un ordinateur reconditionné peut équiper un étudiant qui n'en a pas."
+    },
+    "1.6": {
+      "libelle": "Alimenter les campus, les centres de données et les moyens de calcul avec des énergies renouvelables, et valoriser leur chaleur fatale.",
+      "libelle_charte": "En alimentant campus, centres de données et moyens de calcul avec des énergies renouvelables, et en valorisant leur chaleur",
+      "explication": "Faire tourner les serveurs avec de l'électricité renouvelable, et chauffer des bâtiments avec leur chaleur."
+    },
+    "1.7": {
+      "libelle": "Réserver l'intelligence artificielle aux besoins de formation, de recherche et de gestion qui la justifient, et choisir des solutions sobres.",
+      "libelle_charte": "En réservant l'IA aux besoins de formation, de recherche et de gestion qui la justifient, et en privilégiant des IA frugales",
+      "explication": "Utiliser l'IA quand elle sert vraiment l'apprentissage ou la recherche, et choisir la moins gourmande."
+    },
+    "1.8": {
+      "libelle": "Mesurer et réduire ce que consomme l'intelligence artificielle dans l'établissement, notamment l'entraînement de modèles par les équipes de recherche.",
+      "libelle_charte": "En mesurant ce que consomme l'IA dans l'établissement, de l'entraînement des modèles de recherche à son usage, et en le réduisant",
+      "explication": "Savoir ce que coûte à la planète l'entraînement d'un modèle de recherche, et le faire baisser."
+    },
+    "2.1": {
+      "libelle": "Intégrer dans les achats numériques de l'établissement, y compris ceux des laboratoires, des clauses sociales et environnementales et des critères de durabilité.",
+      "libelle_charte": "En généralisant les achats numériques responsables, laboratoires compris, avec des clauses sociales et environnementales",
+      "explication": "Choisir le matériel sur son impact social et écologique, pas seulement sur le prix."
+    },
+    "2.2": {
+      "libelle": "Rendre accessibles à toutes et tous les sites, l'ENT, le LMS et les ressources pédagogiques : vidéos de cours sous-titrées, documents et supports accessibles. Mesurer leur conformité au RGAA.",
+      "libelle_charte": "En rendant accessibles sites, ENT, LMS et ressources pédagogiques, et en mesurant leur conformité au RGAA",
+      "explication": "Un étudiant en situation de handicap doit pouvoir suivre ses cours et faire ses démarches comme les autres."
+    },
+    "2.3": {
+      "libelle": "Proposer aux étudiants et aux personnels des outils utiles, faciles à utiliser et réellement utilisés, plutôt qu'une multitude de plateformes : un ENT, un LMS, une messagerie, une visioconférence, un outil d'emploi du temps.",
+      "libelle_charte": "En proposant aux étudiants et aux personnels des outils Utiles, Utilisables et Utilisés, plutôt qu'une multitude de plateformes",
+      "explication": "Un seul point d'entrée, avec une connexion unique, plutôt que dix plateformes et dix mots de passe."
+    },
+    "2.4": {
+      "libelle": "Concevoir les services numériques avec les étudiants, les enseignants, les chercheurs et les personnels, en partant de leurs besoins réels.",
+      "libelle_charte": "En concevant les services avec les étudiants, enseignants, chercheurs et personnels, pour livrer ce dont ils ont besoin",
+      "explication": "Tester les outils avec des étudiants et des enseignants avant de les déployer."
+    },
+    "2.5": {
+      "libelle": "Vérifier que l'intelligence artificielle utilisée pour orienter, évaluer ou accompagner les étudiants ne discrimine personne : aide à l'orientation, détection de plagiat, correction automatique, agents conversationnels.",
+      "libelle_charte": "En vérifiant que l'IA utilisée pour orienter, évaluer ou accompagner ne discrimine aucun étudiant",
+      "explication": "S'assurer qu'un outil d'IA traite tous les étudiants de la même façon."
+    },
+    "3.1": {
+      "libelle": "Utiliser avec mesure les données des étudiants, des personnels et de la recherche, y compris les traces d'apprentissage collectées par le LMS, en respectant les personnes et l'environnement.",
+      "libelle_charte": "En développant des usages raisonnés des données de formation et de recherche, dans le respect des personnes et de l'environnement",
+      "explication": "Ne pas suivre chaque clic des étudiants dans Moodle si personne ne s'en sert."
+    },
+    "3.2": {
+      "libelle": "Supprimer des services numériques de l'établissement les interfaces qui trompent ou poussent les utilisateurs (« dark patterns »), et respecter la réglementation.",
+      "libelle_charte": "En bannissant des services numériques de l'établissement les pratiques trompeuses et les dark patterns",
+      "explication": "Ne pas piéger un étudiant ou un candidat avec un écran trompeur."
+    },
+    "3.3": {
+      "libelle": "Collecter seulement les données nécessaires dans les applications de scolarité, le LMS et les projets de recherche, et respecter le RGPD avec l'appui du délégué à la protection des données.",
+      "libelle_charte": "En ne collectant que les données nécessaires, projets de recherche compris, en conformité avec le RGPD et avec l'appui du DPO",
+      "explication": "Ne demander aux étudiants et aux participants des études que ce qui est vraiment utile."
+    },
+    "3.4": {
+      "libelle": "Diversifier les profils dans les formations et les métiers du numérique de l'établissement, en particulier la place des femmes.",
+      "libelle_charte": "En favorisant la diversité des profils dans les formations et les métiers du numérique de l'établissement",
+      "explication": "Attirer des profils variés dans les filières et les équipes numériques."
+    },
+    "3.5": {
+      "libelle": "Améliorer les conditions de travail des personnels du numérique, des doctorants et des contractuels, et les exiger des prestataires.",
+      "libelle_charte": "En améliorant les conditions de travail des personnels du numérique, doctorants et contractuels compris",
+      "explication": "Prendre soin de celles et ceux qui font tourner le numérique de l'établissement."
+    },
+    "3.6": {
+      "libelle": "Fixer des règles éthiques pour les algorithmes et l'intelligence artificielle, en formation comme en recherche, avec le comité d'éthique de l'établissement.",
+      "libelle_charte": "En s'inscrivant dans des dispositifs d'éthique algorithmique pour la formation et la recherche, avec le comité d'éthique",
+      "explication": "Des règles claires sur l'usage des données et de l'IA, en cours comme au laboratoire."
+    },
+    "3.7": {
+      "libelle": "Intégrer le numérique responsable à la démarche de développement durable et de responsabilité sociétale (DD&RS) de l'établissement, et la faire connaître.",
+      "libelle_charte": "En intégrant le numérique responsable à la démarche DD&RS de l'établissement et en la valorisant",
+      "explication": "Faire du numérique responsable une partie visible de la démarche DD&RS."
+    },
+    "3.8": {
+      "libelle": "Indiquer quand une intelligence artificielle répond ou participe à une évaluation, expliquer comment elle décide, et garder une décision humaine pour les sujets sensibles : notes, admission, orientation, suspicion de plagiat.",
+      "libelle_charte": "En disant quand une IA répond ou évalue, en expliquant comment elle décide, et en gardant un humain aux commandes",
+      "explication": "Aucune note, admission ou orientation ne dépend d'une IA sans contrôle humain."
+    },
+    "4.1": {
+      "libelle": "Mesurer l'empreinte environnementale du numérique de l'établissement et des projets de recherche avec des méthodes communes, pour se comparer.",
+      "libelle_charte": "En mesurant l'empreinte du numérique de l'établissement et des projets de recherche avec des méthodes communes",
+      "explication": "Mesurer avec les mêmes outils que les autres établissements, par exemple ceux de Labos 1point5."
+    },
+    "4.2": {
+      "libelle": "Évaluer les services numériques au fil du temps, avec les étudiants et les personnels, et partager les résultats.",
+      "libelle_charte": "En évaluant les services numériques dans la durée avec étudiants et personnels, et en partageant les résultats",
+      "explication": "Vérifier que les outils tiennent leurs promesses, et le dire."
+    },
+    "4.3": {
+      "libelle": "Expérimenter de nouveaux outils pour la pédagogie et la recherche. Évaluer leurs effets et expliquer les résultats à celles et ceux qui les utilisent.",
+      "libelle_charte": "En expérimentant de nouveaux outils pédagogiques et de recherche, avec une analyse d'impact transparente",
+      "explication": "Tester petit, mesurer l'impact, puis décider de généraliser ou non."
+    },
+    "4.4": {
+      "libelle": "Garder la maîtrise des données de recherche et de formation, des outils et des choix techniques : logiciels libres (Moodle, BigBlueButton, Nextcloud), hébergement de confiance, infrastructures mutualisées de l'enseignement supérieur et de la recherche (RENATER, mésocentres).",
+      "libelle_charte": "En garantissant la souveraineté numérique de l'établissement : logiciels libres, hébergement de confiance, infrastructures mutualisées",
+      "explication": "Garder la maîtrise des données de recherche et pouvoir changer de fournisseur."
+    },
+    "5.1": {
+      "libelle": "Concevoir les services numériques en réponse aux besoins sociaux des étudiants et des personnels : précarité, éloignement, handicap.",
+      "libelle_charte": "En incluant l'innovation sociale dans la définition des services numériques, au plus près des besoins des étudiants",
+      "explication": "Se demander à quoi sert un nouveau service, et pour quels étudiants."
+    },
+    "5.2": {
+      "libelle": "Faire connaître et soutenir les initiatives des personnels et des étudiants qui encouragent la coopération entre services et le bien-être au travail et aux études.",
+      "libelle_charte": "En valorisant les initiatives des personnels et des étudiants qui favorisent la coopération et le bien-être",
+      "explication": "Reconnaître les initiatives qui améliorent la vie de tous sur le campus."
+    },
+    "5.3": {
+      "libelle": "Associer les étudiants, les personnels, les chercheurs et les partenaires du territoire aux choix numériques, en s'appuyant sur leur expertise.",
+      "libelle_charte": "En associant étudiants, personnels, chercheurs et partenaires du territoire aux choix numériques",
+      "explication": "Demander l'avis de la communauté universitaire avant de décider."
+    },
+    "5.4": {
+      "libelle": "Former des diplômés capables d'innover pour mieux vivre ensemble et préserver les écosystèmes, en intégrant le numérique responsable dans les formations.",
+      "libelle_charte": "En formant des diplômés capables d'innover pour un monde ouvert à l'autre et soucieux de l'équilibre des écosystèmes",
+      "explication": "Donner aux diplômés les moyens de faire un numérique plus responsable."
+    },
+    "5.5": {
+      "libelle": "Suivre les résultats de la démarche avec quelques indicateurs, communs avec le plan de transition et le label DD&RS.",
+      "libelle_charte": "En suivant les indicateurs de performance et de conformité, en cohérence avec le plan de transition et le label DD&RS",
+      "explication": "Quelques indicateurs simples, partagés avec la démarche DD&RS."
+    },
+    "5.6": {
+      "libelle": "Proposer des améliorations pour un numérique responsable, y compris des solutions sans outil numérique, comme des cours ou des examens sans écran.",
+      "libelle_charte": "En proposant des pistes d'amélioration du numérique responsable, y compris non numériques",
+      "explication": "Parfois, un tableau et une feuille suffisent."
+    },
+    "5.7": {
+      "libelle": "Décider avec les enseignants, les chercheurs, les personnels et les étudiants comment utiliser l'intelligence artificielle. Les former à ses limites et préserver le sens de l'apprentissage et de la recherche.",
+      "libelle_charte": "En décidant des usages de l'IA avec la communauté universitaire, en la formant à ses limites et en préservant le sens de l'apprentissage",
+      "explication": "Choisir avec la communauté universitaire, pas à sa place."
+    }
+  },
+  "cibles_metier": [
+    {
+      "code": "E.1",
+      "axe": 1,
+      "libelle": "Rendre sobres le calcul et le stockage de la recherche : utiliser les mésocentres et les centres nationaux plutôt que des serveurs par équipe, mesurer l'empreinte des projets, et ne conserver que les données utiles.",
+      "libelle_charte": "En rendant sobres le calcul et le stockage de la recherche, par la mutualisation et la mesure de l'empreinte des projets",
+      "explication": "Partager les serveurs de calcul plutôt que d'en acheter un par équipe."
+    },
+    {
+      "code": "E.2",
+      "axe": 2,
+      "libelle": "Garantir à chaque étudiant un accès égal aux outils et aux enseignements numériques : équipement, connexion, accessibilité des contenus et accompagnement.",
+      "libelle_charte": "En garantissant à chaque étudiant un accès égal aux outils et aux enseignements numériques",
+      "explication": "Aucun étudiant ne doit décrocher faute d'ordinateur ou de connexion."
+    },
+    {
+      "code": "E.3",
+      "axe": 3,
+      "libelle": "Ouvrir les publications, les données et les logiciels de recherche, selon le plan national pour la science ouverte (HAL, Recherche Data Gouv, Software Heritage), dans le respect de la vie privée.",
+      "libelle_charte": "En ouvrant publications, données et logiciels de recherche, dans le respect de la vie privée",
+      "explication": "Ce que la recherche publique produit doit pouvoir resservir."
+    },
+    {
+      "code": "E.4",
+      "axe": 4,
+      "libelle": "Intégrer le numérique responsable au plan de transition, au schéma directeur du numérique et au label DD&RS de l'établissement.",
+      "libelle_charte": "En intégrant le numérique responsable au plan de transition, au schéma directeur numérique et au label DD&RS",
+      "explication": "Le numérique responsable a sa place dans les documents qui engagent l'établissement."
+    },
+    {
+      "code": "E.5",
+      "axe": 5,
+      "libelle": "Former tous les étudiants et les personnels au numérique responsable, dans le cadre de la formation à la transition écologique.",
+      "libelle_charte": "En formant tous les étudiants et les personnels au numérique responsable, dans le cadre de la formation à la transition écologique",
+      "explication": "Chaque diplômé sait ce que coûte le numérique, et comment le réduire."
+    }
+  ],
+  "odd_metier": [
+    [
+      "E.1",
+      9,
+      "9.5",
+      "principal",
+      "Capacités de recherche durables"
+    ],
+    [
+      "E.1",
+      12,
+      "12.2",
+      "contributif",
+      "Sobriété des ressources de calcul et de stockage"
+    ],
+    [
+      "E.1",
+      13,
+      "13.2",
+      "contributif",
+      "Réduction des émissions de la recherche"
+    ],
+    [
+      "E.1",
+      7,
+      "7.3",
+      "contributif",
+      "Efficacité énergétique du calcul"
+    ],
+    [
+      "E.2",
+      4,
+      "4.3",
+      "principal",
+      "Accès égal à l'enseignement supérieur"
+    ],
+    [
+      "E.2",
+      4,
+      "4.5",
+      "contributif",
+      "Accès des étudiants en situation de handicap"
+    ],
+    [
+      "E.2",
+      10,
+      "10.2",
+      "contributif",
+      "Inclusion des étudiants vulnérables"
+    ],
+    [
+      "E.2",
+      9,
+      "9.c",
+      "contributif",
+      "Accès aux technologies de l'information"
+    ],
+    [
+      "E.3",
+      9,
+      "9.5",
+      "principal",
+      "Diffusion de la recherche et de l'innovation"
+    ],
+    [
+      "E.3",
+      16,
+      "16.10",
+      "contributif",
+      "Accès public à l'information"
+    ],
+    [
+      "E.3",
+      17,
+      "17.6",
+      "contributif",
+      "Partage des connaissances scientifiques"
+    ],
+    [
+      "E.4",
+      12,
+      "12.6",
+      "principal",
+      "Pratiques durables et rapport de l'établissement"
+    ],
+    [
+      "E.4",
+      13,
+      "13.2",
+      "contributif",
+      "Intégration dans le plan de transition"
+    ],
+    [
+      "E.4",
+      4,
+      "4.a",
+      "contributif",
+      "Établissements d'enseignement adaptés au développement durable"
+    ],
+    [
+      "E.5",
+      4,
+      "4.7",
+      "principal",
+      "Compétences pour le développement durable"
+    ],
+    [
+      "E.5",
+      12,
+      "12.8",
+      "contributif",
+      "Information et sensibilisation aux modes de vie durables"
+    ],
+    [
+      "E.5",
+      13,
+      "13.3",
+      "contributif",
+      "Éducation et sensibilisation au changement climatique"
+    ]
+  ]
+}

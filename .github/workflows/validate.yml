@@ -19,6 +19,13 @@ jobs:
       - name: Vérifier la cohérence référentiel / matrice / classeurs
         run: python scripts/validate_data.py
 
+      - name: Vérifier que les versions sectorielles sont à jour
+        run: |
+          python scripts/build_secteurs.py
+          git diff --exit-code -- secteurs docs/secteurs \
+            || { echo "::error::Fichiers générés obsolètes : lancer python scripts/build_secteurs.py et commiter le résultat."; exit 1; }
+          python scripts/couverture_odd.py > /dev/null
+
       - name: Vérifier CITATION.cff
         run: |
           pip install cffconvert

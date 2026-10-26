@@ -1,0 +1,110 @@
+cible_code,odd,cible_odd,lien,justification
+1.1,12,12.2,principal,Gestion durable des ressources naturelles sur tout le cycle de vie des équipements
+1.1,12,12.5,contributif,Anticiper la fin de vie et réduire les déchets dès la conception
+1.1,13,13.2,contributif,Le cycle de vie est le premier poste d'émissions du numérique (fabrication)
+1.1,7,7.3,contributif,Contribution à la transition énergétique visée par la cible
+1.2,12,12.5,principal,Allonger la durée d'usage réduit la production de déchets électroniques
+1.2,12,12.2,contributif,Moins de renouvellement donc moins d'extraction de ressources
+1.2,8,8.4,contributif,Découpler l'activité de la consommation de ressources
+1.3,9,9.4,principal,Infrastructures et technologies plus propres et économes en ressources
+1.3,12,12.2,contributif,Services éco-conçus moins consommateurs de ressources
+1.3,13,13.2,contributif,Réduction des émissions des services numériques
+1.4,12,12.2,principal,Usages limitant les consommations de matériels et de consommables
+1.4,7,7.3,contributif,Économies d'énergie liées aux usages
+1.4,15,15.2,contributif,Moins de papier donc moins de pression sur les forêts
+1.5,12,12.5,principal,"Réduction, réemploi et recyclage des déchets"
+1.5,8,8.5,contributif,Emplois de l'économie circulaire (réparation
+1.5,11,11.6,contributif,Gestion des déchets et réduction de l'impact environnemental local
+1.5,3,3.9,contributif,Moins de pollutions liées aux DEEE mal traités
+1.6,7,7.2,principal,Part des énergies renouvelables dans la consommation
+1.6,13,13.2,contributif,Décarbonation de l'énergie consommée par le numérique
+1.7,12,12.2,principal,IA réservée aux besoins justifiés et frugale en ressources
+1.7,7,7.3,contributif,Efficacité énergétique des traitements
+1.7,9,9.4,contributif,Choix de technologies sobres
+1.8,12,12.6,principal,Mesurer et rendre compte de l'empreinte de l'IA
+1.8,13,13.2,contributif,Réduction des émissions de l'entraînement et de l'inférence
+1.8,6,6.4,contributif,Consommation d'eau des centres de données (refroidissement)
+1.8,7,7.3,contributif,Réduction de la consommation énergétique
+2.1,12,12.7,principal,Pratiques d'achats publics et privés durables
+2.1,8,8.7,contributif,Clauses sociales contre le travail forcé et des enfants dans la chaîne d'approvisionnement
+2.1,8,8.8,contributif,Respect des droits des travailleurs chez les fournisseurs
+2.2,10,10.2,principal,Inclusion de toutes et tous quel que soit le handicap
+2.2,9,9.c,contributif,Accès effectif aux services numériques
+2.2,4,4.5,contributif,Accès égal aux services numériques d'éducation et de formation pour les personnes handicapées
+2.3,10,10.2,principal,E-inclusion et accessibilité universelle
+2.3,9,9.c,contributif,Accès effectif et usage réel des services numériques
+2.3,4,4.4,contributif,Services simples qui réduisent le besoin en compétences numériques
+2.4,16,16.7,principal,Conception participative tenant compte des besoins réels
+2.4,10,10.2,contributif,Prise en compte de la diversité des utilisateurs et utilisatrices
+2.5,10,10.3,principal,Éliminer les pratiques discriminatoires
+2.5,5,5.1,contributif,Biais de genre des systèmes d'IA
+2.5,16,16.b,contributif,Application de règles non discriminatoires
+3.1,12,12.8,principal,Usages raisonnés et information sur leurs impacts
+3.1,12,12.2,contributif,Sobriété des données et des services
+3.1,16,16.10,contributif,Respect des personnes dans l'usage des données
+3.2,16,16.10,principal,Accès à une information loyale et protection des libertés
+3.2,12,12.8,contributif,Information des consommateurs non trompeuse
+3.2,16,16.3,contributif,Conformité à la réglementation
+3.3,16,16.10,principal,Protection de la vie privée et des libertés fondamentales (RGPD)
+3.3,12,12.2,contributif,Minimisation des données donc moins de stockage et de traitements
+3.4,10,10.2,principal,Diversité et inclusion dans les recrutements
+3.4,5,5.5,contributif,Place des femmes dans les métiers du numérique
+3.4,8,8.5,contributif,Emploi décent et égalité des chances
+3.5,8,8.8,principal,Conditions de travail sûres et droits des travailleurs du numérique
+3.5,8,8.7,contributif,Travail forcé et des enfants dans l'extraction des minerais
+3.5,3,3.4,contributif,Santé et bien-être (modération de contenus et travail du clic)
+3.6,16,16.6,principal,Institutions responsables et transparentes dans l'usage des algorithmes
+3.6,16,16.10,contributif,Protection des données et des libertés
+3.6,10,10.3,contributif,Prévention des discriminations algorithmiques
+3.7,12,12.6,principal,Adoption de pratiques durables et rapport extra-financier
+3.7,17,17.17,contributif,Partenariats avec les parties prenantes
+3.8,16,16.6,principal,Transparence et redevabilité des décisions automatisées
+3.8,16,16.7,contributif,Contrôle humain sur les décisions sensibles
+3.8,16,16.10,contributif,Information des personnes sur l'usage d'une IA
+4.1,17,17.19,principal,Indicateurs communs de mesure des progrès
+4.1,17,17.18,contributif,Données fiables et comparables
+4.1,12,12.6,contributif,Rapports sur les impacts environnementaux
+4.2,16,16.6,principal,Évaluation dans la durée et transparence des résultats
+4.2,17,17.19,contributif,Suivi des progrès dans le temps
+4.2,12,12.6,contributif,Publication des résultats d'évaluation
+4.3,9,9.5,principal,Innovation et capacités technologiques
+4.3,12,12.6,contributif,Analyse d'impact et transparence
+4.4,9,9.1,principal,Infrastructures fiables et résilientes
+4.4,9,9.b,contributif,Maîtrise des technologies et des choix techniques
+4.4,16,16.10,contributif,Maîtrise et protection des données
+5.1,10,10.2,principal,Services conçus pour répondre aux besoins sociaux
+5.1,9,9.5,contributif,Innovation sociale dans les services numériques
+5.1,1,1.4,contributif,Accès aux services de base et aux nouvelles technologies
+5.2,8,8.8,principal,Milieu de travail sûr et bien-être au travail
+5.2,3,3.4,contributif,Santé mentale et bien-être
+5.2,17,17.17,contributif,Coopération entre services
+5.3,17,17.17,principal,Partenariats avec les parties prenantes
+5.3,16,16.7,contributif,Décision ouverte et participative
+5.4,4,4.7,principal,Transmettre les compétences du développement durable aux générations futures
+5.4,15,15.9,contributif,Intégrer la préservation des écosystèmes dans les décisions
+5.4,13,13.3,contributif,Sensibilisation et capacités d'adaptation
+5.5,17,17.19,principal,Indicateurs de suivi des progrès
+5.5,12,12.6,contributif,Rendre compte des performances
+5.5,16,16.6,contributif,Redevabilité et conformité
+5.6,12,12.2,principal,Pistes d'amélioration y compris non numériques (sobriété)
+5.6,9,9.5,contributif,Innovation au service du numérique responsable
+5.7,8,8.8,principal,Dialogue social et sens du travail face à l'IA
+5.7,4,4.4,contributif,Formation des équipes aux usages et aux limites de l'IA
+5.7,16,16.7,contributif,Décision partagée sur les usages de l'IA
+E.1,9,9.5,principal,Capacités de recherche durables
+E.1,12,12.2,contributif,Sobriété des ressources de calcul et de stockage
+E.1,13,13.2,contributif,Réduction des émissions de la recherche
+E.1,7,7.3,contributif,Efficacité énergétique du calcul
+E.2,4,4.3,principal,Accès égal à l'enseignement supérieur
+E.2,4,4.5,contributif,Accès des étudiants en situation de handicap
+E.2,10,10.2,contributif,Inclusion des étudiants vulnérables
+E.2,9,9.c,contributif,Accès aux technologies de l'information
+E.3,9,9.5,principal,Diffusion de la recherche et de l'innovation
+E.3,16,16.10,contributif,Accès public à l'information
+E.3,17,17.6,contributif,Partage des connaissances scientifiques
+E.4,12,12.6,principal,Pratiques durables et rapport de l'établissement
+E.4,13,13.2,contributif,Intégration dans le plan de transition
+E.4,4,4.a,contributif,Établissements d'enseignement adaptés au développement durable
+E.5,4,4.7,principal,Compétences pour le développement durable
+E.5,12,12.8,contributif,Information et sensibilisation aux modes de vie durables
+E.5,13,13.3,contributif,Éducation et sensibilisation au changement climatique

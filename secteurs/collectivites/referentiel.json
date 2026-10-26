@@ -1,0 +1,227 @@
+{
+  "variante": {
+    "id": "collectivites",
+    "nom": "Collectivités territoriales",
+    "titre": "GPC-ONR · Version collectivités territoriales",
+    "public": "Communes, intercommunalités, départements, régions et leurs groupements (syndicats, opérateurs publics de services numériques)",
+    "cadre": "Loi REEN du 15 novembre 2021 (stratégie numérique responsable des communes et EPCI de plus de 50 000 habitants), RGAA, RGESN, RGPD, Code de la commande publique"
+  },
+  "cibles": {
+    "1.1": {
+      "libelle": "Prendre en compte toute la vie des équipements et des logiciels de la collectivité, de l'achat à la fin de vie, y compris ceux des écoles et des services aux habitants.",
+      "libelle_charte": "En intégrant le cycle de vie complet des équipements et logiciels de la collectivité, écoles et services aux habitants compris",
+      "explication": "Savoir d'où viennent les postes des agents et des écoles, combien de temps ils servent, et où ils finissent."
+    },
+    "1.2": {
+      "libelle": "Utiliser plus longtemps les équipements des agents, des élus et des écoles, même après leur amortissement, en organisant leur réparation et leur réaffectation entre services.",
+      "libelle_charte": "En allongeant la durée d'usage des équipements des agents, des élus et des écoles, par la réparation et la réaffectation entre services",
+      "explication": "Un poste qui ne convient plus à un service peut encore servir à un autre, à une école ou à une association."
+    },
+    "1.3": {
+      "libelle": "Concevoir des sites, des téléservices et des applications de la collectivité qui limitent leurs effets sur l'environnement, en suivant le RGESN, et choisir des technologies qui contribuent aux ODD.",
+      "libelle_charte": "En éco-concevant les sites et téléservices de la collectivité selon le RGESN, et en choisissant des technologies qui contribuent aux ODD",
+      "explication": "Des démarches en ligne légères, rapides, et utilisables avec un vieux téléphone."
+    },
+    "1.4": {
+      "libelle": "Adopter, dans les services et les assemblées, des pratiques qui consomment moins de matériel, d'énergie, de papier et d'impressions.",
+      "libelle_charte": "En favorisant, dans les services et les assemblées, des usages limitant les consommations de matériels, d'énergie et de consommables",
+      "explication": "Moins d'impressions pour les conseils, moins d'écrans en veille, moins de pièces jointes lourdes."
+    },
+    "1.5": {
+      "libelle": "Confier les équipements en fin d'usage à des structures locales de réemploi et de l'économie sociale et solidaire, et suivre ce qu'ils deviennent.",
+      "libelle_charte": "En confiant nos équipements en fin d'usage aux filières locales de réemploi et de l'économie sociale et solidaire",
+      "explication": "Donner une seconde vie au matériel sur le territoire, et créer des emplois locaux."
+    },
+    "1.6": {
+      "libelle": "Alimenter les bâtiments, les salles serveurs et les services hébergés avec des énergies renouvelables, et favoriser leur production sur le territoire.",
+      "libelle_charte": "En alimentant bâtiments, salles serveurs et hébergements avec des énergies renouvelables, produites si possible sur le territoire",
+      "explication": "Faire tourner le numérique public avec de l'électricité renouvelable, si possible locale."
+    },
+    "1.7": {
+      "libelle": "Réserver l'intelligence artificielle aux besoins du service public qui la justifient, et choisir des solutions sobres.",
+      "libelle_charte": "En réservant l'IA aux besoins du service public qui la justifient et en privilégiant des IA frugales",
+      "explication": "Utiliser l'IA seulement quand elle rend vraiment service aux habitants ou aux agents."
+    },
+    "1.8": {
+      "libelle": "Mesurer et réduire ce que consomment les outils d'intelligence artificielle utilisés par la collectivité et ses prestataires.",
+      "libelle_charte": "En mesurant ce que consomme l'IA utilisée par la collectivité et ses prestataires, et en le réduisant",
+      "explication": "Demander aux fournisseurs ce que coûtent leurs outils d'IA à la planète, et le faire baisser."
+    },
+    "2.1": {
+      "libelle": "Intégrer dans les marchés publics du numérique des clauses sociales et environnementales, et des critères de durabilité, de réparabilité et de réemploi.",
+      "libelle_charte": "En intégrant dans la commande publique numérique des clauses sociales et environnementales, et des critères de durabilité et de réemploi",
+      "explication": "Choisir le fournisseur sur l'impact social et écologique, pas seulement sur le prix."
+    },
+    "2.2": {
+      "libelle": "Rendre accessibles à toutes et tous les sites, les téléservices et les documents de la collectivité. Publier la déclaration d'accessibilité et le schéma pluriannuel prévus par le RGAA.",
+      "libelle_charte": "En rendant accessibles les services numériques de la collectivité et en publiant déclaration d'accessibilité et schéma pluriannuel RGAA",
+      "explication": "Les habitants en situation de handicap doivent pouvoir faire leurs démarches comme les autres."
+    },
+    "2.3": {
+      "libelle": "Proposer des téléservices utiles, faciles à utiliser et réellement utilisés par les habitants, avec une démarche simple de bout en bout.",
+      "libelle_charte": "En proposant des téléservices Utiles, Utilisables et Utilisés, simples de bout en bout pour toutes et tous les habitants",
+      "explication": "Une démarche en ligne qui aboutit du premier coup, sans se perdre."
+    },
+    "2.4": {
+      "libelle": "Concevoir les services numériques avec les habitants, les agents d'accueil et les associations, en partant de leurs besoins réels.",
+      "libelle_charte": "En concevant les services avec les habitants, les agents d'accueil et les associations, pour livrer ce dont ils ont besoin",
+      "explication": "Tester les démarches avec de vrais habitants avant de les mettre en ligne."
+    },
+    "2.5": {
+      "libelle": "Vérifier que l'intelligence artificielle utilisée dans les services publics ne discrimine aucun habitant et reste utilisable par toutes et tous.",
+      "libelle_charte": "En vérifiant que l'IA utilisée dans les services publics ne discrimine aucun habitant et reste utilisable par tous",
+      "explication": "S'assurer qu'un outil d'IA traite tous les habitants de la même façon."
+    },
+    "3.1": {
+      "libelle": "Utiliser les données du territoire et des habitants avec mesure, au service de l'intérêt général, en respectant les personnes et l'environnement.",
+      "libelle_charte": "En développant des usages raisonnés des données du territoire, au service de l'intérêt général et dans le respect des personnes",
+      "explication": "Collecter et croiser des données seulement quand cela sert les habitants."
+    },
+    "3.2": {
+      "libelle": "Supprimer des sites et des téléservices de la collectivité les interfaces qui trompent ou poussent les usagers (« dark patterns »), et respecter la réglementation.",
+      "libelle_charte": "En bannissant des services publics numériques les pratiques trompeuses et les dark patterns",
+      "explication": "Un service public ne piège jamais l'usager, même pour un cookie."
+    },
+    "3.3": {
+      "libelle": "Collecter seulement les données nécessaires à chaque démarche, tenir à jour le registre des traitements et respecter le RGPD avec l'appui du délégué à la protection des données.",
+      "libelle_charte": "En ne collectant que les données nécessaires à chaque démarche, avec un registre des traitements à jour et l'appui du DPO",
+      "explication": "Ne demander aux habitants que ce qui est vraiment utile pour leur démarche."
+    },
+    "3.4": {
+      "libelle": "Diversifier les recrutements dans les métiers du numérique de la collectivité : femmes, reconversions, apprentissage, personnes en situation de handicap.",
+      "libelle_charte": "En diversifiant les recrutements numériques de la collectivité : femmes, reconversions, apprentissage, handicap",
+      "explication": "Ouvrir les postes numériques à des profils variés, y compris en interne."
+    },
+    "3.5": {
+      "libelle": "Améliorer les conditions de travail des agents du numérique et exiger de bonnes conditions de travail chez les prestataires.",
+      "libelle_charte": "En améliorant les conditions de travail des agents du numérique et en les exigeant des prestataires",
+      "explication": "Prendre soin des agents qui font tourner le numérique, et de ceux des prestataires."
+    },
+    "3.6": {
+      "libelle": "Fixer des règles éthiques pour les algorithmes publics, en particulier l'intelligence artificielle. Publier les principales règles des algorithmes qui fondent des décisions individuelles.",
+      "libelle_charte": "En se dotant de règles d'éthique algorithmique et en publiant les règles des algorithmes publics qui fondent des décisions",
+      "explication": "Expliquer aux habitants comment un algorithme public décide, comme la loi le demande."
+    },
+    "3.7": {
+      "libelle": "Intégrer le numérique responsable au rapport de développement durable de la collectivité, et le faire connaître aux habitants et aux partenaires.",
+      "libelle_charte": "En intégrant le numérique responsable au rapport de développement durable et en le valorisant auprès des habitants",
+      "explication": "Rendre compte aux habitants de ce que la collectivité fait pour un numérique responsable."
+    },
+    "3.8": {
+      "libelle": "Indiquer aux habitants quand une intelligence artificielle leur répond, expliquer comment elle décide, et garder une décision humaine pour les sujets sensibles.",
+      "libelle_charte": "En informant les habitants quand une IA répond, en expliquant comment elle décide, et en gardant un agent aux commandes",
+      "explication": "Prévenir l'habitant qu'il parle à une machine, et garder un agent qui tranche."
+    },
+    "4.1": {
+      "libelle": "Mesurer l'empreinte environnementale du numérique de la collectivité avec des méthodes communes, pour se comparer à d'autres collectivités.",
+      "libelle_charte": "En mesurant l'empreinte du numérique de la collectivité avec des méthodes communes, comparables entre collectivités",
+      "explication": "Mesurer comme les autres collectivités, pour pouvoir se comparer et apprendre."
+    },
+    "4.2": {
+      "libelle": "Évaluer les services numériques au fil du temps, avec les usagers, et publier les résultats.",
+      "libelle_charte": "En évaluant les services numériques dans la durée avec les usagers, et en publiant les résultats",
+      "explication": "Vérifier que les téléservices tiennent leurs promesses, et le dire aux habitants."
+    },
+    "4.3": {
+      "libelle": "Expérimenter de nouveaux outils numériques pour le territoire. Évaluer leurs effets avant de les généraliser, et expliquer les résultats aux habitants.",
+      "libelle_charte": "En expérimentant de nouveaux outils pour le territoire, avec une analyse d'impact transparente avant toute généralisation",
+      "explication": "Tester petit, mesurer l'impact, puis décider de généraliser ou non."
+    },
+    "4.4": {
+      "libelle": "Garder la maîtrise des données publiques, des outils et des choix techniques : solutions libres, hébergement de confiance, réversibilité des contrats.",
+      "libelle_charte": "En garantissant la souveraineté numérique de la collectivité : logiciels libres, hébergement de confiance, réversibilité",
+      "explication": "Pouvoir changer de fournisseur sans perdre les données des habitants."
+    },
+    "5.1": {
+      "libelle": "Concevoir les services numériques comme des réponses aux besoins sociaux du territoire, avec les acteurs de l'action sociale et de la médiation.",
+      "libelle_charte": "En incluant l'innovation sociale territoriale dans la définition des services numériques",
+      "explication": "Se demander à quel besoin du territoire répond un nouveau service, et pour qui."
+    },
+    "5.2": {
+      "libelle": "Faire connaître et soutenir les initiatives des agents qui encouragent la coopération entre services et le bien-être au travail.",
+      "libelle_charte": "En valorisant les initiatives des agents qui favorisent la coopération entre services et le bien-être au travail",
+      "explication": "Reconnaître les agents qui améliorent le travail de tous."
+    },
+    "5.3": {
+      "libelle": "Associer les habitants, les associations, les entreprises et les autres collectivités du territoire aux choix numériques, en s'appuyant sur leur expertise.",
+      "libelle_charte": "En associant habitants, associations, entreprises et collectivités voisines aux choix numériques du territoire",
+      "explication": "Demander l'avis des habitants et des partenaires avant de décider."
+    },
+    "5.4": {
+      "libelle": "Préparer un territoire où les générations futures pourront innover, vivre ensemble et préserver les écosystèmes, notamment par l'éducation au numérique responsable dans les écoles.",
+      "libelle_charte": "En préparant un territoire où les générations futures pourront innover, vivre ensemble et préserver les écosystèmes",
+      "explication": "Laisser aux jeunes du territoire un numérique qu'ils pourront encore choisir."
+    },
+    "5.5": {
+      "libelle": "Suivre la stratégie numérique responsable de la collectivité avec quelques indicateurs, et en rendre compte aux élus.",
+      "libelle_charte": "En suivant la stratégie numérique responsable avec des indicateurs de performance et de conformité présentés aux élus",
+      "explication": "Quelques indicateurs simples, présentés chaque année en conseil."
+    },
+    "5.6": {
+      "libelle": "Proposer des améliorations pour un numérique responsable, y compris des solutions sans outil numérique, comme le maintien d'un accueil physique.",
+      "libelle_charte": "En proposant des pistes d'amélioration du numérique responsable, y compris non numériques",
+      "explication": "Parfois, la meilleure solution est un guichet ou un formulaire papier."
+    },
+    "5.7": {
+      "libelle": "Décider avec les agents et leurs représentants comment utiliser l'intelligence artificielle. Les former à ses limites et préserver le sens du service public.",
+      "libelle_charte": "En décidant des usages de l'IA avec les agents et leurs représentants, en les formant et en préservant le sens du service public",
+      "explication": "Choisir avec les agents, pas à leur place."
+    }
+  },
+  "cibles_metier": [
+    {
+      "code": "C.1",
+      "axe": 1,
+      "libelle": "Évaluer l'utilité environnementale et sociale des objets connectés et des projets de « territoire intelligent » avant de les déployer : capteurs, éclairage, vidéoprotection, plateformes de données.",
+      "libelle_charte": "En évaluant l'utilité environnementale et sociale des projets de territoire intelligent avant tout déploiement",
+      "explication": "Ne poser des capteurs que si leur bénéfice dépasse ce qu'ils coûtent à la planète."
+    },
+    {
+      "code": "C.2",
+      "axe": 2,
+      "libelle": "Lutter contre l'illectronisme : financer la médiation numérique, garder un accueil physique et une solution non numérique pour chaque démarche.",
+      "libelle_charte": "En luttant contre l'illectronisme par la médiation numérique et en maintenant une alternative non numérique à chaque démarche",
+      "explication": "Personne ne doit renoncer à ses droits parce qu'il n'est pas à l'aise avec Internet."
+    },
+    {
+      "code": "C.3",
+      "axe": 3,
+      "libelle": "Ouvrir les données publiques et les codes sources de la collectivité, dans le respect de la vie privée, pour qu'ils servent à d'autres.",
+      "libelle_charte": "En ouvrant les données publiques et les codes sources de la collectivité, dans le respect de la vie privée",
+      "explication": "Ce que la collectivité produit avec l'argent public doit pouvoir resservir."
+    },
+    {
+      "code": "C.4",
+      "axe": 4,
+      "libelle": "Mutualiser les moyens numériques avec d'autres collectivités et préparer la continuité des services publics en cas de crise, notamment de cyberattaque.",
+      "libelle_charte": "En mutualisant les moyens numériques entre collectivités et en assurant la continuité des services publics en cas de crise",
+      "explication": "Ne pas rester seul face à une panne ou à une cyberattaque."
+    },
+    {
+      "code": "C.5",
+      "axe": 5,
+      "libelle": "Former les élus et les agents au numérique responsable, et l'inscrire dans la stratégie numérique responsable prévue par la loi REEN.",
+      "libelle_charte": "En formant élus et agents au numérique responsable et en l'inscrivant dans la stratégie prévue par la loi REEN",
+      "explication": "Des élus et des agents formés décident mieux."
+    }
+  ],
+  "odd_metier": [
+    ["C.1", 11, "11.3", "principal", "Urbanisation durable et planification participative des projets territoriaux"],
+    ["C.1", 11, "11.6", "contributif", "Réduction de l'impact environnemental des infrastructures urbaines"],
+    ["C.1", 12, "12.2", "contributif", "Sobriété des équipements déployés sur le territoire"],
+    ["C.1", 16, "16.10", "contributif", "Protection des libertés face aux dispositifs de surveillance"],
+    ["C.2", 10, "10.2", "principal", "Inclusion numérique de toutes et tous"],
+    ["C.2", 4, "4.4", "contributif", "Compétences numériques des habitants"],
+    ["C.2", 1, "1.4", "contributif", "Accès aux services de base pour les plus vulnérables"],
+    ["C.2", 16, "16.6", "contributif", "Services publics accessibles à tous les habitants"],
+    ["C.3", 16, "16.10", "principal", "Accès public à l'information"],
+    ["C.3", 17, "17.18", "contributif", "Disponibilité de données fiables"],
+    ["C.3", 9, "9.5", "contributif", "Réutilisation et innovation à partir des données publiques"],
+    ["C.4", 11, "11.b", "principal", "Résilience des territoires face aux crises"],
+    ["C.4", 9, "9.1", "contributif", "Infrastructures numériques fiables et résilientes"],
+    ["C.4", 17, "17.17", "contributif", "Partenariats public-public"],
+    ["C.5", 4, "4.7", "principal", "Compétences pour le développement durable"],
+    ["C.5", 16, "16.6", "contributif", "Institutions efficaces et redevables"],
+    ["C.5", 13, "13.3", "contributif", "Renforcement des capacités face au changement climatique"]
+  ]
+}

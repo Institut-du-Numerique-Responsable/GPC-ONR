@@ -11,6 +11,14 @@ La GPC-ONR prolonge les Objectifs du Numérique Responsable, que la communauté 
 | **Nathalie Sauzeau** | Institut du Numérique Responsable |
 | **Guillaume Gallon** | Institut du Numérique Responsable |
 
+## Versions sectorielles
+
+Les versions [Collectivités territoriales](secteurs/collectivites.md) et [Enseignement supérieur et recherche](secteurs/enseignement-superieur.md) sont co-éditées par l'INR et **LaNum Pays Basque**, dans le cadre du projet **NÉONUM**.
+
+![Institut du Numérique Responsable](assets/logo-inr.webp){ height=44 style="vertical-align:middle" }
+![LaNum Pays Basque](assets/logo-lanum.svg){ height=44 style="vertical-align:middle" }
+![NÉONUM](assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }
+
 ## Organisation éditrice
 
 **Institut du Numérique Responsable (INR)** : association qui fédère organisations publiques et privées autour de la réduction des impacts environnementaux, sociaux et économiques du numérique. <https://institutnr.org>

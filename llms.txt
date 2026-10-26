@@ -21,6 +21,14 @@ La GPC-ONR ne délivre ni score de conformité ni label. Elle produit un classem
 - [data/matrice-priorisation.json](data/matrice-priorisation.json) : les 16 combinaisons importance × niveau actuel, le niveau d'intervention correspondant et les échelles de notation.
 - [data/gpc-onr-exemple.json](data/gpc-onr-exemple.json) : contenu textuel complet du classeur d'exemple.
 
+## Versions sectorielles
+
+Réalisées par l'INR avec LaNum Pays Basque, dans le cadre du projet NÉONUM. Mêmes 32 cibles reformulées pour le secteur, plus 5 cibles propres au secteur, chacune reliée aux ODD.
+
+- [Collectivités territoriales](https://institut-du-numerique-responsable.github.io/GPC-ONR/secteurs/collectivites/) : classeur `secteurs/collectivites/GPC-ONR_collectivites_Template.xlsx`, données `secteurs/collectivites/onr-referentiel.csv` et `onr-odd.csv`.
+- [Enseignement supérieur et recherche](https://institut-du-numerique-responsable.github.io/GPC-ONR/secteurs/enseignement-superieur/) : classeur `secteurs/enseignement-superieur/GPC-ONR_enseignement-superieur_Template.xlsx`, données `secteurs/enseignement-superieur/onr-referentiel.csv` et `onr-odd.csv`.
+- [Couverture des ODD](https://institut-du-numerique-responsable.github.io/GPC-ONR/couverture-odd/) : liens entre cibles et ODD (`data/onr-odd.csv`) et indicateurs de couverture.
+
 ## Fichiers de travail
 
 - `INR_GPC_ONR Template.xlsx` : classeur vierge à utiliser.

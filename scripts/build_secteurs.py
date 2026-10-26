@@ -38,6 +38,13 @@ DEPOT = "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR"
 COEDITEURS = "l'Institut du Numérique Responsable (INR) et LaNum Pays Basque"
 CADRE = "pour les publics qu'elle accompagne dans le projet européen NÉONUM"
 NOM_FEUILLE_METIER = "Cibles métier"
+# Ancres du bandeau (colonne, décalage, ligne, décalage en EMU) choisies à la main dans le tableur.
+# Les autres feuilles gardent l'ancre du logo INR.
+ANCRES_BANDEAU = {
+    "collectivites": {"Accueil": (3, 76199, 4, 104774), "Résultats synthèse": (4, 650874, 0, 266699)},
+    "enseignement-superieur": {"Accueil": (2, 647699, 4, 47624), "Résultats synthèse": (4, 727074, 0, 285749)},
+}
+ANCRES_BANDEAU_COMMUNES = {"Méthodologie": (0, 123824, 0, 47624)}
 
 NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 REL_IMAGE = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
@@ -148,9 +155,11 @@ def ajuster_hauteurs(feuille_xml, car_par_ligne=40, pt_par_ligne=11.5):
     return re.sub(r'<x:row r="\d+"[^>]*>.*?</x:row>', ligne, feuille_xml, flags=re.S)
 
 
-def poser_bandeau(parts, fichier, largeur, hauteur):
-    """Remplace le logo INR par le bandeau des co-éditeurs, à la même ancre et à la même hauteur."""
-    for _, _, feuille in feuilles(parts):
+def poser_bandeau(parts, fichier, largeur, hauteur, ancres=None):
+    """Remplace le logo INR par le bandeau des co-éditeurs, à la même hauteur. Le bandeau reprend
+    l'ancre du logo INR, sauf pour les feuilles listées dans « ancres »."""
+    ancres = ancres or {}
+    for nom, _, feuille in feuilles(parts):
         for rel in relations(parts, feuille):
             if not rel["Type"].endswith("/drawing"):
                 continue
@@ -172,6 +181,13 @@ def poser_bandeau(parts, fichier, largeur, hauteur):
                     nouvelle = re.sub(r"<xdr:col>\d+</xdr:col><xdr:colOff>\d+</xdr:colOff>",
                                       f"<xdr:col>{c}</xdr:col><xdr:colOff>{x - positions[c]}</xdr:colOff>",
                                       nouvelle, count=1)
+                if nom in ancres:
+                    c, c_off, r, r_off = ancres[nom]
+                    nouvelle = re.sub(
+                        r"<xdr:from>.*?</xdr:from>",
+                        f"<xdr:from><xdr:col>{c}</xdr:col><xdr:colOff>{c_off}</xdr:colOff>"
+                        f"<xdr:row>{r}</xdr:row><xdr:rowOff>{r_off}</xdr:rowOff></xdr:from>",
+                        nouvelle, count=1, flags=re.S)
                 nouvelle = re.sub(r'r:embed="[^"]+"', 'r:embed="bandeauCoedition"', nouvelle)
                 nouvelle = re.sub(r'(<xdr:cNvPr id="\d+" name=")[^"]*"',
                                   r'\1Logos INR, LaNum Pays Basque et NÉONUM"', nouvelle)
@@ -331,7 +347,8 @@ def construire_classeur(variante, cibles, cibles_metier, base, sortie):
     # 3. logos et crédits
     donnees = (ROOT / "secteurs/logos" / BANDEAU).read_bytes()
     parts[f"xl/media/{BANDEAU}"] = donnees
-    poser_bandeau(parts, BANDEAU, *taille_png(donnees))
+    poser_bandeau(parts, BANDEAU, *taille_png(donnees),
+                  {**ANCRES_BANDEAU_COMMUNES, **ANCRES_BANDEAU.get(variante["id"], {})})
     personnaliser_accueil(parts, variante)
 
     # 4. propriétés du document

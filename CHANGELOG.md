@@ -6,6 +6,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 
 ### Ajouté
 
+- Couverture des ODD : `data/onr-odd.csv` relie chaque cible à des cibles ODD (lien principal ou contributif, avec justification). `scripts/couverture_odd.py` calcule les indicateurs structurels (S1 à S6) et d'évaluation (E1 à E4). Nouvelle page `docs/couverture-odd.md`.
+- Versions sectorielles co-éditées avec LaNum Pays Basque, dans le cadre du projet NÉONUM : collectivités territoriales et enseignement supérieur et recherche. Chacune contient les 32 cibles reformulées et 5 cibles métier, un classeur avec une feuille « Cibles métier », ses données CSV et une page de documentation, rangées dans `secteurs/` et générées par `scripts/build_secteurs.py`. Les classeurs INR restent à la racine : leurs liens de téléchargement ne changent pas.
 - Page de présentation : logo officiel de l'INR, données structurées schema.org (organisation, logiciel, vidéo), balises de partage complètes avec une image JPEG 1200 × 630, matrice en HTML statique lisible par les robots sans JavaScript.
 - `presentation.html` dans `sitemap.xml` (hook MkDocs `hooks/sitemap_pages_html.py`) et dans `llms.txt`, dont les liens pointent désormais vers le site public.
 - Méthodologie : échelle des compétences nécessaires, lecture bloc par bloc de l'onglet `Résultats synthèse` et déroulé d'atelier sur une demi-journée.

@@ -13,6 +13,10 @@ L'**Institut du Numérique Responsable (INR)** publie la GPC-ONR, issue d'un tra
 
 Les 5 axes et 32 cibles reprennent la charte des Objectifs du Numérique Responsable de l'INR, élaborée avec la communauté de ses membres.
 
+## Versions sectorielles
+
+Les versions « Collectivités territoriales » et « Enseignement supérieur et recherche » sont co-éditées par l'INR et **LaNum Pays Basque**, dans le cadre du projet **NÉONUM**.
+
 ## Ajouts
 
 Cette liste est la source de vérité pour les crédits du dépôt. Elle est reflétée dans [`CITATION.cff`](CITATION.cff) (métadonnées de citation) et sur la [page publique](https://institut-du-numerique-responsable.github.io/GPC-ONR/contributeurs/).

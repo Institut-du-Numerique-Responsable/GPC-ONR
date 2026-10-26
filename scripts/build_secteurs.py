@@ -38,13 +38,23 @@ DEPOT = "https://github.com/Institut-du-Numerique-Responsable/GPC-ONR"
 COEDITEURS = "l'Institut du Numérique Responsable (INR) et LaNum Pays Basque"
 CADRE = "pour les publics qu'elle accompagne dans le projet européen NÉONUM"
 NOM_FEUILLE_METIER = "Cibles métier"
-# Ancres du bandeau (colonne, décalage, ligne, décalage en EMU) choisies à la main dans le tableur.
-# Les autres feuilles gardent l'ancre du logo INR.
-ANCRES_BANDEAU = {
-    "collectivites": {"Accueil": (3, 76199, 4, 104774), "Résultats synthèse": (4, 650874, 0, 266699)},
-    "enseignement-superieur": {"Accueil": (2, 647699, 4, 47624), "Résultats synthèse": (4, 727074, 0, 285749)},
+# Zone libre où poser le bandeau, par feuille. « cellules » : première colonne, première ligne,
+# dernière colonne, dernière ligne (incluses). « forme » : par rapport à la zone de texte de la
+# feuille, « dans » son espace libre du haut ou « dessus », aligné comme son titre (« h »).
+# Le bandeau prend la plus grande taille qui tient dans la zone, sans dépasser la hauteur du logo INR.
+# « agrandir » : la ligne grandit pour accueillir le bandeau à pleine hauteur.
+# Les feuilles absentes (Liste ONR) gardent l'ancre du logo INR.
+ZONE_ONR = {"cellules": ("K", 2, "X", 3), "h": "droite", "v": "centre"}
+ZONES_BANDEAU = {
+    "Accueil": {"forme": "dans", "h": "centre"},
+    "Méthodologie": {"forme": "dessus", "h": "gauche"},
+    "Contexte": {"cellules": ("B", 1, "C", 1), "h": "droite", "v": "centre", "agrandir": True},
+    NOM_FEUILLE_METIER: ZONE_ONR,
+    "Résultats détaillés": {"cellules": ("B", 2, "C", 3), "h": "droite", "v": "bas"},
+    "Résultats synthèse": {"cellules": ("B", 2, "J", 2), "h": "droite", "v": "centre"},
 }
-ANCRES_BANDEAU_COMMUNES = {"Méthodologie": (0, 123824, 0, 47624)}
+MARGE_BANDEAU = 54000  # 1,5 mm, en EMU
+ESPACE_HAUT_CADRE = 540000  # 1,5 cm libres en haut du cadre de l'accueil, avant le titre
 
 NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 REL_IMAGE = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
@@ -130,14 +140,83 @@ def positions_colonnes(feuille_xml):
     defaut = re.search(r'defaultColWidth="([\d.]+)"', feuille_xml)
     defaut = float(defaut.group(1)) if defaut else 8.43
     largeurs = {}
-    for mn, mx, w in re.findall(r'<(?:x:)?col min="(\d+)" max="(\d+)" width="([\d.]+)"', feuille_xml):
-        for c in range(int(mn), min(int(mx), 200) + 1):
-            largeurs[c] = float(w)
+    for attrs in re.findall(r"<(?:x:)?col ([^>]*?)/?>", feuille_xml):
+        a = dict(re.findall(r'(\w+)="([^"]*)"', attrs))
+        for c in range(int(a["min"]), min(int(a["max"]), 200) + 1):
+            largeurs[c] = 0 if a.get("hidden") in ("1", "true") else float(a.get("width", defaut))
     positions, x = [], 0
-    for c in range(1, 201):
+    for c in range(1, 202):
         positions.append(x)
-        x += int(largeurs.get(c, defaut) * 7 + 5) * 9525
+        w = largeurs.get(c, defaut)
+        x += int(w * 7 + 5) * 9525 if w else 0
     return positions
+
+
+def positions_lignes(feuille_xml):
+    """Ordonnée (EMU) du bord haut de chaque ligne, d'après les hauteurs déclarées."""
+    defaut = re.search(r'defaultRowHeight="([\d.]+)"', feuille_xml)
+    defaut = float(defaut.group(1)) if defaut else 15
+    hauteurs = {}
+    for attrs in re.findall(r"<(?:x:)?row ([^>]*?)/?>", feuille_xml):
+        a = dict(re.findall(r'(\w+)="([^"]*)"', attrs))
+        hauteurs[int(a["r"])] = 0 if a.get("hidden") in ("1", "true") else float(a.get("ht", defaut))
+    positions, y = [], 0
+    for r in range(1, 502):
+        positions.append(y)
+        y += int(hauteurs.get(r, defaut) * 12700)
+    return positions
+
+
+def num_colonne(lettres):
+    n = 0
+    for ch in lettres:
+        n = n * 26 + ord(ch) - 64
+    return n
+
+
+def vers_ancre(positions, v):
+    """(indice, décalage) de la cellule visible qui contient la coordonnée v."""
+    i = max(k for k in range(len(positions) - 1) if positions[k] <= v and positions[k + 1] > positions[k])
+    return i, v - positions[i]
+
+
+def zone_forme(dessin_xml, xs, ys):
+    """Rectangle (EMU) de la première zone de texte d'un dessin."""
+    for ancre in re.findall(r"<xdr:twoCellAnchor\b.*?</xdr:twoCellAnchor>", dessin_xml, re.S):
+        if "<xdr:sp>" in ancre or "<xdr:sp " in ancre:
+            (c0, o0, r0, p0), (c1, o1, r1, p1) = [
+                map(int, m) for m in re.findall(
+                    r"<xdr:col>(\d+)</xdr:col><xdr:colOff>(-?\d+)</xdr:colOff>"
+                    r"<xdr:row>(\d+)</xdr:row><xdr:rowOff>(-?\d+)</xdr:rowOff>", ancre)[:2]]
+            return xs[c0] + o0, ys[r0] + p0, xs[c1] + o1, ys[r1] + p1
+    return None
+
+
+def placer(zone, dessin_xml, feuille_xml, h_max, largeur, hauteur):
+    """Rectangle (x, y, l, h) du bandeau dans sa zone, et la feuille éventuellement modifiée."""
+    m = MARGE_BANDEAU
+    if "forme" in zone:
+        xs, ys = positions_colonnes(feuille_xml), positions_lignes(feuille_xml)
+        x0, y0, x1, _ = zone_forme(dessin_xml, xs, ys)
+        dans = zone["forme"] == "dans"
+        bh = min(h_max, ESPACE_HAUT_CADRE if dans else y0 - 2 * m)
+        bw = bh * largeur // hauteur
+        x = (x0 + x1 - bw) // 2 if zone["h"] == "centre" else x0 + 91440  # marge interne du texte
+        return (x, y0 + m if dans else y0 - m - bh, bw, bh), feuille_xml
+    c0, r0, c1, r1 = zone["cellules"]
+    if zone.get("agrandir"):
+        ht = -(-(h_max + 2 * m) // 12700)
+        feuille_xml = re.sub(
+            rf'(<(?:x:)?row r="{r0}"[^>]*?) ht="[\d.]+"( customHeight="1")?',
+            rf'\1 ht="{ht}" customHeight="1"', feuille_xml, count=1)
+    xs, ys = positions_colonnes(feuille_xml), positions_lignes(feuille_xml)
+    x0, x1 = xs[num_colonne(c0) - 1], xs[num_colonne(c1)]
+    y0, y1 = ys[r0 - 1], ys[r1]
+    bh = min(h_max, y1 - y0 - 2 * m, (x1 - x0 - 2 * m) * hauteur // largeur)
+    bw = bh * largeur // hauteur
+    x = {"droite": x1 - m - bw, "gauche": x0 + m, "centre": (x0 + x1 - bw) // 2}[zone["h"]]
+    y = {"bas": y1 - m - bh, "haut": y0 + m, "centre": (y0 + y1 - bh) // 2}[zone["v"]]
+    return (x, y, bw, bh), feuille_xml
 
 
 def ajuster_hauteurs(feuille_xml, car_par_ligne=40, pt_par_ligne=11.5):
@@ -155,11 +234,11 @@ def ajuster_hauteurs(feuille_xml, car_par_ligne=40, pt_par_ligne=11.5):
     return re.sub(r'<x:row r="\d+"[^>]*>.*?</x:row>', ligne, feuille_xml, flags=re.S)
 
 
-def poser_bandeau(parts, fichier, largeur, hauteur, ancres=None):
-    """Remplace le logo INR par le bandeau des co-éditeurs, à la même hauteur. Le bandeau reprend
-    l'ancre du logo INR, sauf pour les feuilles listées dans « ancres »."""
-    ancres = ancres or {}
+def poser_bandeau(parts, fichier, largeur, hauteur):
+    """Remplace le logo INR par le bandeau des co-éditeurs. Le bandeau va dans la zone libre de
+    ZONES_BANDEAU ; ailleurs, il reprend l'ancre et la hauteur du logo INR."""
     for nom, _, feuille in feuilles(parts):
+        zone = ZONE_ONR if nom.startswith("ONR ") else ZONES_BANDEAU.get(nom)
         for rel in relations(parts, feuille):
             if not rel["Type"].endswith("/drawing"):
                 continue
@@ -181,13 +260,16 @@ def poser_bandeau(parts, fichier, largeur, hauteur, ancres=None):
                     nouvelle = re.sub(r"<xdr:col>\d+</xdr:col><xdr:colOff>\d+</xdr:colOff>",
                                       f"<xdr:col>{c}</xdr:col><xdr:colOff>{x - positions[c]}</xdr:colOff>",
                                       nouvelle, count=1)
-                if nom in ancres:
-                    c, c_off, r, r_off = ancres[nom]
+                if zone:
+                    (x, y, bw, bh), parts[feuille] = placer(zone, xml, parts[feuille], cy, largeur, hauteur)
+                    (c, c_off), (r, r_off) = (vers_ancre(positions_colonnes(parts[feuille]), x),
+                                              vers_ancre(positions_lignes(parts[feuille]), y))
                     nouvelle = re.sub(
                         r"<xdr:from>.*?</xdr:from>",
                         f"<xdr:from><xdr:col>{c}</xdr:col><xdr:colOff>{c_off}</xdr:colOff>"
                         f"<xdr:row>{r}</xdr:row><xdr:rowOff>{r_off}</xdr:rowOff></xdr:from>",
                         nouvelle, count=1, flags=re.S)
+                    nouvelle = re.sub(r'<xdr:ext cx="\d+" cy="\d+"', f'<xdr:ext cx="{bw}" cy="{bh}"', nouvelle)
                 nouvelle = re.sub(r'r:embed="[^"]+"', 'r:embed="bandeauCoedition"', nouvelle)
                 nouvelle = re.sub(r'(<xdr:cNvPr id="\d+" name=")[^"]*"',
                                   r'\1Logos INR, LaNum Pays Basque et NÉONUM"', nouvelle)
@@ -347,8 +429,7 @@ def construire_classeur(variante, cibles, cibles_metier, base, sortie):
     # 3. logos et crédits
     donnees = (ROOT / "secteurs/logos" / BANDEAU).read_bytes()
     parts[f"xl/media/{BANDEAU}"] = donnees
-    poser_bandeau(parts, BANDEAU, *taille_png(donnees),
-                  {**ANCRES_BANDEAU_COMMUNES, **ANCRES_BANDEAU.get(variante["id"], {})})
+    poser_bandeau(parts, BANDEAU, *taille_png(donnees))
     personnaliser_accueil(parts, variante)
 
     # 4. propriétés du document

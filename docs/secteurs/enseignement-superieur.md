@@ -1,6 +1,6 @@
 # Enseignement supérieur et recherche
 
-Version de la GPC-ONR adaptée aux universités, écoles, instituts, organismes et laboratoires de recherche, CROUS et services interuniversitaires.
+Pour : universités, écoles, instituts, organismes et laboratoires de recherche, CROUS et services interuniversitaires.
 
 <div class="coedition" markdown>
 ![Institut du Numérique Responsable](../assets/logo-inr.webp){ height=44 style="vertical-align:middle" }
@@ -8,10 +8,10 @@ Version de la GPC-ONR adaptée aux universités, écoles, instituts, organismes 
 ![NÉONUM](../assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }
 </div>
 
-Version proposée par LaNum Pays Basque pour les publics qu'elle accompagne dans le projet européen NÉONUM, et co-éditée avec l'INR, d'après la GPC-ONR. Elle fait partie des [versions alternatives](index.md) de la grille.
+LaNum Pays Basque a conçu cette version pour les publics qu'elle accompagne dans le projet européen NÉONUM, à partir de la GPC-ONR. L'INR la co-édite. Voir aussi les autres [versions alternatives](index.md).
 
-!!! note "Version de travail"
-    Les reformulations et les cibles métier sont des propositions à relire avec des personnes du secteur avant toute diffusion.
+!!! note "Base de travail"
+    Testez ces reformulations et ces cibles métier avec des personnes du secteur avant de les diffuser.
 
 ## Télécharger
 
@@ -20,10 +20,10 @@ Version proposée par LaNum Pays Basque pour les publics qu'elle accompagne dans
 
 **Cadre de référence** : Référentiel et label DD&RS, plan de transition (article 55 de la loi Grenelle 1), formation à la transition écologique, plan national pour la science ouverte, RGAA, RGESN, RGPD.
 
-## Ce qui change
+## Différences avec la grille commune
 
-- Les **32 cibles** gardent leur code et leur sens. Seuls leur formulation et leurs exemples sont adaptés au secteur. Les résultats restent comparables avec la grille commune.
-- **5 cibles métier** (codes `E.x`), réparties sur les cinq axes, couvrent des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.
+- Les **32 cibles** gardent leur code et leur sens. LaNum a changé leur formulation et leurs exemples. Vous pouvez comparer vos résultats avec ceux de la grille commune.
+- **5 cibles métier** (codes `E.x`) traitent des enjeux propres au secteur, sur les cinq axes. La feuille « Cibles métier » calcule leur priorité, mais les feuilles de résultats ne les reprennent pas.
 
 ## Les cibles
 
@@ -91,7 +91,7 @@ Version proposée par LaNum Pays Basque pour les publics qu'elle accompagne dans
 
 ## Couverture des ODD
 
-Les liens des 32 cibles reprennent ceux de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). Les cibles métier ajoutent les leurs.
+Les 32 cibles gardent les liens ODD de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). Chaque cible métier a ses propres liens.
 
 | Indicateur | Valeur |
 |---|---|

@@ -1,6 +1,6 @@
 # Versions sectorielles
 
-Versions alternatives de la GPC-ONR, proposées par LaNum Pays Basque pour faciliter l'adoption de la grille par les publics qu'elle accompagne dans le projet européen NÉONUM. Elles sont co-éditées avec l'Institut du Numérique Responsable (INR).
+LaNum Pays Basque a conçu ces versions alternatives de la GPC-ONR pour les publics qu'elle accompagne dans le projet européen NÉONUM. L'Institut du Numérique Responsable (INR) les co-édite.
 
 | Secteur | Classeur | Page |
 |---|---|---|

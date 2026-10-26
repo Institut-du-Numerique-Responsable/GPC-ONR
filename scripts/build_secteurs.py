@@ -204,9 +204,9 @@ def personnaliser_accueil(parts, variante):
         credits = next(p for p in paragraphes if texte(p).startswith("Cette fiche est inspirée"))
         xml = xml.replace(titre, titre + paragraphe_comme(sous_titre, "VERSION " + variante["nom"].upper()), 1)
         xml = xml.replace(credits, credits + paragraphe_comme(credits, (
-            f"Version « {variante['nom']} » proposée par LaNum Pays Basque {CADRE}, "
-            "et co-éditée avec l'INR, d'après la GPC-ONR. "
-            "Les cibles métier (feuille « Cibles métier ») ne sont pas reprises dans les feuilles de résultats."
+            f"Version « {variante['nom']} » : LaNum Pays Basque l'a conçue {CADRE}, à partir de la "
+            "GPC-ONR ; l'INR la co-édite. Les feuilles de résultats ne reprennent pas les cibles de la "
+            "feuille « Cibles métier »."
         )), 1)
         parts[dessin] = xml
         return
@@ -369,7 +369,7 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
     lignes = [
         f"# {variante['nom']}",
         "",
-        f"Version de la GPC-ONR adaptée aux {variante['public'][0].lower() + variante['public'][1:]}.",
+        f"Pour : {variante['public'][0].lower() + variante['public'][1:]}.",
         "",
         '<div class="coedition" markdown>',
         '![Institut du Numérique Responsable](../assets/logo-inr.webp){ height=44 style="vertical-align:middle" }',
@@ -377,12 +377,11 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
         '![NÉONUM](../assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }',
         "</div>",
         "",
-        f"Version proposée par LaNum Pays Basque {CADRE}, et co-éditée avec l'INR, d'après la GPC-ONR. "
-        "Elle fait partie des [versions alternatives](index.md) de la grille.",
+        f"LaNum Pays Basque a conçu cette version {CADRE}, à partir de la GPC-ONR. L'INR la co-édite. "
+        "Voir aussi les autres [versions alternatives](index.md).",
         "",
-        "!!! note \"Version de travail\"",
-        "    Les reformulations et les cibles métier sont des propositions à relire avec des personnes du secteur "
-        "avant toute diffusion.",
+        "!!! note \"Base de travail\"",
+        "    Testez ces reformulations et ces cibles métier avec des personnes du secteur avant de les diffuser.",
         "",
         "## Télécharger",
         "",
@@ -393,13 +392,13 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
         "",
         f"**Cadre de référence** : {variante['cadre']}.",
         "",
-        "## Ce qui change",
+        "## Différences avec la grille commune",
         "",
-        "- Les **32 cibles** gardent leur code et leur sens. Seuls leur formulation et leurs exemples sont adaptés "
-        "au secteur. Les résultats restent comparables avec la grille commune.",
-        f"- **{len(cibles_metier)} cibles métier** (codes `{cibles_metier[0]['code'][0]}.x`), réparties sur les cinq axes, couvrent "
-        "des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». "
-        "Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.",
+        "- Les **32 cibles** gardent leur code et leur sens. LaNum a changé leur formulation et leurs exemples. "
+        "Vous pouvez comparer vos résultats avec ceux de la grille commune.",
+        f"- **{len(cibles_metier)} cibles métier** (codes `{cibles_metier[0]['code'][0]}.x`) traitent des enjeux "
+        "propres au secteur, sur les cinq axes. La feuille « Cibles métier » calcule leur priorité, mais les "
+        "feuilles de résultats ne les reprennent pas.",
         "",
         "## Les cibles",
         "",
@@ -416,8 +415,8 @@ def construire_doc(variante, axes, cibles, cibles_metier, liens, chemin_xlsx):
     lignes += [
         "## Couverture des ODD",
         "",
-        "Les liens des 32 cibles reprennent ceux de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). "
-        "Les cibles métier ajoutent les leurs.",
+        "Les 32 cibles gardent les liens ODD de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). "
+        "Chaque cible métier a ses propres liens.",
         "",
         "| Indicateur | Valeur |",
         "|---|---|",

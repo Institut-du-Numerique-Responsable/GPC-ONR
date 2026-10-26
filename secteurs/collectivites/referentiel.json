@@ -179,7 +179,7 @@
     {
       "code": "C.2",
       "axe": 2,
-      "libelle": "Lutter contre l'illectronisme : financer la médiation numérique, garder un accueil physique et une solution non numérique pour chaque démarche.",
+      "libelle": "Lutter contre l'illectronisme : soutenir la médiation numérique (conseillers numériques, espaces France Services, Aidants Connect), garder un accueil physique et une solution non numérique pour chaque démarche.",
       "libelle_charte": "En luttant contre l'illectronisme par la médiation numérique et en maintenant une alternative non numérique à chaque démarche",
       "explication": "Personne ne doit renoncer à ses droits parce qu'il n'est pas à l'aise avec Internet."
     },
@@ -200,28 +200,221 @@
     {
       "code": "C.5",
       "axe": 5,
-      "libelle": "Former les élus et les agents au numérique responsable, et l'inscrire dans la stratégie numérique responsable prévue par la loi REEN.",
-      "libelle_charte": "En formant élus et agents au numérique responsable et en l'inscrivant dans la stratégie prévue par la loi REEN",
-      "explication": "Des élus et des agents formés décident mieux."
+      "libelle": "Adopter et faire vivre la stratégie numérique responsable prévue par la loi REEN : obligatoire pour les communes et intercommunalités de plus de 50 000 habitants, recommandée pour les autres. Fixer des objectifs de réduction de l'empreinte du numérique, suivre leur mise en œuvre et former les élus et les agents.",
+      "libelle_charte": "En adoptant et en faisant vivre une stratégie numérique responsable au sens de la loi REEN, avec des objectifs suivis et des élus et agents formés",
+      "explication": "La collectivité a-t-elle une stratégie numérique responsable votée, suivie et connue des agents ?"
+    },
+    {
+      "code": "C.6",
+      "axe": 2,
+      "libelle": "Rendre accessibles les contenus que la collectivité produit chaque jour : documents, publications sur les réseaux sociaux, vidéos sous-titrées, textes en facile à lire et à comprendre (FALC). Former les agents qui les produisent et offrir un accueil accessible, y compris aux personnes sourdes et malentendantes.",
+      "libelle_charte": "En rendant accessibles les contenus et l'accueil de la collectivité, et en formant les agents qui les produisent",
+      "explication": "L'accessibilité ne s'arrête pas au site : chaque PDF, vidéo ou post compte aussi."
+    },
+    {
+      "code": "C.7",
+      "axe": 3,
+      "libelle": "Recenser les usages de l'intelligence artificielle dans la collectivité, y compris l'IA générative utilisée par les agents. Les encadrer par une charte, vérifier les obligations du règlement européen sur l'IA, et informer les habitants des usages qui les concernent.",
+      "libelle_charte": "En recensant et en encadrant les usages de l'IA dans la collectivité, et en informant les habitants",
+      "explication": "Savoir où l'IA est déjà utilisée, par qui et pour quoi, avant de décider de la suite."
+    },
+    {
+      "code": "C.8",
+      "axe": 5,
+      "libelle": "Ouvrir la décision publique avec des outils de participation citoyenne (civic tech) : consultations, budgets participatifs, signalements. Choisir des outils ouverts, accessibles et sobres, comme les logiciels libres, et les compléter par des temps d'échange en présentiel.",
+      "libelle_charte": "En ouvrant la décision publique avec des outils de participation citoyenne ouverts, accessibles et sobres, complétés par des échanges en présentiel",
+      "explication": "Le numérique élargit la participation, à condition de ne laisser personne de côté."
     }
   ],
   "odd_metier": [
-    ["C.1", 11, "11.3", "principal", "Urbanisation durable et planification participative des projets territoriaux"],
-    ["C.1", 11, "11.6", "contributif", "Réduction de l'impact environnemental des infrastructures urbaines"],
-    ["C.1", 12, "12.2", "contributif", "Sobriété des équipements déployés sur le territoire"],
-    ["C.1", 16, "16.10", "contributif", "Protection des libertés face aux dispositifs de surveillance"],
-    ["C.2", 10, "10.2", "principal", "Inclusion numérique de toutes et tous"],
-    ["C.2", 4, "4.4", "contributif", "Compétences numériques des habitants"],
-    ["C.2", 1, "1.4", "contributif", "Accès aux services de base pour les plus vulnérables"],
-    ["C.2", 16, "16.6", "contributif", "Services publics accessibles à tous les habitants"],
-    ["C.3", 16, "16.10", "principal", "Accès public à l'information"],
-    ["C.3", 17, "17.18", "contributif", "Disponibilité de données fiables"],
-    ["C.3", 9, "9.5", "contributif", "Réutilisation et innovation à partir des données publiques"],
-    ["C.4", 11, "11.b", "principal", "Résilience des territoires face aux crises"],
-    ["C.4", 9, "9.1", "contributif", "Infrastructures numériques fiables et résilientes"],
-    ["C.4", 17, "17.17", "contributif", "Partenariats public-public"],
-    ["C.5", 4, "4.7", "principal", "Compétences pour le développement durable"],
-    ["C.5", 16, "16.6", "contributif", "Institutions efficaces et redevables"],
-    ["C.5", 13, "13.3", "contributif", "Renforcement des capacités face au changement climatique"]
+    [
+      "C.1",
+      11,
+      "11.3",
+      "principal",
+      "Urbanisation durable et planification participative des projets territoriaux"
+    ],
+    [
+      "C.1",
+      11,
+      "11.6",
+      "contributif",
+      "Réduction de l'impact environnemental des infrastructures urbaines"
+    ],
+    [
+      "C.1",
+      12,
+      "12.2",
+      "contributif",
+      "Sobriété des équipements déployés sur le territoire"
+    ],
+    [
+      "C.1",
+      16,
+      "16.10",
+      "contributif",
+      "Protection des libertés face aux dispositifs de surveillance"
+    ],
+    [
+      "C.2",
+      10,
+      "10.2",
+      "principal",
+      "Inclusion numérique de toutes et tous"
+    ],
+    [
+      "C.2",
+      4,
+      "4.4",
+      "contributif",
+      "Compétences numériques des habitants"
+    ],
+    [
+      "C.2",
+      1,
+      "1.4",
+      "contributif",
+      "Accès aux services de base pour les plus vulnérables"
+    ],
+    [
+      "C.2",
+      16,
+      "16.6",
+      "contributif",
+      "Services publics accessibles à tous les habitants"
+    ],
+    [
+      "C.3",
+      16,
+      "16.10",
+      "principal",
+      "Accès public à l'information"
+    ],
+    [
+      "C.3",
+      17,
+      "17.18",
+      "contributif",
+      "Disponibilité de données fiables"
+    ],
+    [
+      "C.3",
+      9,
+      "9.5",
+      "contributif",
+      "Réutilisation et innovation à partir des données publiques"
+    ],
+    [
+      "C.4",
+      11,
+      "11.b",
+      "principal",
+      "Résilience des territoires face aux crises"
+    ],
+    [
+      "C.4",
+      9,
+      "9.1",
+      "contributif",
+      "Infrastructures numériques fiables et résilientes"
+    ],
+    [
+      "C.4",
+      17,
+      "17.17",
+      "contributif",
+      "Partenariats public-public"
+    ],
+    [
+      "C.5",
+      13,
+      "13.2",
+      "principal",
+      "Intégrer la réduction de l'empreinte du numérique dans les politiques locales"
+    ],
+    [
+      "C.5",
+      16,
+      "16.6",
+      "contributif",
+      "Institutions efficaces et redevables"
+    ],
+    [
+      "C.5",
+      4,
+      "4.7",
+      "contributif",
+      "Formation des élus et des agents au développement durable"
+    ],
+    [
+      "C.5",
+      12,
+      "12.2",
+      "contributif",
+      "Objectifs de sobriété des ressources numériques"
+    ],
+    [
+      "C.6",
+      10,
+      "10.2",
+      "principal",
+      "Inclusion des personnes en situation de handicap"
+    ],
+    [
+      "C.6",
+      16,
+      "16.7",
+      "contributif",
+      "Accès de toutes et tous à l'information publique"
+    ],
+    [
+      "C.6",
+      4,
+      "4.5",
+      "contributif",
+      "Accès égal à l'information pour les personnes handicapées"
+    ],
+    [
+      "C.7",
+      16,
+      "16.6",
+      "principal",
+      "Transparence et redevabilité des usages publics de l'IA"
+    ],
+    [
+      "C.7",
+      16,
+      "16.10",
+      "contributif",
+      "Information des habitants et protection des libertés"
+    ],
+    [
+      "C.7",
+      12,
+      "12.2",
+      "contributif",
+      "Usages de l'IA proportionnés aux besoins"
+    ],
+    [
+      "C.8",
+      16,
+      "16.7",
+      "principal",
+      "Prise de décision ouverte, participative et représentative"
+    ],
+    [
+      "C.8",
+      11,
+      "11.3",
+      "contributif",
+      "Planification participative des territoires"
+    ],
+    [
+      "C.8",
+      10,
+      "10.2",
+      "contributif",
+      "Participation de toutes et tous, y compris hors ligne"
+    ]
   ]
 }

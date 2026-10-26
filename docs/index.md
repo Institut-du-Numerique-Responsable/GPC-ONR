@@ -14,8 +14,8 @@ La GPC-ONR répond à une question simple et rarement traitée de front : parmi 
 
 Un fichier Excel, rien à installer. Il s'ouvre avec Excel, LibreOffice Calc, Numbers ou Google Sheets, et ne contient aucune macro.
 
-!!! abstract "Nouveau : versions sectorielles"
-    L'INR et LaNum Pays Basque ont réalisé deux versions de la grille, dans le cadre du projet NÉONUM : **[collectivités territoriales](secteurs/collectivites.md)** et **[enseignement supérieur et recherche](secteurs/enseignement-superieur.md)**. Les 32 cibles parlent le langage du secteur, 5 cibles propres au secteur s'ajoutent, et chaque cible est reliée aux ODD. [Présentation des versions](secteurs/index.md).
+!!! abstract "Nouveau : versions alternatives"
+    LaNum Pays Basque a adapté la grille aux publics qu'elle accompagne dans le projet européen NÉONUM : **[collectivités territoriales](secteurs/collectivites.md)** et **[enseignement supérieur et recherche](secteurs/enseignement-superieur.md)**. Elle a réécrit les 32 cibles dans le langage de chaque secteur, ajouté des cibles propres et relié chaque cible aux ODD. [Présentation des versions](secteurs/index.md).
 
 ## Démarrer
 

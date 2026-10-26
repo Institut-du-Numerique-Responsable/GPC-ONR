@@ -1,6 +1,6 @@
 # Collectivités territoriales
 
-Version de la GPC-ONR adaptée aux communes, intercommunalités, départements, régions et leurs groupements (syndicats, opérateurs publics de services numériques).
+Pour : communes, intercommunalités, départements, régions et leurs groupements (syndicats, opérateurs publics de services numériques).
 
 <div class="coedition" markdown>
 ![Institut du Numérique Responsable](../assets/logo-inr.webp){ height=44 style="vertical-align:middle" }
@@ -8,10 +8,10 @@ Version de la GPC-ONR adaptée aux communes, intercommunalités, départements, 
 ![NÉONUM](../assets/logo-neonum.webp){ height=64 style="vertical-align:middle" }
 </div>
 
-Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays Basque, dans le cadre du projet NÉONUM, d'après la GPC-ONR de l'INR. Elle fait partie des [versions sectorielles](index.md) de la grille.
+LaNum Pays Basque a conçu cette version pour les publics qu'elle accompagne dans le projet européen NÉONUM, à partir de la GPC-ONR. L'INR la co-édite. Voir aussi les autres [versions alternatives](index.md).
 
-!!! note "Version de travail"
-    Les reformulations et les cibles métier sont des propositions à relire avec des personnes du secteur avant toute diffusion.
+!!! note "Base de travail"
+    Testez ces reformulations et ces cibles métier avec des personnes du secteur avant de les diffuser.
 
 ## Télécharger
 
@@ -20,10 +20,10 @@ Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays
 
 **Cadre de référence** : Loi REEN du 15 novembre 2021 (stratégie numérique responsable des communes et EPCI de plus de 50 000 habitants), RGAA, RGESN, RGPD, Code de la commande publique.
 
-## Ce qui change
+## Différences avec la grille commune
 
-- Les **32 cibles** gardent leur code et leur sens. Seuls leur formulation et leurs exemples sont adaptés au secteur. Les résultats restent comparables avec la grille commune.
-- **5 cibles métier** (codes `C.x`), une par axe, couvrent des enjeux propres au secteur. Le classeur les regroupe dans la feuille « Cibles métier ». Elles ont leur propre calcul de priorité mais ne figurent pas dans les feuilles de résultats.
+- Les **32 cibles** gardent leur code et leur sens. LaNum a changé leur formulation et leurs exemples. Vous pouvez comparer vos résultats avec ceux de la grille commune.
+- **8 cibles métier** (codes `C.x`) traitent des enjeux propres au secteur, sur les cinq axes. La feuille « Cibles métier » calcule leur priorité, mais les feuilles de résultats ne les reprennent pas.
 
 ## Les cibles
 
@@ -50,7 +50,8 @@ Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays
 | `2.3` | Proposer des téléservices utiles, faciles à utiliser et réellement utilisés par les habitants, avec une démarche simple de bout en bout. | Une démarche en ligne qui aboutit du premier coup, sans se perdre. | **10.2**, 9.c, 4.4 |
 | `2.4` | Concevoir les services numériques avec les habitants, les agents d'accueil et les associations, en partant de leurs besoins réels. | Tester les démarches avec de vrais habitants avant de les mettre en ligne. | **16.7**, 10.2 |
 | `2.5` | Vérifier que l'intelligence artificielle utilisée dans les services publics ne discrimine aucun habitant et reste utilisable par toutes et tous. | S'assurer qu'un outil d'IA traite tous les habitants de la même façon. | **10.3**, 5.1, 16.b |
-| `C.2` **métier** | Lutter contre l'illectronisme : financer la médiation numérique, garder un accueil physique et une solution non numérique pour chaque démarche. | Personne ne doit renoncer à ses droits parce qu'il n'est pas à l'aise avec Internet. | **10.2**, 4.4, 1.4, 16.6 |
+| `C.2` **métier** | Lutter contre l'illectronisme : soutenir la médiation numérique (conseillers numériques, espaces France Services, Aidants Connect), garder un accueil physique et une solution non numérique pour chaque démarche. | Personne ne doit renoncer à ses droits parce qu'il n'est pas à l'aise avec Internet. | **10.2**, 4.4, 1.4, 16.6 |
+| `C.6` **métier** | Rendre accessibles les contenus que la collectivité produit chaque jour : documents, publications sur les réseaux sociaux, vidéos sous-titrées, textes en facile à lire et à comprendre (FALC). Former les agents qui les produisent et offrir un accueil accessible, y compris aux personnes sourdes et malentendantes. | L'accessibilité ne s'arrête pas au site : chaque PDF, vidéo ou post compte aussi. | **10.2**, 16.7, 4.5 |
 
 ### Axe 3 · RSE
 
@@ -65,6 +66,7 @@ Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays
 | `3.7` | Intégrer le numérique responsable au rapport de développement durable de la collectivité, et le faire connaître aux habitants et aux partenaires. | Rendre compte aux habitants de ce que la collectivité fait pour un numérique responsable. | **12.6**, 17.17 |
 | `3.8` | Indiquer aux habitants quand une intelligence artificielle leur répond, expliquer comment elle décide, et garder une décision humaine pour les sujets sensibles. | Prévenir l'habitant qu'il parle à une machine, et garder un agent qui tranche. | **16.6**, 16.7, 16.10 |
 | `C.3` **métier** | Ouvrir les données publiques et les codes sources de la collectivité, dans le respect de la vie privée, pour qu'ils servent à d'autres. | Ce que la collectivité produit avec l'argent public doit pouvoir resservir. | **16.10**, 17.18, 9.5 |
+| `C.7` **métier** | Recenser les usages de l'intelligence artificielle dans la collectivité, y compris l'IA générative utilisée par les agents. Les encadrer par une charte, vérifier les obligations du règlement européen sur l'IA, et informer les habitants des usages qui les concernent. | Savoir où l'IA est déjà utilisée, par qui et pour quoi, avant de décider de la suite. | **16.6**, 16.10, 12.2 |
 
 ### Axe 4 · Résilience et stratégie
 
@@ -87,18 +89,19 @@ Version co-éditée par l'Institut du Numérique Responsable (INR) et LaNum Pays
 | `5.5` | Suivre la stratégie numérique responsable de la collectivité avec quelques indicateurs, et en rendre compte aux élus. | Quelques indicateurs simples, présentés chaque année en conseil. | **17.19**, 12.6, 16.6 |
 | `5.6` | Proposer des améliorations pour un numérique responsable, y compris des solutions sans outil numérique, comme le maintien d'un accueil physique. | Parfois, la meilleure solution est un guichet ou un formulaire papier. | **12.2**, 9.5 |
 | `5.7` | Décider avec les agents et leurs représentants comment utiliser l'intelligence artificielle. Les former à ses limites et préserver le sens du service public. | Choisir avec les agents, pas à leur place. | **8.8**, 4.4, 16.7 |
-| `C.5` **métier** | Former les élus et les agents au numérique responsable, et l'inscrire dans la stratégie numérique responsable prévue par la loi REEN. | Des élus et des agents formés décident mieux. | **4.7**, 16.6, 13.3 |
+| `C.5` **métier** | Adopter et faire vivre la stratégie numérique responsable prévue par la loi REEN : obligatoire pour les communes et intercommunalités de plus de 50 000 habitants, recommandée pour les autres. Fixer des objectifs de réduction de l'empreinte du numérique, suivre leur mise en œuvre et former les élus et les agents. | La collectivité a-t-elle une stratégie numérique responsable votée, suivie et connue des agents ? | **13.2**, 16.6, 4.7, 12.2 |
+| `C.8` **métier** | Ouvrir la décision publique avec des outils de participation citoyenne (civic tech) : consultations, budgets participatifs, signalements. Choisir des outils ouverts, accessibles et sobres, comme les logiciels libres, et les compléter par des temps d'échange en présentiel. | Le numérique élargit la participation, à condition de ne laisser personne de côté. | **16.7**, 11.3, 10.2 |
 
 ## Couverture des ODD
 
-Les liens des 32 cibles reprennent ceux de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). Les cibles métier ajoutent les leurs.
+Les 32 cibles gardent les liens ODD de la grille commune (voir [Couverture des ODD](../couverture-odd.md)). Chaque cible métier a ses propres liens.
 
 | Indicateur | Valeur |
 |---|---|
-| S1. ODD couverts | 15/17 (88 %), dont 9/17 par un lien principal |
+| S1. ODD couverts | 15/17 (88 %), dont 10/17 par un lien principal |
 | S2. Cibles ODD touchées | 42/169 (25 %) |
-| S4. Part des 3 ODD les plus liés | 49 % |
-| S5. Piliers | Population 10 %, Planète 27 %, Prospérité 36 %, Paix 18 %, Partenariats 8 % |
+| S4. Part des 3 ODD les plus liés | 52 % |
+| S5. Piliers | Population 9 %, Planète 27 %, Prospérité 35 %, Paix 21 %, Partenariats 8 % |
 | S6. ODD orphelins | ODD 2 (Faim « zéro »), ODD 14 (Vie aquatique) |
 
 Pour calculer les indicateurs d'évaluation sur votre grille :

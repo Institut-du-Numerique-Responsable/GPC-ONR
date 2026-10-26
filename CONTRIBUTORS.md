@@ -15,7 +15,7 @@ Les 5 axes et 32 cibles reprennent la charte des Objectifs du Numérique Respons
 
 ## Versions sectorielles
 
-Les versions « Collectivités territoriales » et « Enseignement supérieur et recherche » sont co-éditées par l'INR et **LaNum Pays Basque**, dans le cadre du projet **NÉONUM**.
+**LaNum Pays Basque** a conçu les versions « Collectivités territoriales » et « Enseignement supérieur et recherche » pour les collectivités et les établissements qu'elle accompagne dans le projet européen **NÉONUM**. Elle a réécrit les cibles, ajouté des cibles propres à chaque secteur et établi les liens avec les ODD. L'INR co-édite ces versions.
 
 ## Ajouts
 

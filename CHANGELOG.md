@@ -4,6 +4,8 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 
 ## [Non publié]
 
+## [1.4.0] - 2026-11-11
+
 ### Ajouté
 
 - Couverture des ODD : `data/onr-odd.csv` relie chaque cible à des cibles ODD (lien principal ou contributif, avec justification). `scripts/couverture_odd.py` calcule les indicateurs structurels (S1 à S6) et d'évaluation (E1 à E4). Nouvelle page `docs/couverture-odd.md`.
@@ -21,6 +23,11 @@ Format inspiré de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/). Ce 
 - Menu du site : « Les 32 cibles » au lieu de « Les 28 cibles ».
 - Durée d'un premier passage harmonisée : deux à trois heures seul, une demi-journée en atelier.
 - **Licences ouvertes européennes** à la place de la licence MIT : CC BY 4.0, licence de réutilisation de la Commission européenne, pour les classeurs, les données, la documentation, la vidéo et les captures ; EUPL-1.2 pour les scripts, les workflows et la page de présentation. Les deux licences permettent l'usage commercial ; CC BY 4.0 demande de citer l'INR, l'EUPL-1.2 demande de redistribuer sous la même licence les scripts modifiés. Les versions jusqu'à la 1.3.0 restent disponibles sous MIT (`LICENSES/MIT-historique.txt`).
+
+### Corrigé
+
+- Feuille `Résultats détaillés` des classeurs INR (grille vierge et exemple) : 127 cellules mal rangées portaient les formules partagées et faisaient afficher `#VALEUR!` dans la synthèse sous OnlyOffice. Les formules sont désormais simples et identiques sur chaque ligne ; la grille remplie compte bien 32 cibles évaluées.
+- Logos repositionnés dans les classeurs ; bandeaux de logos des versions sectorielles placés hors du texte.
 
 ## [1.3.0] - 2026-10-18
 

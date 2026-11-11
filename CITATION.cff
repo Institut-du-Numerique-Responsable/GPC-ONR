@@ -27,7 +27,8 @@ url: "https://institutnr.org"
 license:
   - EUPL-1.2
   - CC-BY-4.0
-date-released: 2026-02-19
+version: "1.4.0"
+date-released: 2026-11-11
 keywords:
   - "assessment-tool"
   - "digital-sustainability"
